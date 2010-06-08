@@ -1,0 +1,12737 @@
+{
+  "Afriko": {
+    "pos": "adj", 
+    "w": "Afrika"
+  }, 
+  "Ameriko": {
+    "pos": "adj", 
+    "w": "Amerika"
+  }, 
+  "Anglio": {
+    "pos": "adj", 
+    "w": "Anglia"
+  }, 
+  "Anglujo": {
+    "pos": "adj", 
+    "w": "Anglia"
+  }, 
+  "Azio": {
+    "pos": "adj", 
+    "w": "Azia"
+  }, 
+  "Aŭstralio": {
+    "pos": "adj", 
+    "w": "Australia"
+  }, 
+  "Aŭstrio": {
+    "pos": "adj", 
+    "w": "Austria"
+  }, 
+  "Belgio": {
+    "pos": "adj", 
+    "w": "Belgia"
+  }, 
+  "Belgujo": {
+    "pos": "adj", 
+    "w": "Belgia"
+  }, 
+  "Britio": {
+    "pos": "adj", 
+    "w": "Britania"
+  }, 
+  "Britujo": {
+    "pos": "adj", 
+    "w": "Britania"
+  }, 
+  "Danio": {
+    "pos": "adj", 
+    "w": "Dania"
+  }, 
+  "Danlando": {
+    "pos": "adj", 
+    "w": "Dania"
+  }, 
+  "Danujo": {
+    "pos": "adj", 
+    "w": "Dania"
+  }, 
+  "Egiptio": {
+    "pos": "adj", 
+    "w": "Egiptia"
+  }, 
+  "Egiptujo": {
+    "pos": "adj", 
+    "w": "Egiptia"
+  }, 
+  "Eŭropo": {
+    "pos": "adj", 
+    "w": "Europa"
+  }, 
+  "Francio": {
+    "pos": "adj", 
+    "w": "Francia"
+  }, 
+  "Francujo": {
+    "pos": "adj", 
+    "w": "Francia"
+  }, 
+  "Germanio": {
+    "pos": "adj", 
+    "w": "Germania"
+  }, 
+  "Germanujo": {
+    "pos": "adj", 
+    "w": "Germania"
+  }, 
+  "Grekio": {
+    "pos": "adj", 
+    "w": "Grekia"
+  }, 
+  "Grekujo": {
+    "pos": "adj", 
+    "w": "Grekia"
+  }, 
+  "Hindio": {
+    "pos": "adj", 
+    "w": "India"
+  }, 
+  "Hindujo": {
+    "pos": "adj", 
+    "w": "India"
+  }, 
+  "Hispanio": {
+    "pos": "adj", 
+    "w": "Hispania"
+  }, 
+  "Hispanujo": {
+    "pos": "adj", 
+    "w": "Hispania"
+  }, 
+  "Hungario": {
+    "pos": "adj", 
+    "w": "Hungaria"
+  }, 
+  "Hungarujo": {
+    "pos": "adj", 
+    "w": "Hungaria"
+  }, 
+  "Italio": {
+    "pos": "adj", 
+    "w": "Italia"
+  }, 
+  "Italujo": {
+    "pos": "adj", 
+    "w": "Italia"
+  }, 
+  "Kanado": {
+    "pos": "adj", 
+    "w": "Kanada"
+  }, 
+  "Koreo": {
+    "pos": "adj", 
+    "w": "Korea"
+  }, 
+  "Koreujo": {
+    "pos": "adj", 
+    "w": "Korea"
+  }, 
+  "Mahlzeit": {
+    "pos": "n", 
+    "w": "repasto"
+  }, 
+  "Niĝerio": {
+    "pos": "adj", 
+    "w": "Nigeria"
+  }, 
+  "Polio": {
+    "pos": "adj", 
+    "w": "Polonia"
+  }, 
+  "Pollando": {
+    "pos": "adj", 
+    "w": "Polonia"
+  }, 
+  "Polujo": {
+    "pos": "adj", 
+    "w": "Polonia"
+  }, 
+  "Rusio": {
+    "pos": "adj", 
+    "w": "Rusia"
+  }, 
+  "Rusujo": {
+    "pos": "adj", 
+    "w": "Rusia"
+  }, 
+  "Usono": {
+    "pos": "adj", 
+    "w": "Usa"
+  }, 
+  "abato": {
+    "pos": "n", 
+    "w": "abado"
+  }, 
+  "abdomeno": {
+    "pos": "n", 
+    "w": "abdomino"
+  }, 
+  "abelo": {
+    "pos": "n", 
+    "w": "abelo"
+  }, 
+  "abgelegen": {
+    "pos": "adj", 
+    "w": "solitara"
+  }, 
+  "abismo": {
+    "pos": "n", 
+    "w": "abismo"
+  }, 
+  "abolas": {
+    "pos": "v", 
+    "w": "abolisas"
+  }, 
+  "abolicias": {
+    "pos": "v", 
+    "w": "abolisas"
+  }, 
+  "abomenas": {
+    "pos": "v", 
+    "w": "abominas"
+  }, 
+  "abonas": {
+    "pos": "v", 
+    "w": "abonas"
+  }, 
+  "abortas": {
+    "pos": "v", 
+    "w": "abortas"
+  }, 
+  "abrikoto": {
+    "pos": "n", 
+    "w": "abrikoto"
+  }, 
+  "abrupta": {
+    "pos": "adj", 
+    "w": "abrupta"
+  }, 
+  "absoluta": {
+    "pos": "adj", 
+    "w": "absoluta"
+  }, 
+  "abstinas": {
+    "pos": "v", 
+    "w": "abstenas"
+  }, 
+  "abstrakta": {
+    "pos": "adj", 
+    "w": "abstrakta"
+  }, 
+  "absurda": {
+    "pos": "adj", 
+    "w": "absurda"
+  }, 
+  "abundas": {
+    "pos": "v", 
+    "w": "abundas"
+  }, 
+  "acerba": {
+    "fuz": true, 
+    "pos": "adj", 
+    "w": "acerba"
+  }, 
+  "acida": {
+    "pos": "adj", 
+    "w": "acida"
+  }, 
+  "acrimonious": {
+    "pos": "adj", 
+    "w": "akra"
+  }, 
+  "adaptas": {
+    "pos": "v", 
+    "w": "adaptas"
+  }, 
+  "adekvata": {
+    "pos": "adj", 
+    "w": "adequata"
+  }, 
+  "adekvate": {
+    "pos": "adv", 
+    "w": "sate"
+  }, 
+  "adheras": {
+    "pos": "v", 
+    "w": "adheras"
+  }, 
+  "adiaŭas": {
+    "pos": "v", 
+    "w": "adias"
+  }, 
+  "adicias": {
+    "pos": "v", 
+    "w": "adicionas"
+  }, 
+  "adjektivo": {
+    "pos": "n", 
+    "w": "adjektivo"
+  }, 
+  "administras": [
+    {
+      "pos": "v", 
+      "w": "administras"
+    }, 
+    {
+      "pos": "v", 
+      "w": "jeras"
+    }
+  ], 
+  "admiras": {
+    "pos": "v", 
+    "w": "admiras"
+  }, 
+  "admonas": [
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "exhortas"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "reprimandas"
+    }
+  ], 
+  "adolta": {
+    "pos": "adj", 
+    "w": "adulta"
+  }, 
+  "adoptas": {
+    "pos": "v", 
+    "w": "adoptas"
+  }, 
+  "adoras": {
+    "pos": "v", 
+    "w": "adoras"
+  }, 
+  "adreso": {
+    "pos": "n", 
+    "w": "adreso"
+  }, 
+  "adultas": {
+    "pos": "v", 
+    "w": "adulteras"
+  }, 
+  "adverbo": {
+    "pos": "n", 
+    "w": "adverbo"
+  }, 
+  "advokato": {
+    "pos": "n", 
+    "w": "advokato"
+  }, 
+  "aero": {
+    "pos": "n", 
+    "w": "aero"
+  }, 
+  "aeroplano": {
+    "pos": "n", 
+    "w": "aeroplano"
+  }, 
+  "afabla": {
+    "pos": "adj", 
+    "w": "afabla"
+  }, 
+  "afekcias": {
+    "pos": "v", 
+    "w": "afektas"
+  }, 
+  "afektas": {
+    "pos": "v", 
+    "w": "afektacas"
+  }, 
+  "afero": {
+    "pos": "n", 
+    "w": "afero"
+  }, 
+  "afiŝo": {
+    "pos": "n", 
+    "w": "afisho"
+  }, 
+  "afliktas": [
+    {
+      "pos": "v", 
+      "w": "afliktas"
+    }, 
+    {
+      "pos": "v", 
+      "w": "dezolas"
+    }
+  ], 
+  "aflikto": {
+    "pos": "n", 
+    "w": "ditreso"
+  }, 
+  "afrankas": {
+    "pos": "v", 
+    "w": "afrankas"
+  }, 
+  "agas": {
+    "pos": "v", 
+    "w": "agas"
+  }, 
+  "agento": {
+    "pos": "n", 
+    "w": "agento"
+  }, 
+  "agitas": {
+    "pos": "v", 
+    "w": "agitas"
+  }, 
+  "aglo": {
+    "pos": "n", 
+    "w": "aglo"
+  }, 
+  "aglutinas": {
+    "pos": "v", 
+    "w": "aglutinas"
+  }, 
+  "agnoskas": {
+    "pos": "v", 
+    "w": "agnoskas"
+  }, 
+  "agnostika": {
+    "pos": "adj", 
+    "w": "agnostika"
+  }, 
+  "agrabla": {
+    "pos": "adj", 
+    "w": "agreabla"
+  }, 
+  "agrafo": {
+    "pos": "n", 
+    "w": "agrafo"
+  }, 
+  "agrikulturo": {
+    "pos": "n", 
+    "w": "agrokultivo"
+  }, 
+  "ajlo": {
+    "pos": "n", 
+    "w": "alio"
+  }, 
+  "ajuto": {
+    "pos": "n", 
+    "w": "ajuto"
+  }, 
+  "akademio": {
+    "pos": "n", 
+    "w": "akademio"
+  }, 
+  "akaro": {
+    "pos": "n", 
+    "w": "akaro"
+  }, 
+  "akcelas": {
+    "pos": "v", 
+    "w": "aceleras"
+  }, 
+  "akcento": {
+    "pos": "n", 
+    "w": "acento"
+  }, 
+  "akceptas": {
+    "pos": "v", 
+    "w": "aceptas"
+  }, 
+  "akcesora": {
+    "pos": "adj", 
+    "w": "acesora"
+  }, 
+  "akcidento": {
+    "pos": "n", 
+    "w": "acidento"
+  }, 
+  "akiras": {
+    "pos": "v", 
+    "w": "aquiras"
+  }, 
+  "aklamas": {
+    "pos": "v", 
+    "w": "aklamas"
+  }, 
+  "akomodas": {
+    "pos": "v", 
+    "w": "akomodas"
+  }, 
+  "akompanas": {
+    "pos": "v", 
+    "w": "akompanas"
+  }, 
+  "akordas": {
+    "pos": "v", 
+    "w": "akordas"
+  }, 
+  "akordigas": {
+    "pos": "v", 
+    "w": "koncilias"
+  }, 
+  "akordiono": {
+    "pos": "n", 
+    "w": "akordeono"
+  }, 
+  "akra": [
+    {
+      "fuz": true, 
+      "pos": "adj", 
+      "w": "akra"
+    }, 
+    {
+      "pos": "adj", 
+      "w": "akuta"
+    }
+  ], 
+  "akrobato": {
+    "pos": "n", 
+    "w": "akrobato"
+  }, 
+  "aksiomo": {
+    "pos": "n", 
+    "w": "axiomo"
+  }, 
+  "akso": {
+    "pos": "n", 
+    "w": "axo"
+  }, 
+  "aktiva": {
+    "pos": "adj", 
+    "w": "aktiva"
+  }, 
+  "akto": {
+    "pos": "n", 
+    "w": "akto"
+  }, 
+  "aktoro": {
+    "pos": "n", 
+    "w": "aktoro"
+  }, 
+  "aktuala": {
+    "pos": "adj", 
+    "w": "aktuala"
+  }, 
+  "akumulas": {
+    "pos": "v", 
+    "w": "akumulas"
+  }, 
+  "akurata": {
+    "pos": "adj", 
+    "w": "akurata"
+  }, 
+  "akustiko": {
+    "pos": "n", 
+    "w": "akustiko"
+  }, 
+  "akuzas": {
+    "pos": "v", 
+    "w": "akuzas"
+  }, 
+  "akuzativo": {
+    "pos": "n", 
+    "w": "akuzativo"
+  }, 
+  "akuŝas": {
+    "pos": "v", 
+    "w": "parturas"
+  }, 
+  "akvario": {
+    "pos": "n", 
+    "w": "aquario"
+  }, 
+  "akvo": {
+    "pos": "n", 
+    "w": "aquo"
+  }, 
+  "al": {
+    "fuz": true, 
+    "pos": "prep", 
+    "w": "vers"
+  }, 
+  "alarmas": {
+    "pos": "v", 
+    "w": "alarmas"
+  }, 
+  "albumeno": {
+    "pos": "n", 
+    "w": "albumeno"
+  }, 
+  "albumo": {
+    "pos": "n", 
+    "w": "albumo"
+  }, 
+  "aldona": {
+    "pos": "adj", 
+    "w": "plusa"
+  }, 
+  "aldonas": {
+    "pos": "v", 
+    "w": "adjuntas"
+  }, 
+  "alegorio": {
+    "pos": "n", 
+    "w": "alegorio"
+  }, 
+  "alergio": {
+    "pos": "n", 
+    "w": "alergio"
+  }, 
+  "alfabeto": {
+    "pos": "n", 
+    "w": "alfabeto"
+  }, 
+  "alfiksas": {
+    "pos": "v", 
+    "w": "atachas"
+  }, 
+  "algebro": {
+    "pos": "n", 
+    "w": "algebro"
+  }, 
+  "algluiĝas": {
+    "pos": "v", 
+    "w": "adheras"
+  }, 
+  "aliigas": {
+    "pos": "v", 
+    "w": "alteras"
+  }, 
+  "alkoholo": {
+    "pos": "n", 
+    "w": "alkoholo"
+  }, 
+  "alkovo": {
+    "pos": "n", 
+    "w": "alkovo"
+  }, 
+  "alle": {
+    "pos": "adj", 
+    "w": "omna"
+  }, 
+  "alligas": {
+    "pos": "v", 
+    "w": "atachas"
+  }, 
+  "almanako": {
+    "pos": "n", 
+    "w": "almanako"
+  }, 
+  "almozas": {
+    "pos": "v", 
+    "w": "mendikas"
+  }, 
+  "alo": {
+    "pos": "n", 
+    "w": "alo"
+  }, 
+  "alojas": {
+    "pos": "v", 
+    "w": "aloyas"
+  }, 
+  "alprenas": {
+    "pos": "v", 
+    "w": "asumas"
+  }, 
+  "alta": {
+    "pos": "adj", 
+    "w": "alta"
+  }, 
+  "altaro": {
+    "pos": "n", 
+    "w": "altaro"
+  }, 
+  "altaĵo": {
+    "pos": "n", 
+    "w": "kolino"
+  }, 
+  "alternas": {
+    "pos": "v", 
+    "w": "alternas"
+  }, 
+  "alternativo": {
+    "pos": "n", 
+    "w": "alternativo"
+  }, 
+  "altitudo": {
+    "pos": "n", 
+    "w": "altitudo"
+  }, 
+  "altruismo": {
+    "pos": "n", 
+    "w": "altruismo"
+  }, 
+  "altruismulo": {
+    "pos": "n", 
+    "w": "altruisto"
+  }, 
+  "altruisto": {
+    "pos": "n", 
+    "w": "altruisto"
+  }, 
+  "aludas": {
+    "pos": "v", 
+    "w": "aludas"
+  }, 
+  "alumeto": {
+    "pos": "n", 
+    "w": "alumeto"
+  }, 
+  "aluminio": {
+    "pos": "n", 
+    "w": "aluminio"
+  }, 
+  "alvenas": {
+    "pos": "v", 
+    "w": "arivas"
+  }, 
+  "alvokas": {
+    "pos": "v", 
+    "w": "advokas"
+  }, 
+  "amalgamo": {
+    "pos": "n", 
+    "w": "amalgamo"
+  }, 
+  "amara": {
+    "pos": "adj", 
+    "w": "bitra"
+  }, 
+  "amas": {
+    "pos": "v", 
+    "w": "amas"
+  }, 
+  "amaso": {
+    "pos": "n", 
+    "w": "amaso"
+  }, 
+  "amatoro": {
+    "pos": "n", 
+    "w": "amatoro"
+  }, 
+  "ambasado": {
+    "pos": "n", 
+    "w": "ambasado"
+  }, 
+  "ambaŭ": {
+    "pos": "adj", 
+    "w": "amba"
+  }, 
+  "ambicias": {
+    "pos": "v", 
+    "w": "ambicias"
+  }, 
+  "ambigua": {
+    "pos": "adj", 
+    "w": "ambigua"
+  }, 
+  "amboso": {
+    "pos": "n", 
+    "w": "amboso"
+  }, 
+  "ambulanco": {
+    "pos": "n", 
+    "w": "ambulanco"
+  }, 
+  "amelo": {
+    "pos": "n", 
+    "w": "amilo"
+  }, 
+  "amendas": {
+    "pos": "v", 
+    "w": "emendas"
+  }, 
+  "amfibia": {
+    "pos": "adj", 
+    "w": "amfibia"
+  }, 
+  "amiko": {
+    "pos": "n", 
+    "w": "amiko"
+  }, 
+  "amindumas": {
+    "pos": "v", 
+    "w": "kurtezas"
+  }, 
+  "amoras": {
+    "pos": "v", 
+    "w": "amoras"
+  }, 
+  "amortizas": {
+    "pos": "v", 
+    "w": "amortisas"
+  }, 
+  "ampleksa": {
+    "pos": "adj", 
+    "w": "grosa"
+  }, 
+  "ampulo": {
+    "pos": "n", 
+    "w": "ampulo"
+  }, 
+  "amputas": {
+    "pos": "v", 
+    "w": "amputas"
+  }, 
+  "amuza": {
+    "fuz": true, 
+    "pos": "adj", 
+    "w": "drola"
+  }, 
+  "amuzas": {
+    "pos": "v", 
+    "w": "amuzas"
+  }, 
+  "anagramo": {
+    "pos": "n", 
+    "w": "anagramo"
+  }, 
+  "anakronismo": {
+    "pos": "n", 
+    "w": "anakronismo"
+  }, 
+  "analgezio": {
+    "pos": "n", 
+    "w": "analgezio"
+  }, 
+  "analizas": {
+    "pos": "v", 
+    "w": "analizas"
+  }, 
+  "analoga": {
+    "pos": "adj", 
+    "w": "analoga"
+  }, 
+  "ananaso": {
+    "pos": "n", 
+    "w": "ananaso"
+  }, 
+  "anarkio": {
+    "pos": "n", 
+    "w": "anarkio"
+  }, 
+  "anarĥio": {
+    "pos": "n", 
+    "w": "anarkio"
+  }, 
+  "anaso": {
+    "pos": "n", 
+    "w": "anado"
+  }, 
+  "anatemas": {
+    "pos": "v", 
+    "w": "anatemas"
+  }, 
+  "anatemo": {
+    "pos": "n", 
+    "w": "anatemo"
+  }, 
+  "anatomio": {
+    "pos": "n", 
+    "w": "anatomio"
+  }, 
+  "anekdoto": {
+    "pos": "n", 
+    "w": "anekdoto"
+  }, 
+  "angilo": {
+    "pos": "n", 
+    "w": "anguilo"
+  }, 
+  "angulo": {
+    "pos": "n", 
+    "w": "angulo"
+  }, 
+  "animalo": {
+    "pos": "n", 
+    "w": "animalo"
+  }, 
+  "animas": {
+    "pos": "v", 
+    "w": "animas"
+  }, 
+  "animo": {
+    "pos": "n", 
+    "w": "anmo"
+  }, 
+  "ankro": {
+    "pos": "n", 
+    "w": "ankro"
+  }, 
+  "anoncas": {
+    "pos": "v", 
+    "w": "anuncas"
+  }, 
+  "anonima": {
+    "pos": "adj", 
+    "w": "anonima"
+  }, 
+  "anorako": {
+    "pos": "n", 
+    "w": "anorako"
+  }, 
+  "ansero": {
+    "pos": "n", 
+    "w": "ganso"
+  }, 
+  "anso": {
+    "pos": "n", 
+    "w": "anso"
+  }, 
+  "anstataŭ": {
+    "pos": "adv", 
+    "w": "vice"
+  }, 
+  "anstataŭas": {
+    "pos": "v", 
+    "w": "remplasas"
+  }, 
+  "antagonismo": {
+    "pos": "n", 
+    "w": "antagonismo"
+  }, 
+  "antagonisto": {
+    "pos": "n", 
+    "w": "antagonisto"
+  }, 
+  "antaŭ": [
+    {
+      "fuz": true, 
+      "pos": "adv", 
+      "w": "ante"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "prep", 
+      "w": "koram"
+    }
+  ], 
+  "antaŭa": {
+    "pos": "adj", 
+    "w": "antea"
+  }, 
+  "antaŭe": {
+    "pos": "prep", 
+    "w": "olim"
+  }, 
+  "antaŭen": {
+    "pos": "adv", 
+    "w": "adavane"
+  }, 
+  "antaŭeniras": {
+    "pos": "v", 
+    "w": "avancas"
+  }, 
+  "antaŭenpuŝas": {
+    "pos": "v", 
+    "w": "incitas"
+  }, 
+  "antaŭnelonga": {
+    "pos": "adj", 
+    "w": "recenta"
+  }, 
+  "antaŭo": {
+    "pos": "n", 
+    "w": "fronto"
+  }, 
+  "antaŭtuko": {
+    "pos": "n", 
+    "w": "avantalo"
+  }, 
+  "antaŭvidas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "expektas"
+  }, 
+  "anteno": {
+    "pos": "n", 
+    "w": "anteno"
+  }, 
+  "antero": {
+    "pos": "n", 
+    "w": "antero"
+  }, 
+  "anticipas": {
+    "pos": "v", 
+    "w": "anticipas"
+  }, 
+  "antidoto": {
+    "pos": "n", 
+    "w": "antidoto"
+  }, 
+  "antikva": {
+    "pos": "adj", 
+    "w": "antiqua"
+  }, 
+  "antilopo": {
+    "pos": "n", 
+    "w": "antilopo"
+  }, 
+  "antologio": {
+    "pos": "n", 
+    "w": "antologio"
+  }, 
+  "anĝelo": {
+    "pos": "n", 
+    "w": "anjelo"
+  }, 
+  "aparato": {
+    "pos": "n", 
+    "w": "aparato"
+  }, 
+  "aparta": [
+    {
+      "pos": "adj", 
+      "w": "aparta"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "adj", 
+      "w": "distinta"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "adj", 
+      "w": "partikulara"
+    }
+  ], 
+  "apartamento": {
+    "pos": "n", 
+    "w": "apartamento"
+  }, 
+  "apartenas": {
+    "pos": "v", 
+    "w": "apartenas"
+  }, 
+  "apartigas": {
+    "pos": "v", 
+    "w": "separas"
+  }, 
+  "apatio": {
+    "pos": "n", 
+    "w": "apatio"
+  }, 
+  "apelacias": {
+    "pos": "v", 
+    "w": "apelas"
+  }, 
+  "apelas": {
+    "pos": "v", 
+    "w": "apelas"
+  }, 
+  "apendico": {
+    "pos": "n", 
+    "w": "apendico"
+  }, 
+  "aperas": {
+    "pos": "v", 
+    "w": "aparas"
+  }, 
+  "apetito": {
+    "pos": "n", 
+    "w": "apetito"
+  }, 
+  "aplaŭdas": {
+    "pos": "v", 
+    "w": "aplaudas"
+  }, 
+  "aplikas": {
+    "pos": "v", 
+    "w": "aplikas"
+  }, 
+  "apogas": {
+    "pos": "v", 
+    "w": "apogas"
+  }, 
+  "apokrifa": {
+    "pos": "adj", 
+    "w": "apokrifa"
+  }, 
+  "apostolo": {
+    "pos": "n", 
+    "w": "apostolo"
+  }, 
+  "apostrofo": {
+    "pos": "n", 
+    "w": "apostrofo"
+  }, 
+  "apoteko": {
+    "pos": "n", 
+    "w": "apoteko"
+  }, 
+  "aprecas": {
+    "pos": "v", 
+    "w": "aprecias"
+  }, 
+  "aprezas": {
+    "pos": "v", 
+    "w": "aprecias"
+  }, 
+  "aprilo": {
+    "pos": "n", 
+    "w": "aprilo"
+  }, 
+  "aprobas": {
+    "pos": "v", 
+    "w": "aprobas"
+  }, 
+  "apud": [
+    {
+      "pos": "prep", 
+      "w": "apud"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "prep", 
+      "w": "proxim"
+    }
+  ], 
+  "apuda": {
+    "pos": "adj", 
+    "w": "apuda"
+  }, 
+  "araneo": {
+    "pos": "n", 
+    "w": "araneo"
+  }, 
+  "aranĝas": {
+    "pos": "v", 
+    "w": "aranjas"
+  }, 
+  "arbarego": {
+    "pos": "n", 
+    "w": "foresto"
+  }, 
+  "arbareto": {
+    "pos": "n", 
+    "w": "bosko"
+  }, 
+  "arbetaro": {
+    "pos": "n", 
+    "w": "busho"
+  }, 
+  "arbitracias": {
+    "pos": "v", 
+    "w": "arbitras"
+  }, 
+  "arbo": {
+    "pos": "n", 
+    "w": "arboro"
+  }, 
+  "arbusto": {
+    "pos": "n", 
+    "w": "arbusto"
+  }, 
+  "ardas": {
+    "pos": "v", 
+    "w": "ardoras"
+  }, 
+  "ardezo": {
+    "pos": "n", 
+    "w": "ardezo"
+  }, 
+  "areno": {
+    "pos": "n", 
+    "w": "areno"
+  }, 
+  "areo": {
+    "pos": "n", 
+    "w": "areo"
+  }, 
+  "arestas": {
+    "pos": "v", 
+    "w": "arestas"
+  }, 
+  "argano": {
+    "pos": "n", 
+    "w": "krano"
+  }, 
+  "argilo": {
+    "pos": "n", 
+    "w": "argilo"
+  }, 
+  "argumentas": {
+    "pos": "v", 
+    "w": "argumentas"
+  }, 
+  "ario": {
+    "pos": "n", 
+    "w": "ario"
+  }, 
+  "aristo": {
+    "pos": "n", 
+    "w": "aristo"
+  }, 
+  "aristokrata": {
+    "pos": "adj", 
+    "w": "aristokrata"
+  }, 
+  "aritmetiko": {
+    "pos": "n", 
+    "w": "aritmetiko"
+  }, 
+  "arkadaro": {
+    "pos": "n", 
+    "w": "arkado"
+  }, 
+  "arkaika": {
+    "pos": "adj", 
+    "w": "arkaika"
+  }, 
+  "arkeo": {
+    "pos": "n", 
+    "w": "archo"
+  }, 
+  "arkeologio": {
+    "pos": "n", 
+    "w": "arkeologio"
+  }, 
+  "arkeologo": {
+    "pos": "n", 
+    "w": "arkeologo"
+  }, 
+  "arkitekto": {
+    "pos": "n", 
+    "w": "arkitekto"
+  }, 
+  "arkitekturo": {
+    "pos": "n", 
+    "w": "arkitekturo"
+  }, 
+  "arkivo": {
+    "pos": "n", 
+    "w": "arkivo"
+  }, 
+  "arko": {
+    "pos": "n", 
+    "w": "arko"
+  }, 
+  "arlekenaĉo": {
+    "pos": "n", 
+    "w": "bufono"
+  }, 
+  "arlekeno": {
+    "pos": "n", 
+    "w": "arlekino"
+  }, 
+  "armeo": {
+    "pos": "n", 
+    "w": "armeo"
+  }, 
+  "armilo": {
+    "pos": "n", 
+    "w": "armo"
+  }, 
+  "arogas": {
+    "pos": "v", 
+    "w": "arogas"
+  }, 
+  "aromo": {
+    "pos": "n", 
+    "w": "aromo"
+  }, 
+  "artefaritaĵo": {
+    "pos": "n", 
+    "w": "artifico"
+  }, 
+  "arterio": {
+    "pos": "n", 
+    "w": "arterio"
+  }, 
+  "artifiko": [
+    {
+      "fuz": true, 
+      "pos": "n", 
+      "w": "artifico"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "n", 
+      "w": "subterfujo"
+    }
+  ], 
+  "artiklo": {
+    "pos": "n", 
+    "w": "artiklo"
+  }, 
+  "artiko": {
+    "pos": "n", 
+    "w": "artiko"
+  }, 
+  "arto": {
+    "pos": "n", 
+    "w": "arto"
+  }, 
+  "artrito": {
+    "pos": "n", 
+    "w": "artrito"
+  }, 
+  "arĝento": {
+    "pos": "n", 
+    "w": "arjento"
+  }, 
+  "asbesto": {
+    "pos": "n", 
+    "w": "asbesto"
+  }, 
+  "ascendas": {
+    "pos": "v", 
+    "w": "acensas"
+  }, 
+  "asekuras": {
+    "pos": "v", 
+    "w": "asekuras"
+  }, 
+  "asepsa": {
+    "pos": "adj", 
+    "w": "asepta"
+  }, 
+  "asertas": {
+    "pos": "v", 
+    "w": "asertas"
+  }, 
+  "asfalto": {
+    "pos": "n", 
+    "w": "asfalto"
+  }, 
+  "asignas": {
+    "pos": "v", 
+    "w": "asignas"
+  }, 
+  "asimilas": {
+    "pos": "v", 
+    "w": "asimilas"
+  }, 
+  "asocias": {
+    "pos": "v", 
+    "w": "asocias"
+  }, 
+  "asparago": {
+    "pos": "n", 
+    "w": "asparago"
+  }, 
+  "aspektas": {
+    "pos": "v", 
+    "w": "aspektas"
+  }, 
+  "aspiras": {
+    "pos": "v", 
+    "w": "aspiras"
+  }, 
+  "aspirino": {
+    "pos": "n", 
+    "w": "aspirino"
+  }, 
+  "asterisko": {
+    "pos": "n", 
+    "w": "asterisko"
+  }, 
+  "astmo": {
+    "pos": "n", 
+    "w": "astmo"
+  }, 
+  "astro": {
+    "pos": "n", 
+    "w": "astro"
+  }, 
+  "astronomio": {
+    "pos": "n", 
+    "w": "astronomio"
+  }, 
+  "astronomo": {
+    "pos": "n", 
+    "w": "astronomo"
+  }, 
+  "atakas": {
+    "pos": "v", 
+    "w": "atakas"
+  }, 
+  "ateismo": {
+    "pos": "n", 
+    "w": "ateismo"
+  }, 
+  "ateisto": {
+    "pos": "n", 
+    "w": "ateisto"
+  }, 
+  "atencas": {
+    "pos": "v", 
+    "w": "atentas"
+  }, 
+  "atendas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "expektas"
+  }, 
+  "atentas": [
+    {
+      "pos": "v", 
+      "w": "atencas"
+    }, 
+    {
+      "pos": "v", 
+      "w": "egardas"
+    }
+  ], 
+  "atestas": {
+    "pos": "v", 
+    "w": "atestas"
+  }, 
+  "atingas": [
+    {
+      "pos": "v", 
+      "w": "atingas"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "rajuntas"
+    }
+  ], 
+  "atleto": {
+    "pos": "n", 
+    "w": "atleto"
+  }, 
+  "atmosfero": {
+    "pos": "n", 
+    "w": "atmosfero"
+  }, 
+  "atomo": {
+    "pos": "n", 
+    "w": "atomo"
+  }, 
+  "atraktas": {
+    "pos": "v", 
+    "w": "atraktas"
+  }, 
+  "atribuas": {
+    "pos": "v", 
+    "w": "atribuas"
+  }, 
+  "atributo": {
+    "pos": "n", 
+    "w": "atributo"
+  }, 
+  "aufbreĉen": {
+    "pos": "v", 
+    "w": "forsas"
+  }, 
+  "avantaĝo": {
+    "pos": "n", 
+    "w": "avantajo"
+  }, 
+  "avelo": {
+    "pos": "n", 
+    "w": "avelano"
+  }, 
+  "aveno": {
+    "pos": "n", 
+    "w": "aveno"
+  }, 
+  "aventuro": {
+    "pos": "n", 
+    "w": "aventuro"
+  }, 
+  "avenuo": {
+    "pos": "n", 
+    "w": "avenuo"
+  }, 
+  "averaĝo": {
+    "pos": "n", 
+    "w": "averajo"
+  }, 
+  "avertas": {
+    "pos": "v", 
+    "w": "avertas"
+  }, 
+  "avida": {
+    "pos": "adj", 
+    "w": "avida"
+  }, 
+  "avizas": {
+    "pos": "v", 
+    "w": "avizas"
+  }, 
+  "avo": {
+    "pos": "n", 
+    "w": "avo"
+  }, 
+  "azeno": {
+    "pos": "n", 
+    "w": "asno"
+  }, 
+  "azilo": {
+    "pos": "n", 
+    "w": "azilo"
+  }, 
+  "aĉetas": {
+    "pos": "v", 
+    "w": "kompras"
+  }, 
+  "aĝas": {
+    "pos": "v", 
+    "w": "evas"
+  }, 
+  "aĝo": {
+    "pos": "n", 
+    "w": "evo"
+  }, 
+  "aĵo": {
+    "pos": "n", 
+    "w": "kozo"
+  }, 
+  "aŭ": [
+    {
+      "pos": "conj", 
+      "w": "o"
+    }, 
+    {
+      "pos": "conj", 
+      "w": "od"
+    }
+  ], 
+  "aŭdacas": {
+    "pos": "v", 
+    "w": "audacas"
+  }, 
+  "aŭdas": {
+    "pos": "v", 
+    "w": "audas"
+  }, 
+  "aŭguras": {
+    "pos": "v", 
+    "w": "auguras"
+  }, 
+  "aŭgusto": {
+    "pos": "n", 
+    "w": "agosto"
+  }, 
+  "aŭlo": {
+    "pos": "n", 
+    "w": "aulo"
+  }, 
+  "aŭreolo": {
+    "pos": "n", 
+    "w": "aureolo"
+  }, 
+  "aŭroro": {
+    "pos": "n", 
+    "w": "auroro"
+  }, 
+  "aŭskultas": {
+    "pos": "v", 
+    "w": "askoltas"
+  }, 
+  "aŭspicio": {
+    "pos": "n", 
+    "w": "auspicio"
+  }, 
+  "aŭtejo": {
+    "pos": "n", 
+    "w": "garajo"
+  }, 
+  "aŭtenta": {
+    "pos": "adj", 
+    "w": "autentika"
+  }, 
+  "aŭtentika": {
+    "pos": "adj", 
+    "w": "autentika"
+  }, 
+  "aŭtobiografio": {
+    "pos": "n", 
+    "w": "autobiografio"
+  }, 
+  "aŭtobuso": [
+    {
+      "pos": "n", 
+      "w": "autobuso"
+    }, 
+    {
+      "pos": "n", 
+      "w": "omnibuso"
+    }
+  ], 
+  "aŭtografo": {
+    "pos": "n", 
+    "w": "autografo"
+  }, 
+  "aŭtokrato": {
+    "pos": "n", 
+    "w": "autokrato"
+  }, 
+  "aŭtomata": {
+    "pos": "adj", 
+    "w": "automata"
+  }, 
+  "aŭtomobilo": {
+    "pos": "n", 
+    "w": "automobilo"
+  }, 
+  "aŭtonoma": {
+    "pos": "adj", 
+    "w": "autonoma"
+  }, 
+  "aŭtoritato": {
+    "pos": "n", 
+    "w": "autoritato"
+  }, 
+  "aŭtoro": {
+    "pos": "n", 
+    "w": "autoro"
+  }, 
+  "aŭtuno": {
+    "pos": "n", 
+    "w": "autuno"
+  }, 
+  "babilas": {
+    "pos": "v", 
+    "w": "babilas"
+  }, 
+  "bagatelo": {
+    "pos": "n", 
+    "w": "bagatelo"
+  }, 
+  "bakas": {
+    "pos": "v", 
+    "w": "bakas"
+  }, 
+  "bakujo": {
+    "pos": "n", 
+    "w": "forno"
+  }, 
+  "balaas": {
+    "pos": "v", 
+    "w": "balayas"
+  }, 
+  "baldaŭ": {
+    "pos": "adv", 
+    "w": "balde"
+  }, 
+  "baledo": {
+    "pos": "n", 
+    "w": "baleto"
+  }, 
+  "baleno": {
+    "pos": "n", 
+    "w": "baleno"
+  }, 
+  "balkono": {
+    "pos": "n", 
+    "w": "balkono"
+  }, 
+  "balo": {
+    "pos": "n", 
+    "w": "balo"
+  }, 
+  "balono": {
+    "pos": "n", 
+    "w": "balono"
+  }, 
+  "balustrado": {
+    "pos": "n", 
+    "w": "balustrado"
+  }, 
+  "bambuo": {
+    "pos": "n", 
+    "w": "bambuo"
+  }, 
+  "banano": {
+    "pos": "n", 
+    "w": "banano"
+  }, 
+  "banas": {
+    "pos": "v", 
+    "w": "balnas"
+  }, 
+  "bandaĝo": {
+    "pos": "n", 
+    "w": "bandajo"
+  }, 
+  "bandito": {
+    "pos": "n", 
+    "w": "bandito"
+  }, 
+  "bando": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "bando"
+  }, 
+  "banko": {
+    "pos": "n", 
+    "w": "banko"
+  }, 
+  "bankrotas": {
+    "pos": "v", 
+    "w": "bankrotas"
+  }, 
+  "bantuko": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "toalo"
+  }, 
+  "baptas": {
+    "pos": "v", 
+    "w": "baptas"
+  }, 
+  "baraktas": {
+    "pos": "v", 
+    "w": "baraktas"
+  }, 
+  "baras": {
+    "pos": "v", 
+    "w": "baras"
+  }, 
+  "barbara": {
+    "pos": "adj", 
+    "w": "barbara"
+  }, 
+  "barbo": {
+    "pos": "n", 
+    "w": "barbo"
+  }, 
+  "barelo": {
+    "pos": "n", 
+    "w": "barelo"
+  }, 
+  "barikado": {
+    "pos": "n", 
+    "w": "barikado"
+  }, 
+  "barko": {
+    "pos": "n", 
+    "w": "barko"
+  }, 
+  "basa": {
+    "pos": "adj", 
+    "w": "basa"
+  }, 
+  "baseno": {
+    "pos": "n", 
+    "w": "baseno"
+  }, 
+  "basko": {
+    "pos": "n", 
+    "w": "basko"
+  }, 
+  "baskulas": {
+    "pos": "v", 
+    "w": "baskulas"
+  }, 
+  "bastiono": {
+    "pos": "n", 
+    "w": "bastiono"
+  }, 
+  "bastono": {
+    "pos": "n", 
+    "w": "bastono"
+  }, 
+  "batalas": [
+    {
+      "pos": "v", 
+      "w": "batalias"
+    }, 
+    {
+      "pos": "v", 
+      "w": "kombatas"
+    }
+  ], 
+  "batas": [
+    {
+      "pos": "v", 
+      "w": "batas"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "shokas"
+    }
+  ], 
+  "baterio": {
+    "pos": "n", 
+    "w": "baterio"
+  }, 
+  "bazaro": {
+    "pos": "n", 
+    "w": "bazaro"
+  }, 
+  "bazo": {
+    "pos": "n", 
+    "w": "bazo"
+  }, 
+  "beata": {
+    "pos": "adj", 
+    "w": "beata"
+  }, 
+  "bebo": {
+    "pos": "n", 
+    "w": "bebeo"
+  }, 
+  "bedaŭras": {
+    "pos": "v", 
+    "w": "regretas"
+  }, 
+  "bedo": {
+    "pos": "n", 
+    "w": "bedo"
+  }, 
+  "beko": {
+    "pos": "n", 
+    "w": "beko"
+  }, 
+  "bela": {
+    "pos": "adj", 
+    "w": "bela"
+  }, 
+  "belega": {
+    "fuz": true, 
+    "pos": "adj", 
+    "w": "splendida"
+  }, 
+  "beleta": {
+    "fuz": true, 
+    "pos": "adj", 
+    "w": "jolia"
+  }, 
+  "benas": {
+    "pos": "v", 
+    "w": "benedikas"
+  }, 
+  "bendo": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "bendo"
+  }, 
+  "benigna": {
+    "pos": "adj", 
+    "w": "benigna"
+  }, 
+  "benko": {
+    "pos": "n", 
+    "w": "benko"
+  }, 
+  "benzeno": {
+    "pos": "n", 
+    "w": "benzino"
+  }, 
+  "benzino": {
+    "pos": "n", 
+    "w": "gazolino"
+  }, 
+  "bero": {
+    "pos": "n", 
+    "w": "bero"
+  }, 
+  "besto": {
+    "pos": "n", 
+    "w": "bestio"
+  }, 
+  "betono": {
+    "pos": "n", 
+    "w": "betono"
+  }, 
+  "bezonas": {
+    "pos": "v", 
+    "w": "bezonas"
+  }, 
+  "biblio": {
+    "pos": "n", 
+    "w": "biblo"
+  }, 
+  "biblioteko": {
+    "pos": "n", 
+    "w": "biblioteko"
+  }, 
+  "biciklo": {
+    "pos": "n", 
+    "w": "biciklo"
+  }, 
+  "bideo": {
+    "pos": "n", 
+    "w": "bideto"
+  }, 
+  "bieno": {
+    "pos": "n", 
+    "w": "domeno"
+  }, 
+  "biero": {
+    "pos": "n", 
+    "w": "biro"
+  }, 
+  "bigota": {
+    "pos": "adj", 
+    "w": "bigota"
+  }, 
+  "bilanco": {
+    "pos": "n", 
+    "w": "bilanco"
+  }, 
+  "bildo": {
+    "pos": "n", 
+    "w": "imajo"
+  }, 
+  "bildoflanko": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "averso"
+  }, 
+  "bileto": {
+    "pos": "n", 
+    "w": "bilieto"
+  }, 
+  "bindas": {
+    "pos": "v", 
+    "w": "bindas"
+  }, 
+  "biografio": {
+    "pos": "n", 
+    "w": "biografio"
+  }, 
+  "birdo": {
+    "pos": "n", 
+    "w": "ucelo"
+  }, 
+  "biskoto": {
+    "pos": "n", 
+    "w": "biskoto"
+  }, 
+  "biskvito": {
+    "pos": "n", 
+    "w": "bisquito"
+  }, 
+  "bizara": {
+    "pos": "adj", 
+    "w": "baroka"
+  }, 
+  "blanka": {
+    "pos": "adj", 
+    "w": "blanka"
+  }, 
+  "blasfemas": {
+    "pos": "v", 
+    "w": "blasfemas"
+  }, 
+  "blekas": {
+    "pos": "v", 
+    "w": "bramas"
+  }, 
+  "blinda": {
+    "pos": "adj", 
+    "w": "blinda"
+  }, 
+  "blindetigas": {
+    "pos": "v", 
+    "w": "dazlas"
+  }, 
+  "blindumas": {
+    "pos": "v", 
+    "w": "dazlas"
+  }, 
+  "blokadas": {
+    "pos": "v", 
+    "w": "blokusas"
+  }, 
+  "bloko": {
+    "pos": "n", 
+    "w": "bloko"
+  }, 
+  "blonda": {
+    "pos": "adj", 
+    "w": "blonda"
+  }, 
+  "blovas": [
+    {
+      "pos": "v", 
+      "w": "suflas"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "ventas"
+    }
+  ], 
+  "blua": {
+    "pos": "adj", 
+    "w": "blua"
+  }, 
+  "blufas": {
+    "pos": "v", 
+    "w": "blufas"
+  }, 
+  "bluzo": {
+    "pos": "n", 
+    "w": "bluzo"
+  }, 
+  "boato": {
+    "pos": "n", 
+    "w": "batelo"
+  }, 
+  "bobeno": {
+    "pos": "n", 
+    "w": "bobino"
+  }, 
+  "bojas": {
+    "pos": "v", 
+    "w": "aboyas"
+  }, 
+  "bojkotas": {
+    "pos": "v", 
+    "w": "boikotas"
+  }, 
+  "bolas": {
+    "pos": "v", 
+    "w": "bolias"
+  }, 
+  "boltingo": {
+    "pos": "n", 
+    "w": "skrubino"
+  }, 
+  "bombo": {
+    "pos": "n", 
+    "w": "bombo"
+  }, 
+  "bombono": {
+    "pos": "n", 
+    "w": "bonbono"
+  }, 
+  "bona": {
+    "pos": "adj", 
+    "w": "bona"
+  }, 
+  "bonega": {
+    "fuz": true, 
+    "pos": "adj", 
+    "w": "ecelanta"
+  }, 
+  "bonvenigas": {
+    "pos": "v", 
+    "w": "bonvenigas"
+  }, 
+  "bonvolas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "degnas"
+  }, 
+  "bonŝanca": {
+    "pos": "adj", 
+    "w": "fortunoza"
+  }, 
+  "bonŝanco": {
+    "pos": "n", 
+    "w": "fortuno"
+  }, 
+  "boras": {
+    "pos": "v", 
+    "w": "boras"
+  }, 
+  "bordo": {
+    "pos": "n", 
+    "w": "rivo"
+  }, 
+  "bosko": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "bosko"
+  }, 
+  "botelo": {
+    "pos": "n", 
+    "w": "botelo"
+  }, 
+  "boto": {
+    "pos": "n", 
+    "w": "boto"
+  }, 
+  "bovlo": {
+    "pos": "n", 
+    "w": "bolo"
+  }, 
+  "bovo": {
+    "pos": "n", 
+    "w": "bovo"
+  }, 
+  "braceleto": {
+    "pos": "n", 
+    "w": "braceleto"
+  }, 
+  "brako": {
+    "pos": "n", 
+    "w": "brakio"
+  }, 
+  "brakseĝo": {
+    "pos": "n", 
+    "w": "fotelo"
+  }, 
+  "brandisas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "lansas"
+  }, 
+  "branko": {
+    "pos": "n", 
+    "w": "brankio"
+  }, 
+  "branĉeto": {
+    "pos": "n", 
+    "w": "ramo"
+  }, 
+  "branĉiĝas": {
+    "pos": "v", 
+    "w": "bifurkas"
+  }, 
+  "branĉo": {
+    "pos": "n", 
+    "w": "brancho"
+  }, 
+  "brasiko": {
+    "pos": "n", 
+    "w": "kaulo"
+  }, 
+  "brava": {
+    "pos": "adj", 
+    "w": "brava"
+  }, 
+  "breloko": {
+    "pos": "n", 
+    "w": "berloko"
+  }, 
+  "bremso": {
+    "pos": "n", 
+    "w": "freno"
+  }, 
+  "breto": {
+    "pos": "n", 
+    "w": "tabulo"
+  }, 
+  "breĉo": {
+    "pos": "n", 
+    "w": "brecho"
+  }, 
+  "brido": {
+    "pos": "n", 
+    "w": "brido"
+  }, 
+  "briko": {
+    "pos": "n", 
+    "w": "briko"
+  }, 
+  "brilas": {
+    "pos": "v", 
+    "w": "brilas"
+  }, 
+  "brizo": {
+    "pos": "n", 
+    "w": "brizo"
+  }, 
+  "brogas": {
+    "pos": "v", 
+    "w": "eskaldas"
+  }, 
+  "brokantas": {
+    "pos": "v", 
+    "w": "brokantas"
+  }, 
+  "bronzo": {
+    "pos": "n", 
+    "w": "bronzo"
+  }, 
+  "brosas": {
+    "pos": "v", 
+    "w": "brosas"
+  }, 
+  "broso": {
+    "pos": "n", 
+    "w": "brosilo"
+  }, 
+  "brovo": {
+    "pos": "n", 
+    "w": "brovo"
+  }, 
+  "broĉo": {
+    "pos": "n", 
+    "w": "brocho"
+  }, 
+  "bruas": {
+    "pos": "v", 
+    "w": "bruisas"
+  }, 
+  "brulas": {
+    "pos": "v", 
+    "w": "brulas"
+  }, 
+  "bruna": {
+    "pos": "adj", 
+    "w": "bruna"
+  }, 
+  "bruska": {
+    "pos": "adj", 
+    "w": "bruska"
+  }, 
+  "brusto": {
+    "pos": "n", 
+    "w": "pektoro"
+  }, 
+  "bruto": {
+    "pos": "n", 
+    "w": "bruto"
+  }, 
+  "bubo": {
+    "pos": "n", 
+    "w": "bubo"
+  }, 
+  "budo": {
+    "pos": "n", 
+    "w": "echopo"
+  }, 
+  "budĝeto": {
+    "pos": "n", 
+    "w": "budjeto"
+  }, 
+  "bufedo": {
+    "pos": "n", 
+    "w": "bufeto"
+  }, 
+  "bukedo": {
+    "pos": "n", 
+    "w": "buketo"
+  }, 
+  "buko": {
+    "pos": "n", 
+    "w": "buklo"
+  }, 
+  "bulbo": {
+    "pos": "n", 
+    "w": "bulbo"
+  }, 
+  "bulteno": {
+    "pos": "n", 
+    "w": "buletino"
+  }, 
+  "burokrato": {
+    "pos": "n", 
+    "w": "burokrato"
+  }, 
+  "burĝono": {
+    "pos": "n", 
+    "w": "burjono"
+  }, 
+  "buso": {
+    "pos": "n", 
+    "w": "autobuso"
+  }, 
+  "butero": {
+    "pos": "n", 
+    "w": "butro"
+  }, 
+  "butiko": {
+    "pos": "n", 
+    "w": "butiko"
+  }, 
+  "butono": {
+    "pos": "n", 
+    "w": "butono"
+  }, 
+  "buĉas": {
+    "pos": "v", 
+    "w": "buchas"
+  }, 
+  "buĝeto": {
+    "pos": "n", 
+    "w": "budjeto"
+  }, 
+  "buŝo": {
+    "pos": "n", 
+    "w": "boko"
+  }, 
+  "cedas": {
+    "pos": "v", 
+    "w": "cedas"
+  }, 
+  "celas": {
+    "pos": "v", 
+    "w": "vizas"
+  }, 
+  "celebras": [
+    {
+      "pos": "v", 
+      "w": "celebras"
+    }, 
+    {
+      "pos": "v", 
+      "w": "festas"
+    }
+  ], 
+  "celerio": {
+    "pos": "n", 
+    "w": "celerio"
+  }, 
+  "celo": {
+    "pos": "n", 
+    "w": "skopo"
+  }, 
+  "celumas": {
+    "pos": "v", 
+    "w": "apuntas"
+  }, 
+  "cemento": {
+    "pos": "n", 
+    "w": "cemento"
+  }, 
+  "cent": {
+    "pos": "num", 
+    "w": "cent"
+  }, 
+  "centro": {
+    "pos": "n", 
+    "w": "centro"
+  }, 
+  "cenzuras": {
+    "pos": "v", 
+    "w": "censuras"
+  }, 
+  "cepo": {
+    "pos": "n", 
+    "w": "onyono"
+  }, 
+  "ceramiko": {
+    "pos": "n", 
+    "w": "ceramiko"
+  }, 
+  "cerbo": {
+    "pos": "n", 
+    "w": "cerebro"
+  }, 
+  "cerealo": {
+    "pos": "n", 
+    "w": "cerealo"
+  }, 
+  "ceremonio": {
+    "pos": "n", 
+    "w": "ceremonio"
+  }, 
+  "certa": {
+    "fuz": true, 
+    "pos": "adj", 
+    "w": "certa"
+  }, 
+  "cervo": {
+    "pos": "n", 
+    "w": "cervo"
+  }, 
+  "cetero": {
+    "pos": "n", 
+    "w": "cetero"
+  }, 
+  "ci": {
+    "pos": "pronoun", 
+    "w": "tu"
+  }, 
+  "cia": {
+    "pos": "adj", 
+    "w": "tua"
+  }, 
+  "cidro": {
+    "pos": "n", 
+    "w": "cidro"
+  }, 
+  "cifero": {
+    "pos": "n", 
+    "w": "cifro"
+  }, 
+  "cigano": {
+    "pos": "n", 
+    "w": "cigano"
+  }, 
+  "cigno": {
+    "pos": "n", 
+    "w": "cigno"
+  }, 
+  "cikatro": {
+    "pos": "n", 
+    "w": "cikatro"
+  }, 
+  "ciklo": {
+    "pos": "n", 
+    "w": "ciklo"
+  }, 
+  "ciklono": {
+    "pos": "n", 
+    "w": "ciklono"
+  }, 
+  "cilindro": {
+    "pos": "n", 
+    "w": "cilindro"
+  }, 
+  "cindro": {
+    "pos": "n", 
+    "w": "cindro"
+  }, 
+  "cinikulo": {
+    "pos": "n", 
+    "w": "ciniko"
+  }, 
+  "cirkelo": {
+    "pos": "n", 
+    "w": "kompaso"
+  }, 
+  "cirklo": {
+    "pos": "n", 
+    "w": "cirklo"
+  }, 
+  "cirko": {
+    "pos": "n", 
+    "w": "cirko"
+  }, 
+  "cirkonstanco": {
+    "pos": "n", 
+    "w": "cirkonstanco"
+  }, 
+  "cirkulas": {
+    "pos": "v", 
+    "w": "cirkulas"
+  }, 
+  "cirkulero": {
+    "pos": "n", 
+    "w": "cirkulero"
+  }, 
+  "citas": {
+    "pos": "v", 
+    "w": "citas"
+  }, 
+  "citrono": {
+    "pos": "n", 
+    "w": "limono"
+  }, 
+  "civila": {
+    "pos": "adj", 
+    "w": "civila"
+  }, 
+  "civilizacio": {
+    "pos": "n", 
+    "w": "civilizeso"
+  }, 
+  "civilizas": {
+    "pos": "v", 
+    "w": "civilizas"
+  }, 
+  "civito": {
+    "pos": "n", 
+    "w": "civito"
+  }, 
+  "damaĝas": {
+    "pos": "v", 
+    "w": "domajas"
+  }, 
+  "damnas": {
+    "pos": "v", 
+    "w": "damnas"
+  }, 
+  "dancas": {
+    "pos": "v", 
+    "w": "dansas"
+  }, 
+  "dankas": {
+    "pos": "v", 
+    "w": "dankas"
+  }, 
+  "danĝero": {
+    "pos": "n", 
+    "w": "danjero"
+  }, 
+  "dato": {
+    "pos": "n", 
+    "w": "dato"
+  }, 
+  "datreveno": {
+    "pos": "n", 
+    "w": "aniversario"
+  }, 
+  "daŭras": {
+    "pos": "v", 
+    "w": "duras"
+  }, 
+  "de": {
+    "pos": "prep", 
+    "w": "de"
+  }, 
+  "debatas": {
+    "pos": "v", 
+    "w": "debatas"
+  }, 
+  "debeto": {
+    "pos": "n", 
+    "w": "debeto"
+  }, 
+  "decas": {
+    "pos": "v", 
+    "w": "decas"
+  }, 
+  "decembro": {
+    "pos": "n", 
+    "w": "decembro"
+  }, 
+  "decidas": {
+    "pos": "v", 
+    "w": "decidas"
+  }, 
+  "decimala": {
+    "pos": "adj", 
+    "w": "decimala"
+  }, 
+  "dediĉas": {
+    "pos": "v", 
+    "w": "dedikas"
+  }, 
+  "deduktas": {
+    "pos": "v", 
+    "w": "deduktas"
+  }, 
+  "defendas": {
+    "pos": "v", 
+    "w": "defensas"
+  }, 
+  "defias": {
+    "pos": "v", 
+    "w": "defias"
+  }, 
+  "deficito": {
+    "pos": "n", 
+    "w": "deficito"
+  }, 
+  "definitiva": {
+    "pos": "adj", 
+    "w": "definitiva"
+  }, 
+  "deflankiĝas": {
+    "pos": "v", 
+    "w": "digresas"
+  }, 
+  "degeneras": {
+    "pos": "v", 
+    "w": "degeneras"
+  }, 
+  "degnas": {
+    "pos": "v", 
+    "w": "degnas"
+  }, 
+  "dek": {
+    "pos": "num", 
+    "w": "dek"
+  }, 
+  "deklaras": {
+    "pos": "v", 
+    "w": "deklaras"
+  }, 
+  "dekoracias": {
+    "pos": "v", 
+    "w": "dekoras"
+  }, 
+  "dekstra": {
+    "pos": "adj", 
+    "w": "dextra"
+  }, 
+  "dekstrakorna": {
+    "fuz": true, 
+    "pos": "adj", 
+    "w": "akuta"
+  }, 
+  "delegacias": {
+    "pos": "v", 
+    "w": "delegas"
+  }, 
+  "delegacio": {
+    "pos": "n", 
+    "w": "delegaciono"
+  }, 
+  "delikata": {
+    "fuz": true, 
+    "pos": "adj", 
+    "w": "delikata"
+  }, 
+  "delikto": {
+    "pos": "n", 
+    "w": "delikto"
+  }, 
+  "delogas": {
+    "pos": "v", 
+    "w": "seduktas"
+  }, 
+  "delto": {
+    "pos": "n", 
+    "w": "delto"
+  }, 
+  "demamigas": {
+    "pos": "v", 
+    "w": "ablaktas"
+  }, 
+  "demandas": {
+    "pos": "v", 
+    "w": "questionas"
+  }, 
+  "dementas": {
+    "pos": "v", 
+    "w": "dementias"
+  }, 
+  "demokrata": {
+    "pos": "adj", 
+    "w": "demokrata"
+  }, 
+  "demokratio": {
+    "pos": "n", 
+    "w": "demokratio"
+  }, 
+  "demono": {
+    "pos": "n", 
+    "w": "demono"
+  }, 
+  "demonstracias": {
+    "pos": "v", 
+    "w": "demonstras"
+  }, 
+  "demonstras": {
+    "pos": "v", 
+    "w": "demonstras"
+  }, 
+  "densa": {
+    "pos": "adj", 
+    "w": "densa"
+  }, 
+  "densejo": {
+    "pos": "n", 
+    "w": "busho"
+  }, 
+  "densigas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "kompresas"
+  }, 
+  "dento": {
+    "pos": "n", 
+    "w": "dento"
+  }, 
+  "denuncas": {
+    "pos": "v", 
+    "w": "denuncas"
+  }, 
+  "dependas": {
+    "pos": "v", 
+    "w": "dependas"
+  }, 
+  "deponas": {
+    "pos": "v", 
+    "w": "depozas"
+  }, 
+  "depost": {
+    "pos": "?", 
+    "w": "depos"
+  }, 
+  "deprimas": {
+    "pos": "v", 
+    "w": "depresas"
+  }, 
+  "derivas": {
+    "pos": "v", 
+    "w": "derivas"
+  }, 
+  "descendas": {
+    "pos": "v", 
+    "w": "decensas"
+  }, 
+  "desegnas": {
+    "pos": "v", 
+    "w": "desegnas"
+  }, 
+  "deserto": {
+    "pos": "n", 
+    "w": "desero"
+  }, 
+  "destinas": {
+    "pos": "v", 
+    "w": "destinas"
+  }, 
+  "detala": {
+    "pos": "adj", 
+    "w": "detaloza"
+  }, 
+  "detalo": {
+    "pos": "n", 
+    "w": "detalo"
+  }, 
+  "detektivo": {
+    "pos": "n", 
+    "w": "detektivo"
+  }, 
+  "detergas": {
+    "pos": "v", 
+    "w": "detersas"
+  }, 
+  "determinas": {
+    "pos": "v", 
+    "w": "determinas"
+  }, 
+  "detruas": {
+    "pos": "v", 
+    "w": "destruktas"
+  }, 
+  "devancas": {
+    "pos": "v", 
+    "w": "devancas"
+  }, 
+  "devenon": {
+    "pos": "prep", 
+    "w": "de"
+  }, 
+  "devias": {
+    "pos": "v", 
+    "w": "deviacas"
+  }, 
+  "devigas": {
+    "pos": "v", 
+    "w": "obligas"
+  }, 
+  "devo": {
+    "pos": "n", 
+    "w": "devo"
+  }, 
+  "dezerta": {
+    "pos": "adj", 
+    "w": "dezerta"
+  }, 
+  "deziras": {
+    "pos": "v", 
+    "w": "deziras"
+  }, 
+  "deĵoras": {
+    "pos": "v", 
+    "w": "dejuras"
+  }, 
+  "deŝiras": {
+    "pos": "v", 
+    "w": "kolias"
+  }, 
+  "diablo": {
+    "pos": "n", 
+    "w": "diablo"
+  }, 
+  "diafana": {
+    "pos": "adj", 
+    "w": "translucida"
+  }, 
+  "diagnozas": {
+    "pos": "v", 
+    "w": "diagnozas"
+  }, 
+  "diagonala": {
+    "pos": "adj", 
+    "w": "diagonala"
+  }, 
+  "diagramo": {
+    "pos": "n", 
+    "w": "diagramo"
+  }, 
+  "dialekto": {
+    "pos": "n", 
+    "w": "dialekto"
+  }, 
+  "diamanto": {
+    "pos": "n", 
+    "w": "diamanto"
+  }, 
+  "diametro": {
+    "pos": "n", 
+    "w": "diametro"
+  }, 
+  "diciplinas": {
+    "pos": "v", 
+    "w": "diciplinas"
+  }, 
+  "dieto": {
+    "pos": "n", 
+    "w": "dieto"
+  }, 
+  "difektas": {
+    "pos": "v", 
+    "w": "domajas"
+  }, 
+  "diferencas": {
+    "pos": "v", 
+    "w": "diferas"
+  }, 
+  "diferencigas": {
+    "pos": "v", 
+    "w": "distingas"
+  }, 
+  "difinas": {
+    "pos": "v", 
+    "w": "definas"
+  }, 
+  "difuzas": {
+    "pos": "v", 
+    "w": "difuzas"
+  }, 
+  "digestas": {
+    "pos": "v", 
+    "w": "digestas"
+  }, 
+  "digo": {
+    "pos": "n", 
+    "w": "digo"
+  }, 
+  "digvojo": {
+    "pos": "n", 
+    "w": "choseo"
+  }, 
+  "dika": [
+    {
+      "pos": "adj", 
+      "w": "dika"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "adj", 
+      "w": "grosa"
+    }
+  ], 
+  "diktatoro": {
+    "pos": "n", 
+    "w": "diktatoro"
+  }, 
+  "dilemo": {
+    "pos": "n", 
+    "w": "dilemo"
+  }, 
+  "diligenta": {
+    "pos": "adj", 
+    "w": "diligenta"
+  }, 
+  "diluas": {
+    "pos": "v", 
+    "w": "dilutas"
+  }, 
+  "dimanĉo": {
+    "pos": "n", 
+    "w": "sundio"
+  }, 
+  "dimensio": {
+    "pos": "n", 
+    "w": "dimensiono"
+  }, 
+  "dio": {
+    "pos": "n", 
+    "w": "deo"
+  }, 
+  "diplomo": {
+    "pos": "n", 
+    "w": "diplomo"
+  }, 
+  "diras": {
+    "pos": "v", 
+    "w": "dicas"
+  }, 
+  "direktas": [
+    {
+      "pos": "v", 
+      "w": "direktas"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "jeras"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "referas"
+    }
+  ], 
+  "direkto": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "sinso"
+  }, 
+  "disaŭdigas": {
+    "pos": "v", 
+    "w": "brodkastas"
+  }, 
+  "disigas": [
+    {
+      "pos": "v", 
+      "w": "dissolvas"
+    }, 
+    {
+      "pos": "v", 
+      "w": "separas"
+    }
+  ], 
+  "disipas": {
+    "pos": "v", 
+    "w": "disipas"
+  }, 
+  "disiĝas": {
+    "pos": "v", 
+    "w": "divergas"
+  }, 
+  "disko": {
+    "pos": "n", 
+    "w": "disko"
+  }, 
+  "diskontas": {
+    "pos": "v", 
+    "w": "diskontas"
+  }, 
+  "diskreta": {
+    "pos": "adj", 
+    "w": "diskreta"
+  }, 
+  "diskurso": {
+    "pos": "n", 
+    "w": "diskurso"
+  }, 
+  "diskutas": {
+    "pos": "v", 
+    "w": "diskutas"
+  }, 
+  "dispersas": {
+    "pos": "v", 
+    "w": "dispersas"
+  }, 
+  "disponas": {
+    "pos": "v", 
+    "w": "disponas"
+  }, 
+  "disputas": {
+    "pos": "v", 
+    "w": "disputas"
+  }, 
+  "dissendas": {
+    "pos": "v", 
+    "w": "brodkastas"
+  }, 
+  "distanco": {
+    "pos": "n", 
+    "w": "disto"
+  }, 
+  "distingas": {
+    "pos": "v", 
+    "w": "dicernas"
+  }, 
+  "distras": {
+    "pos": "v", 
+    "w": "distraktas"
+  }, 
+  "distribuas": {
+    "pos": "v", 
+    "w": "distributas"
+  }, 
+  "distrikto": {
+    "pos": "n", 
+    "w": "distrikto"
+  }, 
+  "disvolvas": {
+    "pos": "v", 
+    "w": "developas"
+  }, 
+  "disĉiplo": {
+    "pos": "n", 
+    "w": "dicipulo"
+  }, 
+  "diurno": {
+    "pos": "n", 
+    "w": "dio"
+  }, 
+  "divenas": {
+    "pos": "v", 
+    "w": "divinas"
+  }, 
+  "diversa": {
+    "pos": "adj", 
+    "w": "diversa"
+  }, 
+  "dividas": {
+    "pos": "v", 
+    "w": "dividas"
+  }, 
+  "dizertas": {
+    "pos": "v", 
+    "w": "desertas"
+  }, 
+  "do": {
+    "pos": "?", 
+    "w": "do"
+  }, 
+  "dogano": {
+    "pos": "n", 
+    "w": "dogano"
+  }, 
+  "dogmo": {
+    "pos": "n", 
+    "w": "dogmato"
+  }, 
+  "doko": {
+    "pos": "n", 
+    "w": "doko"
+  }, 
+  "doktoro": {
+    "pos": "n", 
+    "w": "doktoro"
+  }, 
+  "dokumento": {
+    "pos": "n", 
+    "w": "dokumento"
+  }, 
+  "doloras": {
+    "pos": "v", 
+    "w": "doloras"
+  }, 
+  "dolĉa": {
+    "pos": "adj", 
+    "w": "dolca"
+  }, 
+  "dominas": {
+    "pos": "v", 
+    "w": "dominacas"
+  }, 
+  "domo": {
+    "pos": "n", 
+    "w": "domo"
+  }, 
+  "donacas": {
+    "pos": "v", 
+    "w": "donacas"
+  }, 
+  "donacema": {
+    "pos": "adj", 
+    "w": "jeneroza"
+  }, 
+  "donas": {
+    "pos": "v", 
+    "w": "donas"
+  }, 
+  "dorlotas": {
+    "pos": "v", 
+    "w": "dorlotas"
+  }, 
+  "dormas": {
+    "pos": "v", 
+    "w": "dormas"
+  }, 
+  "dorno": {
+    "pos": "n", 
+    "w": "dorno"
+  }, 
+  "dorso": {
+    "pos": "n", 
+    "w": "dorso"
+  }, 
+  "dotas": {
+    "pos": "v", 
+    "w": "dotas"
+  }, 
+  "dramo": {
+    "pos": "n", 
+    "w": "dramato"
+  }, 
+  "drasta": {
+    "pos": "adj", 
+    "w": "drastika"
+  }, 
+  "draŝas": {
+    "pos": "v", 
+    "w": "drashas"
+  }, 
+  "drilo": {
+    "pos": "n", 
+    "w": "drilo"
+  }, 
+  "drivas": {
+    "pos": "v", 
+    "w": "driftas"
+  }, 
+  "drogo": {
+    "pos": "n", 
+    "w": "drogo"
+  }, 
+  "dronigas": {
+    "pos": "v", 
+    "w": "dronas"
+  }, 
+  "du": {
+    "pos": "num", 
+    "w": "du"
+  }, 
+  "dua": {
+    "pos": "adj", 
+    "w": "duesma"
+  }, 
+  "dubas": {
+    "pos": "v", 
+    "w": "dubitas"
+  }, 
+  "dum": {
+    "pos": "prep", 
+    "w": "dum"
+  }, 
+  "dungas": {
+    "pos": "v", 
+    "w": "engajas"
+  }, 
+  "duobla": {
+    "pos": "adj", 
+    "w": "duopla"
+  }, 
+  "duono": {
+    "pos": "n", 
+    "w": "duimo"
+  }, 
+  "duplikato": {
+    "pos": "n", 
+    "w": "duplikato"
+  }, 
+  "dupunkto": {
+    "pos": "n", 
+    "w": "bipunto"
+  }, 
+  "duŝas": {
+    "pos": "v", 
+    "w": "dushas"
+  }, 
+  "ebena": {
+    "pos": "adj", 
+    "w": "plana"
+  }, 
+  "ebla": {
+    "pos": "adj", 
+    "w": "posibla"
+  }, 
+  "ebria": {
+    "pos": "adj", 
+    "w": "ebria"
+  }, 
+  "edukas": {
+    "pos": "v", 
+    "w": "edukas"
+  }, 
+  "edzino": {
+    "pos": "n", 
+    "w": "spozino"
+  }, 
+  "edzo": {
+    "pos": "n", 
+    "w": "spozulo"
+  }, 
+  "efekto": {
+    "pos": "n", 
+    "w": "efekto"
+  }, 
+  "efemera": {
+    "pos": "adj", 
+    "w": "efemera"
+  }, 
+  "efikas": {
+    "pos": "v", 
+    "w": "efikas"
+  }, 
+  "egala": {
+    "pos": "adj", 
+    "w": "egala"
+  }, 
+  "egalvaloras": {
+    "pos": "v", 
+    "w": "equivalas"
+  }, 
+  "egoista": {
+    "pos": "adj", 
+    "w": "egoista"
+  }, 
+  "ekde": {
+    "pos": "?", 
+    "w": "depos"
+  }, 
+  "ekipas": {
+    "pos": "v", 
+    "w": "equipas"
+  }, 
+  "ekkrias": {
+    "pos": "v", 
+    "w": "klamas"
+  }, 
+  "eklezio": {
+    "pos": "n", 
+    "w": "eklezio"
+  }, 
+  "ekonomio": {
+    "pos": "n", 
+    "w": "ekonomio"
+  }, 
+  "ekrano": {
+    "pos": "n", 
+    "w": "skreno"
+  }, 
+  "ekscitas": {
+    "pos": "v", 
+    "w": "ecitas"
+  }, 
+  "eksiĝas": {
+    "pos": "v", 
+    "w": "demisionas"
+  }, 
+  "ekskluzivas": {
+    "pos": "v", 
+    "w": "exkluzas"
+  }, 
+  "ekskursas": {
+    "pos": "v", 
+    "w": "exkursas"
+  }, 
+  "ekspansias": {
+    "pos": "v", 
+    "w": "expansas"
+  }, 
+  "ekspedas": {
+    "pos": "v", 
+    "w": "expedias"
+  }, 
+  "ekspedicio": {
+    "pos": "n", 
+    "w": "expediciono"
+  }, 
+  "eksperimentas": {
+    "pos": "v", 
+    "w": "experimentas"
+  }, 
+  "eksplodas": {
+    "pos": "v", 
+    "w": "explozas"
+  }, 
+  "ekspluatas": {
+    "pos": "v", 
+    "w": "explotas"
+  }, 
+  "ekspozicias": {
+    "pos": "v", 
+    "w": "expozas"
+  }, 
+  "ekster": {
+    "pos": "?", 
+    "w": "exter"
+  }, 
+  "eksterordinara": {
+    "pos": "adj", 
+    "w": "extraordinara"
+  }, 
+  "ekstra": {
+    "pos": "adj", 
+    "w": "plusa"
+  }, 
+  "ekstraktas": {
+    "pos": "v", 
+    "w": "extraktas"
+  }, 
+  "ekstrema": {
+    "pos": "adj", 
+    "w": "extrema"
+  }, 
+  "ekvatoro": {
+    "pos": "n", 
+    "w": "equatoro"
+  }, 
+  "ekvilibras": {
+    "pos": "v", 
+    "w": "equilibras"
+  }, 
+  "ekzamenas": {
+    "pos": "v", 
+    "w": "examenas"
+  }, 
+  "ekzekucias": {
+    "pos": "v", 
+    "w": "exekutas"
+  }, 
+  "ekzemplero": {
+    "pos": "n", 
+    "w": "exemplero"
+  }, 
+  "ekzercas": {
+    "pos": "v", 
+    "w": "exercas"
+  }, 
+  "ekzistas": {
+    "pos": "v", 
+    "w": "existas"
+  }, 
+  "ekzotika": {
+    "pos": "adj", 
+    "w": "exotika"
+  }, 
+  "el": {
+    "pos": "prep", 
+    "w": "ek"
+  }, 
+  "elasta": {
+    "pos": "adj", 
+    "w": "elastika"
+  }, 
+  "elbaras": {
+    "pos": "v", 
+    "w": "exkluzas"
+  }, 
+  "eldonas": {
+    "pos": "v", 
+    "w": "editas"
+  }, 
+  "elefanto": {
+    "pos": "n", 
+    "w": "elefanto"
+  }, 
+  "eleganta": {
+    "pos": "adj", 
+    "w": "eleganta"
+  }, 
+  "elektas": [
+    {
+      "pos": "v", 
+      "w": "elektas"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "selektas"
+    }
+  ], 
+  "elektro": {
+    "pos": "n", 
+    "w": "elektro"
+  }, 
+  "elektroniko": {
+    "pos": "n", 
+    "w": "elektroniko"
+  }, 
+  "elemento": {
+    "pos": "n", 
+    "w": "elemento"
+  }, 
+  "elfosas": {
+    "pos": "v", 
+    "w": "exkavas"
+  }, 
+  "eligas": {
+    "pos": "v", 
+    "w": "emisas"
+  }, 
+  "eliminas": {
+    "pos": "v", 
+    "w": "eliminas"
+  }, 
+  "elkavigas": {
+    "pos": "v", 
+    "w": "exkavas"
+  }, 
+  "elkonsumas": {
+    "pos": "v", 
+    "w": "exhaustas"
+  }, 
+  "ellaboras": {
+    "pos": "v", 
+    "w": "elaboras"
+  }, 
+  "ellacigas": {
+    "pos": "v", 
+    "w": "exhaustas"
+  }, 
+  "elmontras": {
+    "pos": "v", 
+    "w": "expozas"
+  }, 
+  "elokventa": {
+    "pos": "adj", 
+    "w": "eloquenta"
+  }, 
+  "elpensas": {
+    "pos": "v", 
+    "w": "inventas"
+  }, 
+  "elspezas": {
+    "pos": "v", 
+    "w": "spensas"
+  }, 
+  "eltrovas": {
+    "pos": "v", 
+    "w": "deskovras"
+  }, 
+  "elĉerpas": {
+    "pos": "v", 
+    "w": "exhaustas"
+  }, 
+  "elŝiras": {
+    "pos": "v", 
+    "w": "arachas"
+  }, 
+  "emajlo": {
+    "pos": "n", 
+    "w": "emalio"
+  }, 
+  "emas": {
+    "pos": "v", 
+    "w": "inklinas"
+  }, 
+  "embarasas": {
+    "pos": "v", 
+    "w": "embarasas"
+  }, 
+  "emblemo": {
+    "pos": "n", 
+    "w": "emblemo"
+  }, 
+  "embuskas": {
+    "pos": "v", 
+    "w": "embuskas"
+  }, 
+  "emfazas": {
+    "pos": "v", 
+    "w": "emfazas"
+  }, 
+  "eminenta": {
+    "pos": "adj", 
+    "w": "eminenta"
+  }, 
+  "emisias": {
+    "pos": "v", 
+    "w": "emisas"
+  }, 
+  "emociiĝas": {
+    "pos": "v", 
+    "w": "emocas"
+  }, 
+  "en": {
+    "pos": "prep", 
+    "w": "en"
+  }, 
+  "energio": {
+    "pos": "n", 
+    "w": "energio"
+  }, 
+  "enhavas": {
+    "pos": "v", 
+    "w": "kontenas"
+  }, 
+  "enhaveco": {
+    "pos": "n", 
+    "w": "kapaceso"
+  }, 
+  "enigmo": {
+    "pos": "n", 
+    "w": "enigmato"
+  }, 
+  "eniras": {
+    "pos": "v", 
+    "w": "eniras"
+  }, 
+  "enkalkulas": {
+    "pos": "v", 
+    "w": "egardas"
+  }, 
+  "enketas": {
+    "pos": "v", 
+    "w": "inquestas"
+  }, 
+  "enkondukas": {
+    "pos": "v", 
+    "w": "introduktas"
+  }, 
+  "enlasas": {
+    "pos": "v", 
+    "w": "admisas"
+  }, 
+  "enmetas": {
+    "pos": "v", 
+    "w": "insertas"
+  }, 
+  "enmiksiĝemulo": {
+    "pos": "n", 
+    "w": "afanono"
+  }, 
+  "ensemblo": {
+    "pos": "n", 
+    "w": "ensemblo"
+  }, 
+  "enspezo": {
+    "pos": "n", 
+    "w": "revenuo"
+  }, 
+  "entenas": {
+    "pos": "v", 
+    "w": "kontenas"
+  }, 
+  "enterigas": {
+    "pos": "v", 
+    "w": "enterigas"
+  }, 
+  "ento": {
+    "pos": "n", 
+    "w": "ento"
+  }, 
+  "entrajniĝas": {
+    "pos": "v", 
+    "w": "abordas"
+  }, 
+  "entreprenas": {
+    "pos": "v", 
+    "w": "entraprezas"
+  }, 
+  "entrudiĝas": {
+    "pos": "v", 
+    "w": "intruzas"
+  }, 
+  "entuziasmo": {
+    "pos": "n", 
+    "w": "entuziasmo"
+  }, 
+  "enuas": {
+    "pos": "v", 
+    "w": "enoyas"
+  }, 
+  "envias": {
+    "pos": "v", 
+    "w": "envidias"
+  }, 
+  "envolvas": {
+    "pos": "v", 
+    "w": "envelopas"
+  }, 
+  "enŝipiĝas": {
+    "pos": "v", 
+    "w": "abordas"
+  }, 
+  "episkopo": {
+    "pos": "n", 
+    "w": "episkopo"
+  }, 
+  "epizodo": {
+    "pos": "n", 
+    "w": "epizodo"
+  }, 
+  "epoko": {
+    "pos": "n", 
+    "w": "epoko"
+  }, 
+  "erao": {
+    "pos": "n", 
+    "w": "ero"
+  }, 
+  "eraras": {
+    "pos": "v", 
+    "w": "eroras"
+  }, 
+  "eriko": {
+    "pos": "n", 
+    "w": "eriko"
+  }, 
+  "ermito": {
+    "pos": "n", 
+    "w": "ermito"
+  }, 
+  "erozias": {
+    "pos": "v", 
+    "w": "erodas"
+  }, 
+  "erupcias": {
+    "pos": "v", 
+    "w": "eruptas"
+  }, 
+  "esceptas": {
+    "pos": "v", 
+    "w": "eceptas"
+  }, 
+  "esenco": {
+    "pos": "n", 
+    "w": "esenco"
+  }, 
+  "eskalo": {
+    "pos": "n", 
+    "w": "skalo"
+  }, 
+  "eskapas": {
+    "pos": "v", 
+    "w": "eskapas"
+  }, 
+  "esperas": {
+    "pos": "v", 
+    "w": "esperas"
+  }, 
+  "esploras": {
+    "pos": "v", 
+    "w": "exploras"
+  }, 
+  "esprimas": {
+    "pos": "v", 
+    "w": "expresas"
+  }, 
+  "establas": {
+    "pos": "v", 
+    "w": "establisas"
+  }, 
+  "estas": {
+    "pos": "v", 
+    "w": "esas"
+  }, 
+  "estimas": {
+    "pos": "v", 
+    "w": "estimas"
+  }, 
+  "estingas": {
+    "pos": "v", 
+    "w": "extingas"
+  }, 
+  "estonteco": {
+    "pos": "n", 
+    "w": "futuro"
+  }, 
+  "etaĝo": {
+    "pos": "n", 
+    "w": "etajo"
+  }, 
+  "etendas": {
+    "pos": "v", 
+    "w": "extensas"
+  }, 
+  "etendiĝo": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "rango"
+  }, 
+  "eterna": {
+    "pos": "adj", 
+    "w": "eterna"
+  }, 
+  "etikedo": {
+    "pos": "n", 
+    "w": "etiketo"
+  }, 
+  "etiko": {
+    "pos": "n", 
+    "w": "etiko"
+  }, 
+  "eventuala": {
+    "pos": "adj", 
+    "w": "eventuala"
+  }, 
+  "evidenta": {
+    "pos": "adj", 
+    "w": "evidenta"
+  }, 
+  "evitas": {
+    "pos": "v", 
+    "w": "evitas"
+  }, 
+  "evoluigas": {
+    "pos": "v", 
+    "w": "developas"
+  }, 
+  "exemplo": {
+    "pos": "n", 
+    "w": "exemplo"
+  }, 
+  "eĉ": {
+    "pos": "?", 
+    "w": "mem"
+  }, 
+  "eĥo": {
+    "pos": "n", 
+    "w": "eko"
+  }, 
+  "eŭfemismo": {
+    "pos": "n", 
+    "w": "eufemismo"
+  }, 
+  "fablo": {
+    "pos": "n", 
+    "w": "fablo"
+  }, 
+  "fabo": {
+    "pos": "n", 
+    "w": "fabo"
+  }, 
+  "fabrikas": {
+    "pos": "v", 
+    "w": "fabrikas"
+  }, 
+  "faceto": {
+    "pos": "n", 
+    "w": "faceto"
+  }, 
+  "facila": {
+    "pos": "adj", 
+    "w": "facila"
+  }, 
+  "fadeno": {
+    "pos": "n", 
+    "w": "filo"
+  }, 
+  "fajfas": {
+    "pos": "v", 
+    "w": "siflas"
+  }, 
+  "fajna": {
+    "fuz": true, 
+    "pos": "adj", 
+    "w": "tenua"
+  }, 
+  "fajrero": {
+    "pos": "n", 
+    "w": "cintilo"
+  }, 
+  "fajrigas": {
+    "pos": "v", 
+    "w": "acendas"
+  }, 
+  "fajro": {
+    "pos": "n", 
+    "w": "fairo"
+  }, 
+  "fako": {
+    "pos": "n", 
+    "w": "fako"
+  }, 
+  "fakto": {
+    "pos": "n", 
+    "w": "fakto"
+  }, 
+  "faktoro": {
+    "pos": "n", 
+    "w": "faktoro"
+  }, 
+  "fakturo": {
+    "pos": "n", 
+    "w": "fakturo"
+  }, 
+  "fakultativa": {
+    "pos": "adj", 
+    "w": "fakultativa"
+  }, 
+  "falas": {
+    "pos": "v", 
+    "w": "falas"
+  }, 
+  "faldas": {
+    "pos": "v", 
+    "w": "faldas"
+  }, 
+  "faleno": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "faleno"
+  }, 
+  "falsa": {
+    "pos": "adj", 
+    "w": "falsa"
+  }, 
+  "falĉas": {
+    "pos": "v", 
+    "w": "falchas"
+  }, 
+  "falĉileto": {
+    "pos": "n", 
+    "w": "siklo"
+  }, 
+  "fama": {
+    "pos": "adj", 
+    "w": "famoza"
+  }, 
+  "familiara": {
+    "pos": "adj", 
+    "w": "familiara"
+  }, 
+  "familio": {
+    "pos": "n", 
+    "w": "familio"
+  }, 
+  "famo": {
+    "pos": "n", 
+    "w": "famo"
+  }, 
+  "fanatika": {
+    "pos": "adj", 
+    "w": "fanatika"
+  }, 
+  "fandas": {
+    "pos": "v", 
+    "w": "fuzas"
+  }, 
+  "fanfaronas": {
+    "pos": "v", 
+    "w": "fanfaronas"
+  }, 
+  "fantomo": {
+    "pos": "n", 
+    "w": "fantomo"
+  }, 
+  "faras": {
+    "pos": "v", 
+    "w": "facas"
+  }, 
+  "farbo": {
+    "pos": "n", 
+    "w": "farbo"
+  }, 
+  "faringo": {
+    "pos": "n", 
+    "w": "faringo"
+  }, 
+  "fariĝas": {
+    "pos": "v", 
+    "w": "divenas"
+  }, 
+  "farmacio": {
+    "pos": "n", 
+    "w": "farmacio"
+  }, 
+  "fartas": {
+    "pos": "v", 
+    "w": "standas"
+  }, 
+  "faruno": {
+    "pos": "n", 
+    "w": "farino"
+  }, 
+  "fasado": {
+    "pos": "n", 
+    "w": "fasado"
+  }, 
+  "fascinas": {
+    "pos": "v", 
+    "w": "facinas"
+  }, 
+  "fasko": {
+    "pos": "n", 
+    "w": "fasko"
+  }, 
+  "fasonas": {
+    "pos": "v", 
+    "w": "fasonas"
+  }, 
+  "favora": {
+    "pos": "adj", 
+    "w": "benigna"
+  }, 
+  "favoras": {
+    "pos": "v", 
+    "w": "favoras"
+  }, 
+  "fazo": {
+    "pos": "n", 
+    "w": "fazo"
+  }, 
+  "febras": {
+    "pos": "v", 
+    "w": "febras"
+  }, 
+  "februaro": {
+    "pos": "n", 
+    "w": "februaro"
+  }, 
+  "federacias": {
+    "pos": "v", 
+    "w": "federas"
+  }, 
+  "feliĉa": {
+    "pos": "adj", 
+    "w": "felica"
+  }, 
+  "felo": {
+    "pos": "n", 
+    "w": "felo"
+  }, 
+  "femuro": {
+    "pos": "n", 
+    "w": "kruro"
+  }, 
+  "femurosto": {
+    "pos": "n", 
+    "w": "femuro"
+  }, 
+  "fendas": {
+    "pos": "v", 
+    "w": "fendas"
+  }, 
+  "fenestro": {
+    "pos": "n", 
+    "w": "fenestro"
+  }, 
+  "fenomeno": {
+    "pos": "n", 
+    "w": "fenomeno"
+  }, 
+  "feo": {
+    "pos": "n", 
+    "w": "feo"
+  }, 
+  "ferdeko": {
+    "pos": "n", 
+    "w": "ferdeko"
+  }, 
+  "ferias": {
+    "pos": "v", 
+    "w": "vakancas"
+  }, 
+  "fermas": {
+    "pos": "v", 
+    "w": "klozas"
+  }, 
+  "fermoplato": {
+    "pos": "n", 
+    "w": "lido"
+  }, 
+  "fero": {
+    "pos": "n", 
+    "w": "fero"
+  }, 
+  "fervoras": {
+    "pos": "v", 
+    "w": "fervoras"
+  }, 
+  "festas": {
+    "pos": "v", 
+    "w": "celebras"
+  }, 
+  "festenas": {
+    "pos": "v", 
+    "w": "festinas"
+  }, 
+  "fianĉigas": {
+    "pos": "v", 
+    "w": "fiancas"
+  }, 
+  "fiaskas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "falias"
+  }, 
+  "fiasko": {
+    "pos": "n", 
+    "w": "fiasko"
+  }, 
+  "fibro": {
+    "pos": "n", 
+    "w": "fibro"
+  }, 
+  "fidas": {
+    "pos": "v", 
+    "w": "fidas"
+  }, 
+  "fidela": {
+    "pos": "adj", 
+    "w": "fidela"
+  }, 
+  "fiera": {
+    "pos": "adj", 
+    "w": "fiera"
+  }, 
+  "figuro": {
+    "pos": "n", 
+    "w": "figuro"
+  }, 
+  "fiksita": {
+    "pos": "adj", 
+    "w": "fixa"
+  }, 
+  "fiktiva": {
+    "pos": "adj", 
+    "w": "fiktiva"
+  }, 
+  "filino": {
+    "pos": "n", 
+    "w": "filiino"
+  }, 
+  "filmo": {
+    "pos": "n", 
+    "w": "filmo"
+  }, 
+  "filo": {
+    "pos": "n", 
+    "w": "filiulo"
+  }, 
+  "filtras": {
+    "pos": "v", 
+    "w": "filtras"
+  }, 
+  "fina": {
+    "pos": "adj", 
+    "w": "finala"
+  }, 
+  "finas": {
+    "pos": "v", 
+    "w": "finas"
+  }, 
+  "fingro": {
+    "pos": "n", 
+    "w": "fingro"
+  }, 
+  "fintas": {
+    "pos": "v", 
+    "w": "fintas"
+  }, 
+  "firma": {
+    "pos": "adj", 
+    "w": "ferma"
+  }, 
+  "firmao": {
+    "pos": "n", 
+    "w": "firmo"
+  }, 
+  "firmo": {
+    "pos": "n", 
+    "w": "firmo"
+  }, 
+  "fiŝas": {
+    "pos": "v", 
+    "w": "peskas"
+  }, 
+  "fiŝkaptas": {
+    "pos": "v", 
+    "w": "peskas"
+  }, 
+  "fiŝo": {
+    "pos": "n", 
+    "w": "fisho"
+  }, 
+  "flako": {
+    "pos": "n", 
+    "w": "flako"
+  }, 
+  "flamo": {
+    "pos": "n", 
+    "w": "flamo"
+  }, 
+  "flankenglitas": {
+    "pos": "v", 
+    "w": "ripas"
+  }, 
+  "flanko": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "flanko"
+  }, 
+  "flaras": {
+    "pos": "v", 
+    "w": "flaras"
+  }, 
+  "flatas": {
+    "pos": "v", 
+    "w": "flatas"
+  }, 
+  "flava": {
+    "pos": "adj", 
+    "w": "flava"
+  }, 
+  "flavgriza": {
+    "pos": "adj", 
+    "w": "beja"
+  }, 
+  "flegas": {
+    "pos": "v", 
+    "w": "flegas"
+  }, 
+  "fleksas": {
+    "pos": "v", 
+    "w": "flexas"
+  }, 
+  "flirtas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "flirtas"
+  }, 
+  "floko": {
+    "pos": "n", 
+    "w": "floko"
+  }, 
+  "floro": {
+    "pos": "n", 
+    "w": "floro"
+  }, 
+  "flosas": {
+    "pos": "v", 
+    "w": "flotacas"
+  }, 
+  "floso": {
+    "pos": "n", 
+    "w": "rafto"
+  }, 
+  "fluas": {
+    "pos": "v", 
+    "w": "fluas"
+  }, 
+  "flugas": {
+    "pos": "v", 
+    "w": "flugas"
+  }, 
+  "flugfolio": {
+    "pos": "n", 
+    "w": "folieto"
+  }, 
+  "flugilo": {
+    "pos": "n", 
+    "w": "alo"
+  }, 
+  "fluida": {
+    "pos": "adj", 
+    "w": "fluida"
+  }, 
+  "fluktuas": {
+    "pos": "v", 
+    "w": "fluktuas"
+  }, 
+  "flustras": {
+    "pos": "v", 
+    "w": "susuras"
+  }, 
+  "foiro": {
+    "pos": "n", 
+    "w": "ferio"
+  }, 
+  "fojno": {
+    "pos": "n", 
+    "w": "feno"
+  }, 
+  "fojo": {
+    "pos": "n", 
+    "w": "foyo"
+  }, 
+  "fokuso": {
+    "pos": "n", 
+    "w": "foko"
+  }, 
+  "folio": {
+    "pos": "n", 
+    "w": "folio"
+  }, 
+  "fondas": {
+    "pos": "v", 
+    "w": "fondas"
+  }, 
+  "fontano": {
+    "pos": "n", 
+    "w": "fonteno"
+  }, 
+  "fonto": {
+    "pos": "n", 
+    "w": "fonto"
+  }, 
+  "for": {
+    "pos": "adv", 
+    "w": "fore"
+  }, 
+  "fora": {
+    "pos": "adj", 
+    "w": "fora"
+  }, 
+  "forestanta": {
+    "pos": "adj", 
+    "w": "absenta"
+  }, 
+  "forgesas": {
+    "pos": "v", 
+    "w": "oblivias"
+  }, 
+  "foriras": {
+    "pos": "v", 
+    "w": "departas"
+  }, 
+  "forkiĝas": {
+    "pos": "v", 
+    "w": "bifurkas"
+  }, 
+  "forko": {
+    "pos": "n", 
+    "w": "forko"
+  }, 
+  "forlasas": [
+    {
+      "pos": "v", 
+      "w": "abandonas"
+    }, 
+    {
+      "pos": "v", 
+      "w": "desertas"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "livas"
+    }
+  ], 
+  "formala": {
+    "pos": "adj", 
+    "w": "formala"
+  }, 
+  "formas": [
+    {
+      "pos": "v", 
+      "w": "fasonas"
+    }, 
+    {
+      "pos": "v", 
+      "w": "formacas"
+    }, 
+    {
+      "pos": "v", 
+      "w": "konstitucas"
+    }
+  ], 
+  "formato": {
+    "pos": "n", 
+    "w": "formato"
+  }, 
+  "formiko": {
+    "pos": "n", 
+    "w": "formiko"
+  }, 
+  "formo": {
+    "pos": "n", 
+    "w": "formo"
+  }, 
+  "formularo": {
+    "pos": "n", 
+    "w": "formulario"
+  }, 
+  "formulo": {
+    "pos": "n", 
+    "w": "formulo"
+  }, 
+  "forpelas": {
+    "pos": "v", 
+    "w": "repulsas"
+  }, 
+  "forpuŝas": {
+    "pos": "v", 
+    "w": "repulsas"
+  }, 
+  "forta": {
+    "pos": "adj", 
+    "w": "forta"
+  }, 
+  "fortikigas": {
+    "pos": "v", 
+    "w": "fortifikas"
+  }, 
+  "fortiras": {
+    "pos": "v", 
+    "w": "arachas"
+  }, 
+  "forto": {
+    "pos": "n", 
+    "w": "forco"
+  }, 
+  "forviŝas": {
+    "pos": "v", 
+    "w": "efacas"
+  }, 
+  "forĝas": {
+    "pos": "v", 
+    "w": "forjas"
+  }, 
+  "forĵetaĵo": {
+    "pos": "n", 
+    "w": "eskombro"
+  }, 
+  "fosaĵo": [
+    {
+      "pos": "n", 
+      "w": "foso"
+    }, 
+    {
+      "pos": "n", 
+      "w": "fosato"
+    }
+  ], 
+  "fosilo": {
+    "pos": "n", 
+    "w": "spado"
+  }, 
+  "fosto": {
+    "pos": "n", 
+    "w": "fosto"
+  }, 
+  "fotilo": {
+    "pos": "n", 
+    "w": "kamero"
+  }, 
+  "fotografas": {
+    "pos": "v", 
+    "w": "fotografas"
+  }, 
+  "fotografilo": {
+    "pos": "n", 
+    "w": "kamero"
+  }, 
+  "fotokopias": {
+    "pos": "v", 
+    "w": "fotokopias"
+  }, 
+  "fragmento": {
+    "pos": "n", 
+    "w": "fragmento"
+  }, 
+  "frago": {
+    "pos": "n", 
+    "w": "frago"
+  }, 
+  "frakasas": {
+    "pos": "v", 
+    "w": "frakasas"
+  }, 
+  "frakcio": {
+    "pos": "n", 
+    "w": "fraciono"
+  }, 
+  "frambo": {
+    "pos": "n", 
+    "w": "frambo"
+  }, 
+  "framo": {
+    "pos": "n", 
+    "w": "framo"
+  }, 
+  "frapas": {
+    "pos": "v", 
+    "w": "frapas"
+  }, 
+  "fratino": {
+    "pos": "n", 
+    "w": "fratino"
+  }, 
+  "frato": {
+    "pos": "n", 
+    "w": "fratulo"
+  }, 
+  "frazo": {
+    "pos": "n", 
+    "w": "frazo"
+  }, 
+  "fraŭdas": {
+    "pos": "v", 
+    "w": "fraudas"
+  }, 
+  "fraŭla": {
+    "pos": "adj", 
+    "w": "celiba"
+  }, 
+  "fraŭlino": {
+    "pos": "n", 
+    "w": "damzelo"
+  }, 
+  "fremda": {
+    "pos": "adj", 
+    "w": "stranjera"
+  }, 
+  "freneza": [
+    {
+      "pos": "adj", 
+      "w": "dementa"
+    }, 
+    {
+      "pos": "adj", 
+      "w": "fola"
+    }
+  ], 
+  "frenezo": {
+    "pos": "n", 
+    "w": "frenezio"
+  }, 
+  "freŝa": {
+    "pos": "adj", 
+    "w": "fresha"
+  }, 
+  "friponas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "eskrokas"
+  }, 
+  "fripono": {
+    "pos": "n", 
+    "w": "fripono"
+  }, 
+  "fritas": {
+    "pos": "v", 
+    "w": "fritas"
+  }, 
+  "frivola": {
+    "pos": "adj", 
+    "w": "frivola"
+  }, 
+  "fromaĝo": {
+    "pos": "n", 
+    "w": "fromajo"
+  }, 
+  "frostiĝas": {
+    "pos": "v", 
+    "w": "frostas"
+  }, 
+  "frotas": {
+    "pos": "v", 
+    "w": "frotas"
+  }, 
+  "frua": {
+    "pos": "adj", 
+    "w": "frua"
+  }, 
+  "frukto": {
+    "pos": "n", 
+    "w": "frukto"
+  }, 
+  "fulmas": {
+    "pos": "v", 
+    "w": "fulguras"
+  }, 
+  "fulmobatas": {
+    "pos": "v", 
+    "w": "fulminas"
+  }, 
+  "fumas": {
+    "pos": "v", 
+    "w": "fumas"
+  }, 
+  "fundamento": {
+    "pos": "n", 
+    "w": "fundamento"
+  }, 
+  "fundo": {
+    "pos": "n", 
+    "w": "fundo"
+  }, 
+  "funebras": {
+    "pos": "v", 
+    "w": "trauras"
+  }, 
+  "funelo": {
+    "pos": "n", 
+    "w": "funelo"
+  }, 
+  "fungo": {
+    "pos": "n", 
+    "w": "fungo"
+  }, 
+  "funkcias": {
+    "pos": "v", 
+    "w": "funcionas"
+  }, 
+  "furioza": {
+    "pos": "adj", 
+    "w": "furioza"
+  }, 
+  "furiozas": {
+    "pos": "v", 
+    "w": "furias"
+  }, 
+  "furiozeco": {
+    "pos": "n", 
+    "w": "frenezio"
+  }, 
+  "fusilo": {
+    "pos": "n", 
+    "w": "fusilo"
+  }, 
+  "futbalo": {
+    "pos": "n", 
+    "w": "futbalo"
+  }, 
+  "fuĝas": {
+    "pos": "v", 
+    "w": "fugas"
+  }, 
+  "fuŝas": {
+    "pos": "v", 
+    "w": "fushas"
+  }, 
+  "gaja": {
+    "pos": "adj", 
+    "w": "gaya"
+  }, 
+  "gajnas": {
+    "pos": "v", 
+    "w": "ganas"
+  }, 
+  "galanta": {
+    "pos": "adj", 
+    "w": "galanta"
+  }, 
+  "galerio": {
+    "pos": "n", 
+    "w": "galerio"
+  }, 
+  "ganto": {
+    "pos": "n", 
+    "w": "ganto"
+  }, 
+  "gapas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "beas"
+  }, 
+  "garantias": {
+    "pos": "v", 
+    "w": "garantias"
+  }, 
+  "garaĝo": {
+    "pos": "n", 
+    "w": "garajo"
+  }, 
+  "gardas": {
+    "pos": "v", 
+    "w": "gardas"
+  }, 
+  "gaso": {
+    "pos": "n", 
+    "w": "gaso"
+  }, 
+  "gastejo": {
+    "pos": "n", 
+    "w": "albergo"
+  }, 
+  "gastiganto": {
+    "pos": "n", 
+    "w": "hosto"
+  }, 
+  "gasto": {
+    "pos": "n", 
+    "w": "gasto"
+  }, 
+  "geedzigas": {
+    "pos": "v", 
+    "w": "mariajas"
+  }, 
+  "gelatenaĵo": {
+    "pos": "n", 
+    "w": "jeleo"
+  }, 
+  "gemo": {
+    "pos": "n", 
+    "w": "gemo"
+  }, 
+  "generacio": {
+    "pos": "n", 
+    "w": "generaciono"
+  }, 
+  "generalo": {
+    "pos": "n", 
+    "w": "generalo"
+  }, 
+  "generas": {
+    "pos": "v", 
+    "w": "genitas"
+  }, 
+  "genio": {
+    "pos": "n", 
+    "w": "genio"
+  }, 
+  "geniulo": {
+    "pos": "n", 
+    "w": "geniozo"
+  }, 
+  "genuo": {
+    "pos": "n", 
+    "w": "genuo"
+  }, 
+  "geografio": {
+    "pos": "n", 
+    "w": "geografio"
+  }, 
+  "gestas": {
+    "pos": "v", 
+    "w": "gestas"
+  }, 
+  "gisto": {
+    "pos": "n", 
+    "w": "hefo"
+  }, 
+  "giĉeto": {
+    "pos": "n", 
+    "w": "gicheto"
+  }, 
+  "glacio": {
+    "pos": "n", 
+    "w": "glacio"
+  }, 
+  "glaso": {
+    "pos": "n", 
+    "w": "glaso"
+  }, 
+  "glata": {
+    "pos": "adj", 
+    "w": "glata"
+  }, 
+  "glavo": {
+    "pos": "n", 
+    "w": "espado"
+  }, 
+  "glitas": {
+    "pos": "v", 
+    "w": "glitas"
+  }, 
+  "globo": {
+    "pos": "n", 
+    "w": "globo"
+  }, 
+  "gloro": {
+    "pos": "n", 
+    "w": "glorio"
+  }, 
+  "gluas": {
+    "pos": "v", 
+    "w": "glutinas"
+  }, 
+  "glutas": {
+    "pos": "v", 
+    "w": "glutas"
+  }, 
+  "golfeto": {
+    "pos": "n", 
+    "w": "bayo"
+  }, 
+  "gorĝo": {
+    "pos": "n", 
+    "w": "guturo"
+  }, 
+  "gracio": {
+    "pos": "n", 
+    "w": "gracio"
+  }, 
+  "grado": {
+    "pos": "n", 
+    "w": "grado"
+  }, 
+  "grajno": {
+    "pos": "n", 
+    "w": "grano"
+  }, 
+  "gramatiko": {
+    "pos": "n", 
+    "w": "gramatiko"
+  }, 
+  "gramo": {
+    "pos": "n", 
+    "w": "gramo"
+  }, 
+  "gramofono": {
+    "pos": "n", 
+    "w": "gramofono"
+  }, 
+  "granda": {
+    "pos": "adj", 
+    "w": "granda"
+  }, 
+  "grandega": [
+    {
+      "pos": "adj", 
+      "w": "enorma"
+    }, 
+    {
+      "pos": "adj", 
+      "w": "imensa"
+    }
+  ], 
+  "grandioza": [
+    {
+      "pos": "adj", 
+      "w": "grandioza"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "adj", 
+      "w": "splendida"
+    }
+  ], 
+  "graso": {
+    "pos": "n", 
+    "w": "graso"
+  }, 
+  "gratas": {
+    "pos": "v", 
+    "w": "gratas"
+  }, 
+  "gratifikas": {
+    "pos": "v", 
+    "w": "gratifikas"
+  }, 
+  "gratulas": {
+    "pos": "v", 
+    "w": "gratulas"
+  }, 
+  "grava": {
+    "pos": "adj", 
+    "w": "importanta"
+  }, 
+  "gravas": {
+    "pos": "v", 
+    "w": "importas"
+  }, 
+  "graveda": {
+    "pos": "adj", 
+    "w": "gravida"
+  }, 
+  "grimpas": {
+    "pos": "v", 
+    "w": "klimas"
+  }, 
+  "griza": {
+    "pos": "adj", 
+    "w": "griza"
+  }, 
+  "groso": {
+    "pos": "n", 
+    "w": "grozelo"
+  }, 
+  "groteska": {
+    "pos": "adj", 
+    "w": "groteska"
+  }, 
+  "grumblas": {
+    "pos": "v", 
+    "w": "grunas"
+  }, 
+  "grundo": {
+    "pos": "n", 
+    "w": "sulo"
+  }, 
+  "gruntas": {
+    "pos": "v", 
+    "w": "grunas"
+  }, 
+  "grupo": {
+    "pos": "n", 
+    "w": "grupo"
+  }, 
+  "gudro": {
+    "pos": "n", 
+    "w": "gudro"
+  }, 
+  "gumo": {
+    "pos": "n", 
+    "w": "gumo"
+  }, 
+  "gustumas": {
+    "pos": "v", 
+    "w": "gustas"
+  }, 
+  "guto": {
+    "pos": "n", 
+    "w": "guto"
+  }, 
+  "gvidas": {
+    "pos": "v", 
+    "w": "guidas"
+  }, 
+  "hakas": {
+    "pos": "v", 
+    "w": "hakas"
+  }, 
+  "halo": {
+    "pos": "n", 
+    "w": "halo"
+  }, 
+  "haltas": {
+    "pos": "v", 
+    "w": "haltas"
+  }, 
+  "handikapas": {
+    "pos": "v", 
+    "w": "handikapas"
+  }, 
+  "harmonias": {
+    "pos": "v", 
+    "w": "harmonias"
+  }, 
+  "hastas": {
+    "pos": "v", 
+    "w": "hastas"
+  }, 
+  "havas": {
+    "pos": "v", 
+    "w": "havas"
+  }, 
+  "haveno": {
+    "pos": "n", 
+    "w": "portuo"
+  }, 
+  "hazardo": {
+    "pos": "n", 
+    "w": "hazardo"
+  }, 
+  "haĉas": {
+    "pos": "v", 
+    "w": "hachas"
+  }, 
+  "haŭto": {
+    "pos": "n", 
+    "w": "pelo"
+  }, 
+  "hejmo": {
+    "pos": "n", 
+    "w": "hemo"
+  }, 
+  "helico": {
+    "pos": "n", 
+    "w": "helico"
+  }, 
+  "heliko": {
+    "pos": "n", 
+    "w": "heliko"
+  }, 
+  "helpas": {
+    "pos": "v", 
+    "w": "helpas"
+  }, 
+  "herb": {
+    "pos": "adj", 
+    "w": "akra"
+  }, 
+  "herbo": {
+    "pos": "n", 
+    "w": "herbo"
+  }, 
+  "heredas": {
+    "pos": "v", 
+    "w": "heredas"
+  }, 
+  "heroo": {
+    "pos": "n", 
+    "w": "heroo"
+  }, 
+  "hezitas": {
+    "pos": "v", 
+    "w": "hezitas"
+  }, 
+  "heĝo": {
+    "pos": "n", 
+    "w": "hego"
+  }, 
+  "hieraŭ": {
+    "pos": "adv", 
+    "w": "hiere"
+  }, 
+  "higieno": {
+    "pos": "n", 
+    "w": "higieno"
+  }, 
+  "himno": {
+    "pos": "n", 
+    "w": "himno"
+  }, 
+  "hisas": {
+    "pos": "v", 
+    "w": "hisas"
+  }, 
+  "histerio": {
+    "pos": "n", 
+    "w": "histerio"
+  }, 
+  "historio": {
+    "pos": "n", 
+    "w": "historio"
+  }, 
+  "histriono": {
+    "pos": "n", 
+    "w": "bufono"
+  }, 
+  "hobio": {
+    "pos": "n", 
+    "w": "hobio"
+  }, 
+  "hodiaŭ": {
+    "pos": "adv", 
+    "w": "hodie"
+  }, 
+  "hoko": {
+    "pos": "n", 
+    "w": "hoko"
+  }, 
+  "homo": {
+    "pos": "n", 
+    "w": "homo"
+  }, 
+  "honesta": {
+    "pos": "adj", 
+    "w": "honesta"
+  }, 
+  "honoro": {
+    "pos": "n", 
+    "w": "honoro"
+  }, 
+  "hontas": {
+    "pos": "v", 
+    "w": "shamas"
+  }, 
+  "hordeo": {
+    "pos": "n", 
+    "w": "hordeo"
+  }, 
+  "horizontala": {
+    "pos": "adj", 
+    "w": "horizontala"
+  }, 
+  "horizonto": {
+    "pos": "n", 
+    "w": "horizonto"
+  }, 
+  "horloĝo": {
+    "pos": "n", 
+    "w": "horlojo"
+  }, 
+  "horo": [
+    {
+      "pos": "n", 
+      "w": "horo"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "n", 
+      "w": "kloko"
+    }
+  ], 
+  "hororas": {
+    "pos": "v", 
+    "w": "hororas"
+  }, 
+  "hospitalo": {
+    "pos": "n", 
+    "w": "hospitalo"
+  }, 
+  "hotelo": {
+    "pos": "n", 
+    "w": "hotelo"
+  }, 
+  "hufo": {
+    "pos": "n", 
+    "w": "hufo"
+  }, 
+  "humana": {
+    "pos": "adj", 
+    "w": "humana"
+  }, 
+  "humida": {
+    "pos": "adj", 
+    "w": "humida"
+  }, 
+  "humidigas": {
+    "pos": "v", 
+    "w": "arozas"
+  }, 
+  "humila": {
+    "pos": "adj", 
+    "w": "humila"
+  }, 
+  "humoro": {
+    "pos": "n", 
+    "w": "humoro"
+  }, 
+  "humuro": {
+    "pos": "n", 
+    "w": "humuro"
+  }, 
+  "hundo": {
+    "pos": "n", 
+    "w": "hundo"
+  }, 
+  "ia": {
+    "fuz": true, 
+    "pos": "adj", 
+    "w": "certena"
+  }, 
+  "ideala": {
+    "pos": "adj", 
+    "w": "ideala"
+  }, 
+  "identa": {
+    "pos": "adj", 
+    "w": "identa"
+  }, 
+  "ideo": {
+    "pos": "n", 
+    "w": "ideo"
+  }, 
+  "idioto": {
+    "pos": "n", 
+    "w": "idioto"
+  }, 
+  "igas": {
+    "pos": "v", 
+    "w": "igas"
+  }, 
+  "ignoras": {
+    "pos": "v", 
+    "w": "ignoras"
+  }, 
+  "ili": {
+    "pos": "pronoun", 
+    "w": "li"
+  }, 
+  "ilia": {
+    "pos": "adj", 
+    "w": "lia"
+  }, 
+  "ilo": {
+    "pos": "n", 
+    "w": "instrumento"
+  }, 
+  "ilustras": {
+    "pos": "v", 
+    "w": "ilustras"
+  }, 
+  "imagas": {
+    "pos": "v", 
+    "w": "imaginas"
+  }, 
+  "imitas": {
+    "pos": "v", 
+    "w": "imitas"
+  }, 
+  "impertinenta": {
+    "pos": "adj", 
+    "w": "impertinenta"
+  }, 
+  "implicas": {
+    "pos": "v", 
+    "w": "implikas"
+  }, 
+  "implikas": {
+    "pos": "v", 
+    "w": "intrikas"
+  }, 
+  "impostas": {
+    "pos": "v", 
+    "w": "impostas"
+  }, 
+  "impregnas": {
+    "pos": "v", 
+    "w": "impregnas"
+  }, 
+  "impresas": {
+    "pos": "v", 
+    "w": "impresas"
+  }, 
+  "ina": {
+    "pos": "adj", 
+    "w": "femina"
+  }, 
+  "inaŭguras": {
+    "pos": "v", 
+    "w": "inauguras"
+  }, 
+  "incitas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "incitas"
+  }, 
+  "inda": {
+    "pos": "adj", 
+    "w": "digna"
+  }, 
+  "indekso": {
+    "pos": "n", 
+    "w": "indexo"
+  }, 
+  "indiferenta": {
+    "pos": "adj", 
+    "w": "indiferenta"
+  }, 
+  "indignas": {
+    "pos": "v", 
+    "w": "indignas"
+  }, 
+  "indikas": {
+    "pos": "v", 
+    "w": "indikas"
+  }, 
+  "indikaĵo": {
+    "pos": "n", 
+    "w": "indico"
+  }, 
+  "individuo": {
+    "pos": "n", 
+    "w": "individuo"
+  }, 
+  "indiĝena": {
+    "pos": "adj", 
+    "w": "indijena"
+  }, 
+  "industrio": {
+    "pos": "n", 
+    "w": "industrio"
+  }, 
+  "infano": {
+    "pos": "n", 
+    "w": "infanto"
+  }, 
+  "infektas": {
+    "pos": "v", 
+    "w": "infektas"
+  }, 
+  "infero": {
+    "pos": "n", 
+    "w": "inferno"
+  }, 
+  "infinita": {
+    "pos": "adj", 
+    "w": "infinita"
+  }, 
+  "infinitivo": {
+    "pos": "n", 
+    "w": "infinitivo"
+  }, 
+  "inflamigas": {
+    "pos": "v", 
+    "w": "inflamas"
+  }, 
+  "influas": {
+    "pos": "v", 
+    "w": "influas"
+  }, 
+  "informas": {
+    "pos": "v", 
+    "w": "informas"
+  }, 
+  "ingenra": {
+    "pos": "adj", 
+    "w": "femina"
+  }, 
+  "ingredienco": {
+    "pos": "n", 
+    "w": "ingrediento"
+  }, 
+  "inhibas": {
+    "pos": "v", 
+    "w": "inhibas"
+  }, 
+  "inhibicias": {
+    "pos": "v", 
+    "w": "inhibas"
+  }, 
+  "inicas": {
+    "pos": "v", 
+    "w": "inicias"
+  }, 
+  "iniciatas": {
+    "pos": "v", 
+    "w": "inicias"
+  }, 
+  "inklinas": {
+    "pos": "v", 
+    "w": "inklinas"
+  }, 
+  "inkluzivas": {
+    "pos": "v", 
+    "w": "inkluzas"
+  }, 
+  "inko": {
+    "pos": "n", 
+    "w": "inko"
+  }, 
+  "inseksa": {
+    "pos": "adj", 
+    "w": "femina"
+  }, 
+  "insekto": {
+    "pos": "n", 
+    "w": "insekto"
+  }, 
+  "insigno": {
+    "pos": "n", 
+    "w": "insigno"
+  }, 
+  "insistas": {
+    "pos": "v", 
+    "w": "insistas"
+  }, 
+  "inspektas": {
+    "pos": "v", 
+    "w": "inspektas"
+  }, 
+  "inspiras": {
+    "pos": "v", 
+    "w": "inspiras"
+  }, 
+  "instalas": {
+    "pos": "v", 
+    "w": "instalas"
+  }, 
+  "instigas": {
+    "pos": "v", 
+    "w": "incitas"
+  }, 
+  "instinkto": {
+    "pos": "n", 
+    "w": "instinto"
+  }, 
+  "institucio": {
+    "pos": "n", 
+    "w": "institucuro"
+  }, 
+  "instituto": {
+    "pos": "n", 
+    "w": "instituto"
+  }, 
+  "insulo": {
+    "pos": "n", 
+    "w": "insulo"
+  }, 
+  "insultas": {
+    "pos": "v", 
+    "w": "insultas"
+  }, 
+  "integra": {
+    "pos": "adj", 
+    "w": "integra"
+  }, 
+  "intelekto": {
+    "pos": "n", 
+    "w": "intelekto"
+  }, 
+  "inteligenta": {
+    "pos": "adj", 
+    "w": "inteligenta"
+  }, 
+  "intencas": {
+    "pos": "v", 
+    "w": "intencas"
+  }, 
+  "intensa": {
+    "pos": "adj", 
+    "w": "intensa"
+  }, 
+  "inter": {
+    "pos": "prep", 
+    "w": "inter"
+  }, 
+  "interbatiĝo": {
+    "pos": "n", 
+    "w": "meleo"
+  }, 
+  "interesas": {
+    "pos": "v", 
+    "w": "interesas"
+  }, 
+  "interezo": {
+    "pos": "n", 
+    "w": "interesto"
+  }, 
+  "interkonsentas": {
+    "pos": "v", 
+    "w": "konkordas"
+  }, 
+  "interkovriĝas": {
+    "pos": "v", 
+    "w": "klinas"
+  }, 
+  "interna": {
+    "pos": "adj", 
+    "w": "interna"
+  }, 
+  "internacia": {
+    "pos": "adj", 
+    "w": "internaciona"
+  }, 
+  "internigas": {
+    "pos": "v", 
+    "w": "enternas"
+  }, 
+  "interpretas": {
+    "pos": "v", 
+    "w": "interpretas"
+  }, 
+  "interrompas": {
+    "pos": "v", 
+    "w": "interruptas"
+  }, 
+  "intertempo": {
+    "pos": "n", 
+    "w": "interimo"
+  }, 
+  "intervalo": {
+    "pos": "n", 
+    "w": "intervalo"
+  }, 
+  "intervjuas": {
+    "pos": "v", 
+    "w": "interviuvas"
+  }, 
+  "interŝanĝas": {
+    "pos": "v", 
+    "w": "kambias"
+  }, 
+  "interŝtuparo": {
+    "pos": "n", 
+    "w": "fluro"
+  }, 
+  "intima": {
+    "pos": "adj", 
+    "w": "intima"
+  }, 
+  "inundas": {
+    "pos": "v", 
+    "w": "inundas"
+  }, 
+  "invadas": {
+    "pos": "v", 
+    "w": "invadas"
+  }, 
+  "invalido": {
+    "pos": "n", 
+    "w": "invalido"
+  }, 
+  "inventas": {
+    "pos": "v", 
+    "w": "inventas"
+  }, 
+  "inversa": {
+    "pos": "adj", 
+    "w": "inversa"
+  }, 
+  "invitas": {
+    "pos": "v", 
+    "w": "invitas"
+  }, 
+  "io": {
+    "pos": "n", 
+    "w": "ulo"
+  }, 
+  "iras": {
+    "pos": "v", 
+    "w": "iras"
+  }, 
+  "irmaniero": {
+    "pos": "n", 
+    "w": "aluro"
+  }, 
+  "ironio": {
+    "pos": "n", 
+    "w": "ironio"
+  }, 
+  "iu": {
+    "fuz": true, 
+    "pos": "adj", 
+    "w": "certena"
+  }, 
+  "iufoje": {
+    "pos": "prep", 
+    "w": "olim"
+  }, 
+  "izolas": {
+    "pos": "v", 
+    "w": "izolas"
+  }, 
+  "iĝas": {
+    "pos": "v", 
+    "w": "divenas"
+  }, 
+  "ja": {
+    "pos": "?", 
+    "w": "ya"
+  }, 
+  "jam": {
+    "pos": "?", 
+    "w": "ja"
+  }, 
+  "januaro": {
+    "pos": "n", 
+    "w": "januaro"
+  }, 
+  "jaro": {
+    "pos": "n", 
+    "w": "yaro"
+  }, 
+  "je": {
+    "pos": "prep", 
+    "w": "ye"
+  }, 
+  "jen": {
+    "pos": "prep", 
+    "w": "yen"
+  }, 
+  "jes": {
+    "pos": "?", 
+    "w": "yes"
+  }, 
+  "jesas": {
+    "pos": "v", 
+    "w": "asentas"
+  }, 
+  "joras": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "ripas"
+  }, 
+  "julio": {
+    "pos": "n", 
+    "w": "julio"
+  }, 
+  "juna": {
+    "pos": "adj", 
+    "w": "yuna"
+  }, 
+  "jungas": {
+    "pos": "v", 
+    "w": "jungas"
+  }, 
+  "jungilaro": {
+    "pos": "n", 
+    "w": "harneso"
+  }, 
+  "junio": {
+    "pos": "n", 
+    "w": "junio"
+  }, 
+  "junulino": {
+    "pos": "n", 
+    "w": "yunino"
+  }, 
+  "junulo": {
+    "pos": "n", 
+    "w": "yunulo"
+  }, 
+  "jupo": {
+    "pos": "n", 
+    "w": "jupo"
+  }, 
+  "justa": {
+    "pos": "adj", 
+    "w": "yusta"
+  }, 
+  "juvelo": {
+    "pos": "n", 
+    "w": "juvelo"
+  }, 
+  "kabano": {
+    "pos": "n", 
+    "w": "kabano"
+  }, 
+  "kablo": {
+    "pos": "n", 
+    "w": "kablo"
+  }, 
+  "kabo": {
+    "pos": "n", 
+    "w": "kabo"
+  }, 
+  "kadavro": {
+    "pos": "n", 
+    "w": "kadavro"
+  }, 
+  "kadro": {
+    "pos": "n", 
+    "w": "kadro"
+  }, 
+  "kaduka": {
+    "pos": "adj", 
+    "w": "kaduka"
+  }, 
+  "kafo": {
+    "pos": "n", 
+    "w": "kafeo"
+  }, 
+  "kaj": [
+    {
+      "pos": "conj", 
+      "w": "e"
+    }, 
+    {
+      "pos": "conj", 
+      "w": "ed"
+    }
+  ], 
+  "kajero": {
+    "pos": "n", 
+    "w": "kayero"
+  }, 
+  "kajo": {
+    "pos": "n", 
+    "w": "kayo"
+  }, 
+  "kaldrono": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "kaldrono"
+  }, 
+  "kalendaro": {
+    "pos": "n", 
+    "w": "kalendario"
+  }, 
+  "kalkulas": {
+    "pos": "v", 
+    "w": "kalkulas"
+  }, 
+  "kalumnias": {
+    "pos": "v", 
+    "w": "kalumnias"
+  }, 
+  "kamarado": {
+    "pos": "n", 
+    "w": "kamarado"
+  }, 
+  "kameno": {
+    "pos": "n", 
+    "w": "herdo"
+  }, 
+  "kamentubo": {
+    "pos": "n", 
+    "w": "kameno"
+  }, 
+  "kamiono": {
+    "pos": "n", 
+    "w": "kamiono"
+  }, 
+  "kampanjas": {
+    "pos": "v", 
+    "w": "kampanias"
+  }, 
+  "kamparo": {
+    "pos": "n", 
+    "w": "ruro"
+  }, 
+  "kampas": {
+    "pos": "v", 
+    "w": "kampas"
+  }, 
+  "kampo": {
+    "pos": "n", 
+    "w": "agro"
+  }, 
+  "kanalo": {
+    "pos": "n", 
+    "w": "kanalo"
+  }, 
+  "kanapo": {
+    "pos": "n", 
+    "w": "kanapeo"
+  }, 
+  "kandelo": {
+    "pos": "n", 
+    "w": "kandelo"
+  }, 
+  "kandidato": {
+    "pos": "n", 
+    "w": "kandidato"
+  }, 
+  "kanelo": {
+    "pos": "n", 
+    "w": "kanelo"
+  }, 
+  "kanono": {
+    "pos": "n", 
+    "w": "kanono"
+  }, 
+  "kanoto": {
+    "pos": "n", 
+    "w": "kanoto"
+  }, 
+  "kantas": {
+    "pos": "v", 
+    "w": "kantas"
+  }, 
+  "kanuo": {
+    "pos": "n", 
+    "w": "kanoo"
+  }, 
+  "kanvaso": {
+    "pos": "n", 
+    "w": "kanvaso"
+  }, 
+  "kanzono": {
+    "pos": "n", 
+    "w": "kansono"
+  }, 
+  "kaoso": {
+    "pos": "n", 
+    "w": "kaoso"
+  }, 
+  "kapabla": {
+    "pos": "adj", 
+    "w": "kapabla"
+  }, 
+  "kapacito": {
+    "pos": "n", 
+    "w": "kapaceso"
+  }, 
+  "kapelo": {
+    "pos": "n", 
+    "w": "kapelo"
+  }, 
+  "kapitano": {
+    "pos": "n", 
+    "w": "kapitano"
+  }, 
+  "kapo": {
+    "pos": "n", 
+    "w": "kapo"
+  }, 
+  "kaprico": {
+    "pos": "n", 
+    "w": "kaprico"
+  }, 
+  "kaptas": {
+    "pos": "v", 
+    "w": "kaptas"
+  }, 
+  "kapuĉo": {
+    "pos": "n", 
+    "w": "kapuco"
+  }, 
+  "kara": {
+    "pos": "adj", 
+    "w": "kara"
+  }, 
+  "karaktero": {
+    "pos": "n", 
+    "w": "karaktero"
+  }, 
+  "karbo": {
+    "pos": "n", 
+    "w": "karbono"
+  }, 
+  "karbono": {
+    "pos": "n", 
+    "w": "karbo"
+  }, 
+  "karcero": {
+    "pos": "n", 
+    "w": "karcero"
+  }, 
+  "karesas": {
+    "pos": "v", 
+    "w": "karezas"
+  }, 
+  "kargo": {
+    "pos": "n", 
+    "w": "kargajo"
+  }, 
+  "kariero": {
+    "pos": "n", 
+    "w": "kariero"
+  }, 
+  "karnavalo": {
+    "pos": "n", 
+    "w": "karnavalo"
+  }, 
+  "karoto": {
+    "pos": "n", 
+    "w": "karoto"
+  }, 
+  "kartono": {
+    "pos": "n", 
+    "w": "kartono"
+  }, 
+  "kaserolo": {
+    "pos": "n", 
+    "w": "kasrolo"
+  }, 
+  "kaseto": {
+    "pos": "n", 
+    "w": "kaseto"
+  }, 
+  "kaskado": {
+    "pos": "n", 
+    "w": "kaskado"
+  }, 
+  "kaskedo": {
+    "pos": "n", 
+    "w": "kasqueto"
+  }, 
+  "kaso": {
+    "pos": "n", 
+    "w": "kaso"
+  }, 
+  "kastelo": {
+    "pos": "n", 
+    "w": "kastelo"
+  }, 
+  "katalogo": {
+    "pos": "n", 
+    "w": "katalogo"
+  }, 
+  "kataro": {
+    "pos": "n", 
+    "w": "kataro"
+  }, 
+  "katastrofo": {
+    "pos": "n", 
+    "w": "katastrofo"
+  }, 
+  "katedralo": {
+    "pos": "n", 
+    "w": "katedralo"
+  }, 
+  "kategorio": {
+    "pos": "n", 
+    "w": "kategorio"
+  }, 
+  "katenas": {
+    "pos": "v", 
+    "w": "entravas"
+  }, 
+  "kato": {
+    "pos": "n", 
+    "w": "kato"
+  }, 
+  "kava": {
+    "pos": "adj", 
+    "w": "kava"
+  }, 
+  "kaverno": {
+    "pos": "n", 
+    "w": "kaverno"
+  }, 
+  "kazo": [
+    {
+      "pos": "n", 
+      "w": "kazo"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "n", 
+      "w": "okaziono"
+    }
+  ], 
+  "kaĝo": {
+    "pos": "n", 
+    "w": "kajo"
+  }, 
+  "kaŝas": {
+    "pos": "v", 
+    "w": "celas"
+  }, 
+  "kaŭras": [
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "blotisas"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "squatas"
+    }
+  ], 
+  "kaŭzo": {
+    "pos": "n", 
+    "w": "kauzo"
+  }, 
+  "kaŭĉuko": {
+    "pos": "n", 
+    "w": "kauchuko"
+  }, 
+  "ke": {
+    "pos": "?", 
+    "w": "ke"
+  }, 
+  "kelka": {
+    "pos": "adj", 
+    "w": "kelka"
+  }, 
+  "kelo": {
+    "pos": "n", 
+    "w": "kelero"
+  }, 
+  "kerno": {
+    "pos": "n", 
+    "w": "kerno"
+  }, 
+  "kesto": {
+    "pos": "n", 
+    "w": "kesto"
+  }, 
+  "kia": {
+    "pos": "adj", 
+    "w": "quala"
+  }, 
+  "kie": {
+    "pos": "adv", 
+    "w": "ube"
+  }, 
+  "kiel": {
+    "pos": "adv", 
+    "w": "quale"
+  }, 
+  "kilogramo": {
+    "pos": "n", 
+    "w": "kilogramo"
+  }, 
+  "kinejo": {
+    "pos": "n", 
+    "w": "cinemo"
+  }, 
+  "kio": {
+    "pos": "n", 
+    "w": "quo"
+  }, 
+  "kioma": {
+    "pos": "adj", 
+    "w": "quanta"
+  }, 
+  "kiosko": {
+    "pos": "n", 
+    "w": "kiosko"
+  }, 
+  "kirlas": {
+    "pos": "v", 
+    "w": "brasas"
+  }, 
+  "kisas": {
+    "pos": "v", 
+    "w": "kisas"
+  }, 
+  "kiu": {
+    "pos": "adj", 
+    "w": "qua"
+  }, 
+  "kiuj": {
+    "pos": "?", 
+    "w": "qui"
+  }, 
+  "klakas": {
+    "pos": "v", 
+    "w": "klakas"
+  }, 
+  "klaktintas": {
+    "pos": "v", 
+    "w": "kliktas"
+  }, 
+  "klara": {
+    "pos": "adj", 
+    "w": "klara"
+  }, 
+  "klarigas": {
+    "pos": "v", 
+    "w": "explikas"
+  }, 
+  "klasika": {
+    "pos": "adj", 
+    "w": "klasika"
+  }, 
+  "klaso": {
+    "pos": "n", 
+    "w": "klaso"
+  }, 
+  "klavo": {
+    "pos": "n", 
+    "w": "klavo"
+  }, 
+  "klaŭno": {
+    "pos": "n", 
+    "w": "klauno"
+  }, 
+  "kleriko": {
+    "pos": "n", 
+    "w": "kleriko"
+  }, 
+  "kliento": {
+    "pos": "n", 
+    "w": "kliento"
+  }, 
+  "klifo": {
+    "pos": "n", 
+    "w": "klifo"
+  }, 
+  "klimato": {
+    "pos": "n", 
+    "w": "klimato"
+  }, 
+  "klingo": {
+    "pos": "n", 
+    "w": "lamo"
+  }, 
+  "klopodas": {
+    "pos": "v", 
+    "w": "demarshas"
+  }, 
+  "klubo": {
+    "pos": "n", 
+    "w": "klubo"
+  }, 
+  "knabino": {
+    "pos": "n", 
+    "w": "puerino"
+  }, 
+  "knabo": {
+    "pos": "n", 
+    "w": "puerulo"
+  }, 
+  "kofro": {
+    "pos": "n", 
+    "w": "kofro"
+  }, 
+  "koheras": {
+    "pos": "v", 
+    "w": "koheras"
+  }, 
+  "koincidas": {
+    "pos": "v", 
+    "w": "koincidas"
+  }, 
+  "kojlo": {
+    "pos": "n", 
+    "w": "kolono"
+  }, 
+  "koketas": {
+    "pos": "v", 
+    "w": "flirtas"
+  }, 
+  "kokso": {
+    "pos": "n", 
+    "w": "hancho"
+  }, 
+  "kolbaso": {
+    "pos": "n", 
+    "w": "sociso"
+  }, 
+  "kolegio": {
+    "pos": "n", 
+    "w": "kolegio"
+  }, 
+  "kolego": {
+    "pos": "n", 
+    "w": "kolego"
+  }, 
+  "kolektas": {
+    "pos": "v", 
+    "w": "kolektas"
+  }, 
+  "koleras": {
+    "pos": "v", 
+    "w": "iracas"
+  }, 
+  "kolerigas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "exasperas"
+  }, 
+  "koliero": {
+    "pos": "n", 
+    "w": "koliaro"
+  }, 
+  "kolizias": {
+    "pos": "v", 
+    "w": "kolizionas"
+  }, 
+  "kolo": {
+    "pos": "n", 
+    "w": "kolo"
+  }, 
+  "kolono": {
+    "pos": "n", 
+    "w": "kolono"
+  }, 
+  "koloro": {
+    "pos": "n", 
+    "w": "koloro"
+  }, 
+  "kolumno": {
+    "pos": "n", 
+    "w": "kolumno"
+  }, 
+  "kolumo": {
+    "pos": "n", 
+    "w": "kolumo"
+  }, 
+  "komandas": {
+    "pos": "v", 
+    "w": "komandas"
+  }, 
+  "kombas": {
+    "pos": "v", 
+    "w": "pektas"
+  }, 
+  "kombinas": {
+    "pos": "v", 
+    "w": "kombinas"
+  }, 
+  "komedio": {
+    "pos": "n", 
+    "w": "komedio"
+  }, 
+  "komencas": {
+    "pos": "v", 
+    "w": "komencas"
+  }, 
+  "komenciĝas": {
+    "pos": "v", 
+    "w": "komencas"
+  }, 
+  "komentarias": {
+    "pos": "v", 
+    "w": "komentas"
+  }, 
+  "komentas": {
+    "pos": "v", 
+    "w": "komentas"
+  }, 
+  "komercas": {
+    "pos": "v", 
+    "w": "komercas"
+  }, 
+  "kometo": {
+    "pos": "n", 
+    "w": "kometo"
+  }, 
+  "komforto": {
+    "pos": "n", 
+    "w": "komforto"
+  }, 
+  "komika": [
+    {
+      "fuz": true, 
+      "pos": "adj", 
+      "w": "drola"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "adj", 
+      "w": "komika"
+    }
+  ], 
+  "komitato": {
+    "pos": "n", 
+    "w": "komitato"
+  }, 
+  "komizo": {
+    "pos": "n", 
+    "w": "komizo"
+  }, 
+  "komo": {
+    "pos": "n", 
+    "w": "komo"
+  }, 
+  "komodo": {
+    "pos": "n", 
+    "w": "komodo"
+  }, 
+  "kompakta": {
+    "pos": "adj", 
+    "w": "kompakta"
+  }, 
+  "kompanio": {
+    "pos": "n", 
+    "w": "kompanio"
+  }, 
+  "komparas": {
+    "pos": "v", 
+    "w": "komparas"
+  }, 
+  "kompaso": {
+    "pos": "n", 
+    "w": "busolo"
+  }, 
+  "kompatas": {
+    "pos": "v", 
+    "w": "kompatas"
+  }, 
+  "kompatindulga": {
+    "pos": "adj", 
+    "w": "klementa"
+  }, 
+  "kompensas": {
+    "pos": "v", 
+    "w": "kompensas"
+  }, 
+  "kompetenta": {
+    "pos": "adj", 
+    "w": "kompetenta"
+  }, 
+  "kompleksa": {
+    "pos": "adj", 
+    "w": "komplexa"
+  }, 
+  "komplemento": {
+    "pos": "n", 
+    "w": "komplemento"
+  }, 
+  "kompleta": {
+    "pos": "adj", 
+    "w": "kompleta"
+  }, 
+  "komplezas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "obligas"
+  }, 
+  "komplikas": {
+    "pos": "v", 
+    "w": "komplikas"
+  }, 
+  "komplimentas": {
+    "pos": "v", 
+    "w": "komplimentas"
+  }, 
+  "komponas": {
+    "pos": "v", 
+    "w": "kompozas"
+  }, 
+  "komprenas": {
+    "pos": "v", 
+    "w": "komprenas"
+  }, 
+  "komuna": {
+    "pos": "adj", 
+    "w": "komuna"
+  }, 
+  "komunikas": {
+    "pos": "v", 
+    "w": "komunikas"
+  }, 
+  "konas": {
+    "pos": "v", 
+    "w": "konocas"
+  }, 
+  "koncentras": {
+    "pos": "v", 
+    "w": "koncentras"
+  }, 
+  "konceptas": {
+    "pos": "v", 
+    "w": "konceptas"
+  }, 
+  "koncernas": {
+    "pos": "v", 
+    "w": "koncernas"
+  }, 
+  "koncerto": {
+    "pos": "n", 
+    "w": "koncerto"
+  }, 
+  "konciza": {
+    "pos": "adj", 
+    "w": "konciza"
+  }, 
+  "kondamnas": {
+    "pos": "v", 
+    "w": "kondamnas"
+  }, 
+  "kondensas": {
+    "pos": "v", 
+    "w": "kondensas"
+  }, 
+  "kondiĉas": [
+    {
+      "pos": "v", 
+      "w": "kondicionas"
+    }, 
+    {
+      "pos": "v", 
+      "w": "stipulas"
+    }
+  ], 
+  "kondolencas": {
+    "pos": "v", 
+    "w": "kondolas"
+  }, 
+  "kondukas": {
+    "pos": "v", 
+    "w": "duktas"
+  }, 
+  "konduktoro": {
+    "pos": "n", 
+    "w": "konduktoro"
+  }, 
+  "kondutas": {
+    "pos": "v", 
+    "w": "kondutas"
+  }, 
+  "konektas": {
+    "pos": "v", 
+    "w": "konektas"
+  }, 
+  "konferencas": {
+    "pos": "v", 
+    "w": "konferas"
+  }, 
+  "konfesas": {
+    "pos": "v", 
+    "w": "konfesas"
+  }, 
+  "konfidas": {
+    "pos": "v", 
+    "w": "konfidas"
+  }, 
+  "konfirmas": {
+    "pos": "v", 
+    "w": "konfirmas"
+  }, 
+  "konfiskas": {
+    "pos": "v", 
+    "w": "konfiskas"
+  }, 
+  "konfliktas": {
+    "pos": "v", 
+    "w": "konfliktas"
+  }, 
+  "konfuza": {
+    "pos": "adj", 
+    "w": "konfuza"
+  }, 
+  "konfuzas": {
+    "pos": "v", 
+    "w": "konfundas"
+  }, 
+  "kongresas": {
+    "pos": "v", 
+    "w": "kongresas"
+  }, 
+  "konkava": {
+    "pos": "adj", 
+    "w": "konkava"
+  }, 
+  "konkeras": {
+    "pos": "v", 
+    "w": "konquestas"
+  }, 
+  "konkludas": {
+    "pos": "v", 
+    "w": "konkluzas"
+  }, 
+  "konkreta": {
+    "pos": "adj", 
+    "w": "konkreta"
+  }, 
+  "konkuras": {
+    "pos": "v", 
+    "w": "konkursas"
+  }, 
+  "konscias": {
+    "pos": "v", 
+    "w": "koncias"
+  }, 
+  "konscienco": {
+    "pos": "n", 
+    "w": "koncienco"
+  }, 
+  "konsentas": {
+    "pos": "v", 
+    "w": "konsentas"
+  }, 
+  "konservas": [
+    {
+      "pos": "v", 
+      "w": "konservas"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "mantenas"
+    }
+  ], 
+  "konsideradas": {
+    "pos": "v", 
+    "w": "deliberas"
+  }, 
+  "konsideras": {
+    "pos": "v", 
+    "w": "konsideras"
+  }, 
+  "konsilas": {
+    "pos": "v", 
+    "w": "konsilas"
+  }, 
+  "konsistas": {
+    "pos": "v", 
+    "w": "konsistas"
+  }, 
+  "konsistigas": [
+    {
+      "pos": "v", 
+      "w": "kompozas"
+    }, 
+    {
+      "pos": "v", 
+      "w": "konstitucas"
+    }
+  ], 
+  "konsolas": {
+    "pos": "v", 
+    "w": "konsolacas"
+  }, 
+  "konspiras": {
+    "pos": "v", 
+    "w": "konspiras"
+  }, 
+  "konstanta": [
+    {
+      "pos": "adj", 
+      "w": "konstanta"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "adj", 
+      "w": "permananta"
+    }
+  ], 
+  "konstatas": {
+    "pos": "v", 
+    "w": "konstatas"
+  }, 
+  "konsternas": {
+    "pos": "v", 
+    "w": "konsternas"
+  }, 
+  "konstruas": {
+    "pos": "v", 
+    "w": "konstruktas"
+  }, 
+  "konsultas": {
+    "pos": "v", 
+    "w": "konsultas"
+  }, 
+  "konsumas": {
+    "pos": "v", 
+    "w": "konsumas"
+  }, 
+  "kontaktas": {
+    "pos": "v", 
+    "w": "kontaktas"
+  }, 
+  "kontenta": {
+    "pos": "adj", 
+    "w": "kontenta"
+  }, 
+  "kontentigas": {
+    "pos": "v", 
+    "w": "satisfacas"
+  }, 
+  "kontestas": {
+    "pos": "v", 
+    "w": "kontestas"
+  }, 
+  "kontinento": {
+    "pos": "n", 
+    "w": "kontinento"
+  }, 
+  "kontinua": {
+    "pos": "adj", 
+    "w": "kontinua"
+  }, 
+  "konto": {
+    "pos": "n", 
+    "w": "konto"
+  }, 
+  "kontoro": {
+    "pos": "n", 
+    "w": "kontoro"
+  }, 
+  "kontrastas": {
+    "pos": "v", 
+    "w": "kontrastas"
+  }, 
+  "kontraŭ": {
+    "pos": "adv", 
+    "w": "kontre"
+  }, 
+  "kontraŭa": [
+    {
+      "pos": "adj", 
+      "w": "adversa"
+    }, 
+    {
+      "pos": "adj", 
+      "w": "kontrea"
+    }
+  ], 
+  "kontraŭargumentas": {
+    "pos": "v", 
+    "w": "objecionas"
+  }, 
+  "kontribuas": {
+    "pos": "v", 
+    "w": "kontributas"
+  }, 
+  "kontrolas": {
+    "pos": "v", 
+    "w": "kontrolas"
+  }, 
+  "konturo": {
+    "pos": "n", 
+    "w": "konturo"
+  }, 
+  "kontuzas": {
+    "pos": "v", 
+    "w": "kontuzas"
+  }, 
+  "konuso": {
+    "pos": "n", 
+    "w": "kono"
+  }, 
+  "konveksa": {
+    "pos": "adj", 
+    "w": "konvexa"
+  }, 
+  "konvena": {
+    "pos": "adj", 
+    "w": "komoda"
+  }, 
+  "konvenas": {
+    "pos": "v", 
+    "w": "konvenas"
+  }, 
+  "konversacias": {
+    "pos": "v", 
+    "w": "konversas"
+  }, 
+  "konvertas": {
+    "pos": "v", 
+    "w": "konvertas"
+  }, 
+  "konvinkas": {
+    "pos": "v", 
+    "w": "konvinkas"
+  }, 
+  "kopias": {
+    "pos": "v", 
+    "w": "kopias"
+  }, 
+  "korbo": {
+    "pos": "n", 
+    "w": "korbo"
+  }, 
+  "kordono": {
+    "pos": "n", 
+    "w": "kordono"
+  }, 
+  "korekta": {
+    "pos": "adj", 
+    "w": "korekta"
+  }, 
+  "korespondas": {
+    "pos": "v", 
+    "w": "korespondas"
+  }, 
+  "korfavora": {
+    "pos": "adj", 
+    "w": "klementa"
+  }, 
+  "koridoro": {
+    "pos": "n", 
+    "w": "koridoro"
+  }, 
+  "korinklino": {
+    "pos": "n", 
+    "w": "afeciono"
+  }, 
+  "korko": {
+    "pos": "n", 
+    "w": "korko"
+  }, 
+  "korniko": {
+    "pos": "n", 
+    "w": "korniko"
+  }, 
+  "korno": {
+    "pos": "n", 
+    "w": "korno"
+  }, 
+  "koro": {
+    "pos": "n", 
+    "w": "kordio"
+  }, 
+  "korpo": {
+    "pos": "n", 
+    "w": "korpo"
+  }, 
+  "korsaĵo": {
+    "pos": "n", 
+    "w": "korsajo"
+  }, 
+  "kortuŝa": {
+    "pos": "adj", 
+    "w": "patetika"
+  }, 
+  "korŝira": {
+    "pos": "adj", 
+    "w": "patetika"
+  }, 
+  "kostas": {
+    "pos": "v", 
+    "w": "kustas"
+  }, 
+  "kostumo": {
+    "pos": "n", 
+    "w": "kostumo"
+  }, 
+  "koto": {
+    "pos": "n", 
+    "w": "fango"
+  }, 
+  "kotono": {
+    "pos": "n", 
+    "w": "kotono"
+  }, 
+  "koverto": {
+    "pos": "n", 
+    "w": "kuverto"
+  }, 
+  "kovras": {
+    "pos": "v", 
+    "w": "kovras"
+  }, 
+  "kovrilo": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "lido"
+  }, 
+  "krabo": {
+    "pos": "n", 
+    "w": "krabo"
+  }, 
+  "krado": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "greto"
+  }, 
+  "kradrostas": {
+    "pos": "v", 
+    "w": "grilas"
+  }, 
+  "krajono": {
+    "pos": "n", 
+    "w": "krayono"
+  }, 
+  "krakmaĉas": {
+    "pos": "v", 
+    "w": "krokas"
+  }, 
+  "kranio": {
+    "pos": "n", 
+    "w": "kranio"
+  }, 
+  "kranko": {
+    "pos": "n", 
+    "w": "manivelo"
+  }, 
+  "krano": {
+    "pos": "n", 
+    "w": "robineto"
+  }, 
+  "kravato": {
+    "pos": "n", 
+    "w": "kravato"
+  }, 
+  "kraĉas": {
+    "pos": "v", 
+    "w": "sputas"
+  }, 
+  "kreas": {
+    "pos": "v", 
+    "w": "kreas"
+  }, 
+  "kredas": {
+    "pos": "v", 
+    "w": "kredas"
+  }, 
+  "kremo": {
+    "pos": "n", 
+    "w": "kremo"
+  }, 
+  "kreskas": {
+    "pos": "v", 
+    "w": "kreskas"
+  }, 
+  "krespo": {
+    "pos": "n", 
+    "w": "krespo"
+  }, 
+  "kresto": {
+    "pos": "n", 
+    "w": "kresto"
+  }, 
+  "kreto": {
+    "pos": "n", 
+    "w": "kreto"
+  }, 
+  "krevas": {
+    "pos": "v", 
+    "w": "krevas"
+  }, 
+  "krias": {
+    "pos": "v", 
+    "w": "krias"
+  }, 
+  "kriblilo": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "kriblo"
+  }, 
+  "krimas": {
+    "pos": "v", 
+    "w": "kriminas"
+  }, 
+  "kristalo": {
+    "pos": "n", 
+    "w": "kristalo"
+  }, 
+  "kriterio": {
+    "pos": "n", 
+    "w": "kriterio"
+  }, 
+  "kritikas": {
+    "pos": "v", 
+    "w": "kritikas"
+  }, 
+  "krizo": {
+    "pos": "n", 
+    "w": "krizo"
+  }, 
+  "krom": {
+    "pos": "adv", 
+    "w": "ultre"
+  }, 
+  "kroma": [
+    {
+      "pos": "adj", 
+      "w": "plusa"
+    }, 
+    {
+      "pos": "adj", 
+      "w": "ultra"
+    }
+  ], 
+  "kroĉas": {
+    "pos": "v", 
+    "w": "akrochas"
+  }, 
+  "kruco": {
+    "pos": "n", 
+    "w": "kruco"
+  }, 
+  "kruda": [
+    {
+      "fuz": true, 
+      "pos": "adj", 
+      "w": "grosiera"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "adj", 
+      "w": "kruda"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "adj", 
+      "w": "ruda"
+    }
+  ], 
+  "kruela": {
+    "pos": "adj", 
+    "w": "kruela"
+  }, 
+  "kruro": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "gambo"
+  }, 
+  "kruta": {
+    "pos": "adj", 
+    "w": "eskarpa"
+  }, 
+  "kruĉo": {
+    "pos": "n", 
+    "w": "krucho"
+  }, 
+  "ktp": {
+    "pos": "?", 
+    "w": "edc"
+  }, 
+  "kubo": {
+    "pos": "n", 
+    "w": "kubo"
+  }, 
+  "kubuto": {
+    "pos": "n", 
+    "w": "kudo"
+  }, 
+  "kudras": {
+    "pos": "v", 
+    "w": "sutas"
+  }, 
+  "kudrilo": {
+    "pos": "n", 
+    "w": "agulo"
+  }, 
+  "kuiras": {
+    "pos": "v", 
+    "w": "koquas"
+  }, 
+  "kuirvazo": {
+    "pos": "n", 
+    "w": "kaldrono"
+  }, 
+  "kuko": {
+    "pos": "n", 
+    "w": "kuko"
+  }, 
+  "kulero": {
+    "pos": "n", 
+    "w": "kuliero"
+  }, 
+  "kulpas": {
+    "pos": "v", 
+    "w": "kulpas"
+  }, 
+  "kulpigas": {
+    "pos": "v", 
+    "w": "blamas"
+  }, 
+  "kulpo": {
+    "pos": "n", 
+    "w": "kulpo"
+  }, 
+  "kultivas": {
+    "pos": "v", 
+    "w": "kultivas"
+  }, 
+  "kulturo": {
+    "pos": "n", 
+    "w": "kulturo"
+  }, 
+  "kun": {
+    "pos": "prep", 
+    "w": "kun"
+  }, 
+  "kune": {
+    "pos": "adv", 
+    "w": "kune"
+  }, 
+  "kunigas": [
+    {
+      "pos": "v", 
+      "w": "asemblas"
+    }, 
+    {
+      "pos": "v", 
+      "w": "juntas"
+    }
+  ], 
+  "kuniklo": {
+    "pos": "n", 
+    "w": "kuniklo"
+  }, 
+  "kunordigas": {
+    "pos": "v", 
+    "w": "koordinas"
+  }, 
+  "kunpremas": [
+    {
+      "pos": "v", 
+      "w": "klemas"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "kompresas"
+    }
+  ], 
+  "kuntiras": {
+    "pos": "v", 
+    "w": "konstriktas"
+  }, 
+  "kunvenas": {
+    "pos": "v", 
+    "w": "kunvenas"
+  }, 
+  "kunvenigas": {
+    "pos": "v", 
+    "w": "asemblas"
+  }, 
+  "kupolo": {
+    "pos": "n", 
+    "w": "kupolo"
+  }, 
+  "kupono": {
+    "pos": "n", 
+    "w": "kupono"
+  }, 
+  "kupro": {
+    "pos": "n", 
+    "w": "kupro"
+  }, 
+  "kuracas": {
+    "pos": "v", 
+    "w": "kuracas"
+  }, 
+  "kuracisto": {
+    "pos": "n", 
+    "w": "mediko"
+  }, 
+  "kuras": {
+    "pos": "v", 
+    "w": "kuras"
+  }, 
+  "kuratakas": {
+    "pos": "v", 
+    "w": "asaltas"
+  }, 
+  "kuraĝas": {
+    "pos": "v", 
+    "w": "kurajas"
+  }, 
+  "kurba": {
+    "pos": "adj", 
+    "w": "kurva"
+  }, 
+  "kuriero": {
+    "pos": "n", 
+    "w": "kuriero"
+  }, 
+  "kurso": {
+    "pos": "n", 
+    "w": "kurso"
+  }, 
+  "kurteno": {
+    "pos": "n", 
+    "w": "kurteno"
+  }, 
+  "kurzo": {
+    "pos": "n", 
+    "w": "kurso"
+  }, 
+  "kuseno": {
+    "pos": "n", 
+    "w": "kuseno"
+  }, 
+  "kutimas": {
+    "pos": "v", 
+    "w": "kustumas"
+  }, 
+  "kutimo": {
+    "pos": "n", 
+    "w": "kustumo"
+  }, 
+  "kuvo": {
+    "pos": "n", 
+    "w": "kuvo"
+  }, 
+  "kuŝas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "jacas"
+  }, 
+  "kvadrata": {
+    "pos": "adj", 
+    "w": "quadrata"
+  }, 
+  "kvalito": {
+    "pos": "n", 
+    "w": "qualeso"
+  }, 
+  "kvankam": {
+    "pos": "?", 
+    "w": "quankam"
+  }, 
+  "kvanto": {
+    "pos": "n", 
+    "w": "quanto"
+  }, 
+  "kvar": {
+    "pos": "v", 
+    "w": "quas"
+  }, 
+  "kvarono": {
+    "pos": "n", 
+    "w": "quarimo"
+  }, 
+  "kvazaŭ": {
+    "pos": "adv", 
+    "w": "quaze"
+  }, 
+  "kvieta": [
+    {
+      "fuz": true, 
+      "pos": "adj", 
+      "w": "docila"
+    }, 
+    {
+      "pos": "adj", 
+      "w": "kalma"
+    }
+  ], 
+  "kvin": {
+    "pos": "num", 
+    "w": "kin"
+  }, 
+  "la": {
+    "pos": "?", 
+    "w": "la"
+  }, 
+  "labirinto": {
+    "pos": "n", 
+    "w": "labirinto"
+  }, 
+  "laboras": {
+    "pos": "v", 
+    "w": "laboras"
+  }, 
+  "laborilo": {
+    "pos": "n", 
+    "w": "instrumento"
+  }, 
+  "lacigas": {
+    "pos": "v", 
+    "w": "fatigas"
+  }, 
+  "lago": {
+    "pos": "n", 
+    "w": "lago"
+  }, 
+  "lakto": {
+    "pos": "n", 
+    "w": "lakto"
+  }, 
+  "laktuko": {
+    "pos": "n", 
+    "w": "latugo"
+  }, 
+  "lamas": {
+    "pos": "v", 
+    "w": "klaudikas"
+  }, 
+  "lambastono": {
+    "pos": "n", 
+    "w": "grucho"
+  }, 
+  "lameno": {
+    "pos": "n", 
+    "w": "lamo"
+  }, 
+  "lamentas": {
+    "pos": "v", 
+    "w": "lamentas"
+  }, 
+  "lampo": {
+    "pos": "n", 
+    "w": "lampo"
+  }, 
+  "landlimo": {
+    "pos": "n", 
+    "w": "frontiero"
+  }, 
+  "lando": {
+    "pos": "n", 
+    "w": "lando"
+  }, 
+  "lango": {
+    "pos": "n", 
+    "w": "lango"
+  }, 
+  "lano": {
+    "pos": "n", 
+    "w": "lano"
+  }, 
+  "lanta": {
+    "pos": "adj", 
+    "w": "lenta"
+  }, 
+  "lanterno": {
+    "pos": "n", 
+    "w": "lanterno"
+  }, 
+  "larmo": {
+    "pos": "n", 
+    "w": "lakrimo"
+  }, 
+  "larĝa": {
+    "pos": "adj", 
+    "w": "larja"
+  }, 
+  "lasas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "lasas"
+  }, 
+  "lasta": {
+    "pos": "adj", 
+    "w": "lasta"
+  }, 
+  "lastatempa": {
+    "pos": "adj", 
+    "w": "recenta"
+  }, 
+  "latero": {
+    "pos": "n", 
+    "w": "latero"
+  }, 
+  "latiso": {
+    "pos": "n", 
+    "w": "treliso"
+  }, 
+  "latrino": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "latrino"
+  }, 
+  "lavas": {
+    "pos": "v", 
+    "w": "lavas"
+  }, 
+  "laĉo": {
+    "pos": "n", 
+    "w": "laco"
+  }, 
+  "laŭ": {
+    "pos": "?", 
+    "w": "segun"
+  }, 
+  "laŭdas": {
+    "pos": "v", 
+    "w": "laudas"
+  }, 
+  "laŭleĝa": {
+    "pos": "adj", 
+    "w": "legitima"
+  }, 
+  "laŭta": {
+    "pos": "adj", 
+    "w": "lauta"
+  }, 
+  "leciono": {
+    "pos": "n", 
+    "w": "leciono"
+  }, 
+  "ledo": {
+    "pos": "n", 
+    "w": "ledro"
+  }, 
+  "legas": {
+    "pos": "v", 
+    "w": "lektas"
+  }, 
+  "legendo": {
+    "pos": "n", 
+    "w": "legendo"
+  }, 
+  "legomo": {
+    "pos": "n", 
+    "w": "legumo"
+  }, 
+  "lekas": {
+    "pos": "v", 
+    "w": "lekas"
+  }, 
+  "lernas": {
+    "pos": "v", 
+    "w": "lernas"
+  }, 
+  "lernejo": {
+    "pos": "n", 
+    "w": "skolo"
+  }, 
+  "lerta": {
+    "pos": "adj", 
+    "w": "habila"
+  }, 
+  "letero": {
+    "pos": "n", 
+    "w": "letro"
+  }, 
+  "levas": {
+    "pos": "v", 
+    "w": "levas"
+  }, 
+  "levbumo": {
+    "pos": "n", 
+    "w": "argano"
+  }, 
+  "levilo": {
+    "pos": "n", 
+    "w": "levero"
+  }, 
+  "levstango": {
+    "pos": "n", 
+    "w": "levero"
+  }, 
+  "lezas": {
+    "pos": "v", 
+    "w": "lezas"
+  }, 
+  "leĝo": {
+    "pos": "n", 
+    "w": "lego"
+  }, 
+  "li": {
+    "pos": "pronoun", 
+    "w": "ilu"
+  }, 
+  "lia": {
+    "pos": "adj", 
+    "w": "ilua"
+  }, 
+  "libera": {
+    "pos": "adj", 
+    "w": "libera"
+  }, 
+  "libro": {
+    "pos": "n", 
+    "w": "libro"
+  }, 
+  "ligas": {
+    "pos": "v", 
+    "w": "ligas"
+  }, 
+  "ligno": {
+    "pos": "n", 
+    "w": "ligno"
+  }, 
+  "lignocindro": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "brezo"
+  }, 
+  "likas": {
+    "pos": "v", 
+    "w": "likas"
+  }, 
+  "likva": {
+    "pos": "adj", 
+    "w": "liquida"
+  }, 
+  "likvaĵo": {
+    "pos": "n", 
+    "w": "liquido"
+  }, 
+  "limigas": {
+    "pos": "v", 
+    "w": "restriktas"
+  }, 
+  "limo": {
+    "pos": "n", 
+    "w": "limito"
+  }, 
+  "limonado": {
+    "pos": "n", 
+    "w": "limonado"
+  }, 
+  "lingvo": {
+    "pos": "n", 
+    "w": "linguo"
+  }, 
+  "liniigas": {
+    "pos": "v", 
+    "w": "alinias"
+  }, 
+  "liniilo": {
+    "pos": "n", 
+    "w": "linealo"
+  }, 
+  "linio": {
+    "pos": "n", 
+    "w": "lineo"
+  }, 
+  "lipo": {
+    "pos": "n", 
+    "w": "labio"
+  }, 
+  "listo": {
+    "pos": "n", 
+    "w": "listo"
+  }, 
+  "literaturo": {
+    "pos": "n", 
+    "w": "literaturo"
+  }, 
+  "litero": {
+    "pos": "n", 
+    "w": "litero"
+  }, 
+  "lito": {
+    "pos": "n", 
+    "w": "lito"
+  }, 
+  "litro": {
+    "pos": "n", 
+    "w": "litro"
+  }, 
+  "liveras": {
+    "pos": "v", 
+    "w": "livras"
+  }, 
+  "liverigas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "furnisas"
+  }, 
+  "logas": {
+    "pos": "v", 
+    "w": "luras"
+  }, 
+  "logiko": {
+    "pos": "n", 
+    "w": "logiko"
+  }, 
+  "lojala": {
+    "pos": "adj", 
+    "w": "loyala"
+  }, 
+  "lokas": {
+    "pos": "v", 
+    "w": "situas"
+  }, 
+  "loko": {
+    "pos": "n", 
+    "w": "loko"
+  }, 
+  "lokomotivo": {
+    "pos": "n", 
+    "w": "lokomotivo"
+  }, 
+  "longa": {
+    "pos": "adj", 
+    "w": "longa"
+  }, 
+  "loĝas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "lojas"
+  }, 
+  "luas": {
+    "pos": "v", 
+    "w": "lokacas"
+  }, 
+  "ludas": {
+    "pos": "v", 
+    "w": "ludas"
+  }, 
+  "ludo": {
+    "pos": "n", 
+    "w": "partio"
+  }, 
+  "luigas": {
+    "pos": "v", 
+    "w": "lugas"
+  }, 
+  "lukso": {
+    "pos": "n", 
+    "w": "luxo"
+  }, 
+  "luktas": {
+    "pos": "v", 
+    "w": "luktas"
+  }, 
+  "lulas": {
+    "pos": "v", 
+    "w": "bersas"
+  }, 
+  "lumas": {
+    "pos": "v", 
+    "w": "lumas"
+  }, 
+  "lumo": {
+    "pos": "n", 
+    "w": "lumo"
+  }, 
+  "lundo": {
+    "pos": "n", 
+    "w": "lundio"
+  }, 
+  "luno": {
+    "pos": "n", 
+    "w": "luno"
+  }, 
+  "magneto": {
+    "pos": "n", 
+    "w": "magneto"
+  }, 
+  "magnetofono": {
+    "pos": "n", 
+    "w": "magnetofono"
+  }, 
+  "magra": {
+    "pos": "adj", 
+    "w": "magra"
+  }, 
+  "maizo": {
+    "pos": "n", 
+    "w": "maizo"
+  }, 
+  "majesta": {
+    "pos": "adj", 
+    "w": "augusta"
+  }, 
+  "majo": {
+    "pos": "n", 
+    "w": "mayo"
+  }, 
+  "majoritato": {
+    "pos": "n", 
+    "w": "majoritato"
+  }, 
+  "majstro": {
+    "pos": "n", 
+    "w": "maestro"
+  }, 
+  "majusklo": {
+    "pos": "n", 
+    "w": "mayuskulo"
+  }, 
+  "maksimume": {
+    "pos": "adv", 
+    "w": "admaxime"
+  }, 
+  "makulo": {
+    "pos": "n", 
+    "w": "makulo"
+  }, 
+  "malabunda": {
+    "pos": "adj", 
+    "w": "skarsa"
+  }, 
+  "malalta": {
+    "pos": "adj", 
+    "w": "basa"
+  }, 
+  "malaltigas": {
+    "pos": "v", 
+    "w": "abasas"
+  }, 
+  "malamas": {
+    "pos": "v", 
+    "w": "odias"
+  }, 
+  "malamiko": {
+    "pos": "n", 
+    "w": "enemiko"
+  }, 
+  "malantaŭen": {
+    "pos": "n", 
+    "w": "retro"
+  }, 
+  "malaperas": {
+    "pos": "v", 
+    "w": "desaparas"
+  }, 
+  "malaperigas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "efacas"
+  }, 
+  "malavantaĝo": {
+    "pos": "n", 
+    "w": "desavantajo"
+  }, 
+  "malavara": {
+    "pos": "adj", 
+    "w": "jeneroza"
+  }, 
+  "malaŭdaca": {
+    "pos": "adj", 
+    "w": "timida"
+  }, 
+  "malbela": {
+    "pos": "adj", 
+    "w": "leda"
+  }, 
+  "malbenas": {
+    "pos": "v", 
+    "w": "maledikas"
+  }, 
+  "malbona": {
+    "pos": "adj", 
+    "w": "mala"
+  }, 
+  "malbonintenca": {
+    "pos": "adj", 
+    "w": "maligna"
+  }, 
+  "malbrila": {
+    "pos": "adj", 
+    "w": "matida"
+  }, 
+  "maldekstra": {
+    "pos": "adj", 
+    "w": "sinistra"
+  }, 
+  "maldelikata": [
+    {
+      "fuz": true, 
+      "pos": "adj", 
+      "w": "grosiera"
+    }, 
+    {
+      "pos": "adj", 
+      "w": "ruda"
+    }
+  ], 
+  "maldiafana": {
+    "pos": "adj", 
+    "w": "opaka"
+  }, 
+  "maldika": {
+    "pos": "adj", 
+    "w": "dina"
+  }, 
+  "malebligas": {
+    "pos": "v", 
+    "w": "preventas"
+  }, 
+  "maleolo": {
+    "pos": "n", 
+    "w": "maleolo"
+  }, 
+  "malestimigas": {
+    "pos": "v", 
+    "w": "denigras"
+  }, 
+  "malfacila": {
+    "pos": "adj", 
+    "w": "desfacila"
+  }, 
+  "malfavora": {
+    "pos": "adj", 
+    "w": "funesta"
+  }, 
+  "malfermas": {
+    "pos": "v", 
+    "w": "apertas"
+  }, 
+  "malfirma": {
+    "pos": "adj", 
+    "w": "laxa"
+  }, 
+  "malforta": [
+    {
+      "pos": "adj", 
+      "w": "febla"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "adj", 
+      "w": "infirma"
+    }
+  ], 
+  "malfortigas": {
+    "pos": "v", 
+    "w": "amortisas"
+  }, 
+  "malfrua": {
+    "pos": "adj", 
+    "w": "tarda"
+  }, 
+  "malgaja": {
+    "pos": "adj", 
+    "w": "trista"
+  }, 
+  "malglata": [
+    {
+      "pos": "adj", 
+      "w": "ardua"
+    }, 
+    {
+      "pos": "adj", 
+      "w": "aspera"
+    }
+  ], 
+  "malglora": {
+    "pos": "adj", 
+    "w": "infama"
+  }, 
+  "malgranda": {
+    "pos": "adj", 
+    "w": "mikra"
+  }, 
+  "malgrandigas": {
+    "pos": "v", 
+    "w": "diminutas"
+  }, 
+  "malgrasa": {
+    "pos": "adj", 
+    "w": "magra"
+  }, 
+  "malgraŭ": {
+    "pos": "adv", 
+    "w": "malgre"
+  }, 
+  "malhelpas": [
+    {
+      "pos": "v", 
+      "w": "impedas"
+    }, 
+    {
+      "pos": "v", 
+      "w": "jenas"
+    }
+  ], 
+  "malintensigas": {
+    "pos": "v", 
+    "w": "amortisas"
+  }, 
+  "maljuna": {
+    "pos": "adj", 
+    "w": "olda"
+  }, 
+  "malkaŝas": {
+    "pos": "v", 
+    "w": "revelas"
+  }, 
+  "malkaŝema": {
+    "pos": "adj", 
+    "w": "kandida"
+  }, 
+  "malklara": {
+    "pos": "adj", 
+    "w": "obskura"
+  }, 
+  "malkonstruas": {
+    "pos": "v", 
+    "w": "demolisas"
+  }, 
+  "malkovras": {
+    "pos": "v", 
+    "w": "deskovras"
+  }, 
+  "mallaborema": {
+    "pos": "adj", 
+    "w": "indolenta"
+  }, 
+  "mallarĝa": {
+    "pos": "adj", 
+    "w": "streta"
+  }, 
+  "mallarĝanima": {
+    "pos": "adj", 
+    "w": "meskina"
+  }, 
+  "malleviĝas": {
+    "pos": "v", 
+    "w": "sinkas"
+  }, 
+  "mallonga": {
+    "pos": "adj", 
+    "w": "kurta"
+  }, 
+  "mallongigas": {
+    "pos": "v", 
+    "w": "abrevias"
+  }, 
+  "malluma": {
+    "pos": "adj", 
+    "w": "obskura"
+  }, 
+  "mallumo": {
+    "pos": "n", 
+    "w": "tenebro"
+  }, 
+  "malmola": {
+    "pos": "adj", 
+    "w": "harda"
+  }, 
+  "malmulta": {
+    "pos": "adj", 
+    "w": "poka"
+  }, 
+  "malmultekosta": {
+    "pos": "adj", 
+    "w": "chipa"
+  }, 
+  "malnobligas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "abasas"
+  }, 
+  "malnova": {
+    "pos": "adj", 
+    "w": "anciena"
+  }, 
+  "malpermesas": {
+    "pos": "v", 
+    "w": "interdiktas"
+  }, 
+  "malpeza": {
+    "pos": "adj", 
+    "w": "lejera"
+  }, 
+  "malplej": {
+    "pos": "?", 
+    "w": "minim"
+  }, 
+  "malplena": {
+    "pos": "adj", 
+    "w": "vakua"
+  }, 
+  "malpli": {
+    "pos": "?", 
+    "w": "min"
+  }, 
+  "malpliboniĝas": {
+    "pos": "v", 
+    "w": "dekadas"
+  }, 
+  "malplimulto": {
+    "pos": "n", 
+    "w": "minoritato"
+  }, 
+  "malproksima": {
+    "pos": "adj", 
+    "w": "distanta"
+  }, 
+  "malpura": {
+    "pos": "adj", 
+    "w": "sordida"
+  }, 
+  "malpuraĵo": {
+    "pos": "n", 
+    "w": "kraso"
+  }, 
+  "malrapida": {
+    "pos": "adj", 
+    "w": "lenta"
+  }, 
+  "malrespektega": {
+    "pos": "adj", 
+    "w": "insolenta"
+  }, 
+  "malriskema": {
+    "fuz": true, 
+    "pos": "adj", 
+    "w": "cirkonspekta"
+  }, 
+  "malriĉa": {
+    "pos": "adj", 
+    "w": "povra"
+  }, 
+  "malsana": {
+    "pos": "adj", 
+    "w": "malada"
+  }, 
+  "malsano": {
+    "pos": "n", 
+    "w": "morbo"
+  }, 
+  "malsatas": {
+    "pos": "v", 
+    "w": "hungras"
+  }, 
+  "malsatego": {
+    "pos": "n", 
+    "w": "famino"
+  }, 
+  "malsaĝa": {
+    "pos": "adj", 
+    "w": "stulta"
+  }, 
+  "malsekigas": {
+    "pos": "v", 
+    "w": "arozas"
+  }, 
+  "malsimpla": {
+    "pos": "adj", 
+    "w": "komplexa"
+  }, 
+  "malstreĉita": {
+    "pos": "adj", 
+    "w": "laxa"
+  }, 
+  "malsukcesas": {
+    "pos": "v", 
+    "w": "falias"
+  }, 
+  "malsupre": {
+    "pos": "adv", 
+    "w": "infre"
+  }, 
+  "malsupreniras": {
+    "pos": "v", 
+    "w": "decensas"
+  }, 
+  "maltrankvila": {
+    "pos": "adj", 
+    "w": "desquieta"
+  }, 
+  "maltrankvilas": {
+    "pos": "v", 
+    "w": "anxias"
+  }, 
+  "maltrankviligas": {
+    "pos": "v", 
+    "w": "trublas"
+  }, 
+  "malutila": {
+    "pos": "adj", 
+    "w": "maligna"
+  }, 
+  "malutilas": [
+    {
+      "pos": "v", 
+      "w": "lezas"
+    }, 
+    {
+      "pos": "v", 
+      "w": "nocas"
+    }
+  ], 
+  "malvarma": {
+    "pos": "adj", 
+    "w": "kolda"
+  }, 
+  "malvarmumo": {
+    "pos": "n", 
+    "w": "katareto"
+  }, 
+  "malvastigas": {
+    "pos": "v", 
+    "w": "konstriktas"
+  }, 
+  "malvirto": {
+    "pos": "n", 
+    "w": "vicio"
+  }, 
+  "malĝoja": {
+    "pos": "adj", 
+    "w": "trista"
+  }, 
+  "malĝojigas": {
+    "pos": "v", 
+    "w": "dezolas"
+  }, 
+  "malĝojo": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "ditreso"
+  }, 
+  "malŝlosas": {
+    "pos": "v", 
+    "w": "klefapertas"
+  }, 
+  "mamo": {
+    "pos": "n", 
+    "w": "mamo"
+  }, 
+  "maniero": {
+    "pos": "n", 
+    "w": "maniero"
+  }, 
+  "maniko": {
+    "pos": "n", 
+    "w": "maniko"
+  }, 
+  "manipulas": {
+    "pos": "v", 
+    "w": "manipulas"
+  }, 
+  "mankas": {
+    "pos": "v", 
+    "w": "mankas"
+  }, 
+  "manlaboristo": {
+    "pos": "n", 
+    "w": "artizano"
+  }, 
+  "mano": {
+    "pos": "n", 
+    "w": "manuo"
+  }, 
+  "manovras": {
+    "pos": "v", 
+    "w": "manovras"
+  }, 
+  "manplato": {
+    "pos": "n", 
+    "w": "palmo"
+  }, 
+  "mansago": {
+    "pos": "n", 
+    "w": "dardo"
+  }, 
+  "mantelo": {
+    "pos": "n", 
+    "w": "mantelo"
+  }, 
+  "mantuko": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "toalo"
+  }, 
+  "manuskripto": {
+    "pos": "n", 
+    "w": "manuskripto"
+  }, 
+  "manĝas": {
+    "pos": "v", 
+    "w": "manjas"
+  }, 
+  "manĝaĵejo": {
+    "pos": "n", 
+    "w": "despenso"
+  }, 
+  "maparo": {
+    "pos": "n", 
+    "w": "atlaso"
+  }, 
+  "mapo": {
+    "pos": "n", 
+    "w": "mapo"
+  }, 
+  "mardo": {
+    "pos": "n", 
+    "w": "mardio"
+  }, 
+  "margarino": {
+    "pos": "n", 
+    "w": "margarino"
+  }, 
+  "marioneto": {
+    "pos": "n", 
+    "w": "marioneto"
+  }, 
+  "marko": {
+    "pos": "n", 
+    "w": "marko"
+  }, 
+  "marmelado": {
+    "pos": "n", 
+    "w": "marmelado"
+  }, 
+  "marmito": {
+    "pos": "n", 
+    "w": "marmito"
+  }, 
+  "marmoro": {
+    "pos": "n", 
+    "w": "marmoro"
+  }, 
+  "maro": {
+    "pos": "n", 
+    "w": "maro"
+  }, 
+  "martelo": {
+    "pos": "n", 
+    "w": "martelo"
+  }, 
+  "martiro": {
+    "pos": "n", 
+    "w": "martiro"
+  }, 
+  "marto": {
+    "pos": "n", 
+    "w": "marto"
+  }, 
+  "marĉo": {
+    "pos": "n", 
+    "w": "marsho"
+  }, 
+  "marĝeno": {
+    "pos": "n", 
+    "w": "marjino"
+  }, 
+  "marŝas": {
+    "pos": "v", 
+    "w": "marchas"
+  }, 
+  "maskla": {
+    "pos": "adj", 
+    "w": "maskula"
+  }, 
+  "maso": {
+    "pos": "n", 
+    "w": "maso"
+  }, 
+  "mastro": {
+    "pos": "n", 
+    "w": "mastro"
+  }, 
+  "mateno": {
+    "pos": "n", 
+    "w": "matino"
+  }, 
+  "materio": {
+    "pos": "n", 
+    "w": "materio"
+  }, 
+  "mato": {
+    "pos": "n", 
+    "w": "mato"
+  }, 
+  "matraco": {
+    "pos": "n", 
+    "w": "matraco"
+  }, 
+  "matura": {
+    "pos": "adj", 
+    "w": "matura"
+  }, 
+  "maĉas": {
+    "pos": "v", 
+    "w": "mastikas"
+  }, 
+  "maŝino": {
+    "pos": "n", 
+    "w": "mashino"
+  }, 
+  "meblo": {
+    "pos": "n", 
+    "w": "moblo"
+  }, 
+  "medalo": {
+    "pos": "n", 
+    "w": "medalio"
+  }, 
+  "medicino": {
+    "pos": "n", 
+    "w": "medicino"
+  }, 
+  "medikamento": {
+    "pos": "n", 
+    "w": "medikamento"
+  }, 
+  "medio": {
+    "pos": "n", 
+    "w": "medio"
+  }, 
+  "mejlo": {
+    "pos": "n", 
+    "w": "milio"
+  }, 
+  "mekanismo": {
+    "pos": "n", 
+    "w": "mekanismo"
+  }, 
+  "meleagro": {
+    "pos": "n", 
+    "w": "dindo"
+  }, 
+  "melkas": {
+    "pos": "v", 
+    "w": "melkas"
+  }, 
+  "melodio": {
+    "pos": "n", 
+    "w": "melodio"
+  }, 
+  "mem": {
+    "pos": "adj", 
+    "w": "ipsa"
+  }, 
+  "membro": {
+    "pos": "n", 
+    "w": "membro"
+  }, 
+  "memoras": {
+    "pos": "v", 
+    "w": "memoras"
+  }, 
+  "memoraĵo": {
+    "pos": "n", 
+    "w": "suveniro"
+  }, 
+  "mencias": {
+    "pos": "v", 
+    "w": "mencionas"
+  }, 
+  "mendas": {
+    "pos": "v", 
+    "w": "komendas"
+  }, 
+  "menso": {
+    "pos": "n", 
+    "w": "mento"
+  }, 
+  "mensogas": {
+    "pos": "v", 
+    "w": "mentias"
+  }, 
+  "mentono": {
+    "pos": "n", 
+    "w": "mentono"
+  }, 
+  "menuo": {
+    "pos": "n", 
+    "w": "menuo"
+  }, 
+  "meritas": {
+    "pos": "v", 
+    "w": "meritas"
+  }, 
+  "meritplena": {
+    "pos": "adj", 
+    "w": "digna"
+  }, 
+  "merkato": {
+    "pos": "n", 
+    "w": "merkato"
+  }, 
+  "merkredo": {
+    "pos": "n", 
+    "w": "merkurdio"
+  }, 
+  "merlo": {
+    "pos": "n", 
+    "w": "merlo"
+  }, 
+  "mesaĝo": {
+    "pos": "n", 
+    "w": "mesajo"
+  }, 
+  "metaforo": {
+    "pos": "n", 
+    "w": "metaforo"
+  }, 
+  "metalo": {
+    "pos": "n", 
+    "w": "metalo"
+  }, 
+  "metas": {
+    "pos": "v", 
+    "w": "pozas"
+  }, 
+  "metiisto": {
+    "pos": "n", 
+    "w": "artizano"
+  }, 
+  "metilernanto": {
+    "pos": "n", 
+    "w": "aprentiso"
+  }, 
+  "metio": {
+    "pos": "n", 
+    "w": "mestiero"
+  }, 
+  "metodo": {
+    "pos": "n", 
+    "w": "metodo"
+  }, 
+  "metro": {
+    "pos": "n", 
+    "w": "metro"
+  }, 
+  "mezo": {
+    "pos": "n", 
+    "w": "mezo"
+  }, 
+  "mezuras": {
+    "pos": "v", 
+    "w": "mezuras"
+  }, 
+  "meĉo": {
+    "pos": "n", 
+    "w": "mecho"
+  }, 
+  "mi": {
+    "pos": "pronoun", 
+    "w": "me"
+  }, 
+  "mia": {
+    "pos": "adj", 
+    "w": "mea"
+  }, 
+  "mielo": {
+    "pos": "n", 
+    "w": "mielo"
+  }, 
+  "mieno": {
+    "pos": "n", 
+    "w": "mieno"
+  }, 
+  "migras": {
+    "pos": "v", 
+    "w": "migras"
+  }, 
+  "miksas": {
+    "pos": "v", 
+    "w": "mixas"
+  }, 
+  "miksbatalo": {
+    "pos": "n", 
+    "w": "meleo"
+  }, 
+  "mil": {
+    "pos": "num", 
+    "w": "mil"
+  }, 
+  "milda": {
+    "pos": "adj", 
+    "w": "benigna"
+  }, 
+  "miliono": {
+    "pos": "n", 
+    "w": "miliono"
+  }, 
+  "militas": {
+    "pos": "v", 
+    "w": "militas"
+  }, 
+  "mimas": {
+    "pos": "v", 
+    "w": "mimas"
+  }, 
+  "minacas": {
+    "pos": "v", 
+    "w": "minacas"
+  }, 
+  "minas": {
+    "pos": "v", 
+    "w": "minas"
+  }, 
+  "minimume": {
+    "pos": "adv", 
+    "w": "adminime"
+  }, 
+  "minoritato": {
+    "pos": "n", 
+    "w": "minoritato"
+  }, 
+  "minus": {
+    "pos": "?", 
+    "w": "minus"
+  }, 
+  "minusklo": {
+    "pos": "n", 
+    "w": "minuskulo"
+  }, 
+  "minuto": {
+    "pos": "n", 
+    "w": "minuto"
+  }, 
+  "miraklo": {
+    "pos": "n", 
+    "w": "miraklo"
+  }, 
+  "miraĝo": {
+    "pos": "n", 
+    "w": "mirajo"
+  }, 
+  "mirigas": {
+    "pos": "v", 
+    "w": "astonas"
+  }, 
+  "mirindaĵo": {
+    "pos": "n", 
+    "w": "marvelo"
+  }, 
+  "misformas": {
+    "pos": "v", 
+    "w": "deformas"
+  }, 
+  "mislokas": {
+    "pos": "v", 
+    "w": "egaras"
+  }, 
+  "mistero": {
+    "pos": "n", 
+    "w": "misterio"
+  }, 
+  "mistika": {
+    "pos": "adj", 
+    "w": "mistika"
+  }, 
+  "mistiko": {
+    "pos": "n", 
+    "w": "mistikismo"
+  }, 
+  "mito": {
+    "pos": "n", 
+    "w": "mito"
+  }, 
+  "mizeras": {
+    "pos": "v", 
+    "w": "mizeras"
+  }, 
+  "mizero": {
+    "pos": "n", 
+    "w": "mizero"
+  }, 
+  "modelo": {
+    "pos": "n", 
+    "w": "modelo"
+  }, 
+  "moderigas": {
+    "pos": "v", 
+    "w": "moderas"
+  }, 
+  "moderna": {
+    "pos": "adj", 
+    "w": "moderna"
+  }, 
+  "modesta": {
+    "pos": "adj", 
+    "w": "modesta"
+  }, 
+  "modifas": {
+    "pos": "v", 
+    "w": "modifikas"
+  }, 
+  "modo": {
+    "pos": "n", 
+    "w": "modo"
+  }, 
+  "mokas": {
+    "pos": "v", 
+    "w": "mokas"
+  }, 
+  "mola": {
+    "pos": "adj", 
+    "w": "mola"
+  }, 
+  "molestas": {
+    "pos": "v", 
+    "w": "molestas"
+  }, 
+  "molkora": {
+    "pos": "adj", 
+    "w": "tenera"
+  }, 
+  "momento": {
+    "pos": "n", 
+    "w": "instanto"
+  }, 
+  "monato": {
+    "pos": "n", 
+    "w": "monato"
+  }, 
+  "monaĥo": {
+    "pos": "n", 
+    "w": "monako"
+  }, 
+  "mondo": {
+    "pos": "n", 
+    "w": "mondo"
+  }, 
+  "monero": {
+    "pos": "n", 
+    "w": "moneto"
+  }, 
+  "mono": {
+    "pos": "n", 
+    "w": "pekunio"
+  }, 
+  "monomandato": {
+    "pos": "n", 
+    "w": "mandato"
+  }, 
+  "monopolo": {
+    "pos": "n", 
+    "w": "monopolo"
+  }, 
+  "monotona": {
+    "pos": "adj", 
+    "w": "monotona"
+  }, 
+  "monpuno": {
+    "pos": "n", 
+    "w": "amendo"
+  }, 
+  "monstro": {
+    "pos": "n", 
+    "w": "monstro"
+  }, 
+  "monteto": {
+    "pos": "n", 
+    "w": "kolino"
+  }, 
+  "monto": {
+    "pos": "n", 
+    "w": "monto"
+  }, 
+  "montras": {
+    "pos": "v", 
+    "w": "montras"
+  }, 
+  "montrilo": {
+    "pos": "n", 
+    "w": "indexo"
+  }, 
+  "monumento": {
+    "pos": "n", 
+    "w": "monumento"
+  }, 
+  "mordant": {
+    "pos": "adj", 
+    "w": "akra"
+  }, 
+  "mordas": {
+    "pos": "v", 
+    "w": "mordas"
+  }, 
+  "morgaŭ": {
+    "pos": "adv", 
+    "w": "morge"
+  }, 
+  "mortas": {
+    "pos": "v", 
+    "w": "mortas"
+  }, 
+  "moskito": {
+    "pos": "n", 
+    "w": "moskito"
+  }, 
+  "motivo": {
+    "pos": "n", 
+    "w": "motivo"
+  }, 
+  "motoro": {
+    "pos": "n", 
+    "w": "motoro"
+  }, 
+  "movlerta": {
+    "pos": "adj", 
+    "w": "ajila"
+  }, 
+  "moŝto": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "sinioro"
+  }, 
+  "muelas": {
+    "pos": "v", 
+    "w": "muelas"
+  }, 
+  "multa": {
+    "pos": "adj", 
+    "w": "multa"
+  }, 
+  "multekosta": {
+    "pos": "adj", 
+    "w": "chera"
+  }, 
+  "multiplikas": {
+    "pos": "v", 
+    "w": "multiplikas"
+  }, 
+  "muntas": {
+    "pos": "v", 
+    "w": "muntas"
+  }, 
+  "murmuras": {
+    "pos": "v", 
+    "w": "murmuras"
+  }, 
+  "muro": {
+    "pos": "n", 
+    "w": "muro"
+  }, 
+  "muskolo": {
+    "pos": "n", 
+    "w": "muskulo"
+  }, 
+  "muso": {
+    "pos": "n", 
+    "w": "muso"
+  }, 
+  "muta": {
+    "pos": "adj", 
+    "w": "muta"
+  }, 
+  "mutuala": {
+    "pos": "adj", 
+    "w": "mutuala"
+  }, 
+  "muzeo": {
+    "pos": "n", 
+    "w": "muzeo"
+  }, 
+  "muzikas": {
+    "pos": "v", 
+    "w": "muzikas"
+  }, 
+  "muĝas": [
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "grondas"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "mujas"
+    }
+  ], 
+  "muŝo": {
+    "pos": "n", 
+    "w": "musho"
+  }, 
+  "nacio": {
+    "pos": "n", 
+    "w": "naciono"
+  }, 
+  "nadlo": {
+    "pos": "n", 
+    "w": "agulo"
+  }, 
+  "naiva": {
+    "pos": "adj", 
+    "w": "naiva"
+  }, 
+  "najbara": {
+    "pos": "adj", 
+    "w": "vicina"
+  }, 
+  "najlo": {
+    "pos": "n", 
+    "w": "klovo"
+  }, 
+  "naskiĝas": {
+    "pos": "v", 
+    "w": "naskas"
+  }, 
+  "naturo": {
+    "pos": "n", 
+    "w": "naturo"
+  }, 
+  "navo": {
+    "pos": "n", 
+    "w": "navo"
+  }, 
+  "nazo": {
+    "pos": "n", 
+    "w": "nazo"
+  }, 
+  "naĝas": {
+    "pos": "v", 
+    "w": "natas"
+  }, 
+  "naĝilo": {
+    "pos": "n", 
+    "w": "floso"
+  }, 
+  "naŭ": {
+    "pos": "num", 
+    "w": "non"
+  }, 
+  "neas": {
+    "pos": "v", 
+    "w": "negas"
+  }, 
+  "nebulo": {
+    "pos": "n", 
+    "w": "nebulo"
+  }, 
+  "necesa": {
+    "pos": "adj", 
+    "w": "necesa"
+  }, 
+  "necesejo": {
+    "pos": "n", 
+    "w": "latrino"
+  }, 
+  "negas": {
+    "pos": "v", 
+    "w": "negas"
+  }, 
+  "negativa": {
+    "pos": "adj", 
+    "w": "negativa"
+  }, 
+  "neglektas": {
+    "pos": "v", 
+    "w": "neglijas"
+  }, 
+  "negoco": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "firmo"
+  }, 
+  "neniam": {
+    "pos": "adv", 
+    "w": "nultempe"
+  }, 
+  "nenio": {
+    "pos": "n", 
+    "w": "nulo"
+  }, 
+  "neperfektaĵo": {
+    "pos": "n", 
+    "w": "defekto"
+  }, 
+  "nepo": {
+    "pos": "n", 
+    "w": "nepoto"
+  }, 
+  "nesto": {
+    "pos": "n", 
+    "w": "nesto"
+  }, 
+  "neta": {
+    "pos": "adj", 
+    "w": "neta"
+  }, 
+  "nevo": {
+    "pos": "n", 
+    "w": "nevo"
+  }, 
+  "neĝas": {
+    "pos": "v", 
+    "w": "nivas"
+  }, 
+  "neŭtra": {
+    "pos": "adj", 
+    "w": "neutra"
+  }, 
+  "neŭtrala": {
+    "pos": "adj", 
+    "w": "neutra"
+  }, 
+  "ni": {
+    "pos": "pronoun", 
+    "w": "ni"
+  }, 
+  "nia": {
+    "pos": "adj", 
+    "w": "nia"
+  }, 
+  "nigra": {
+    "pos": "adj", 
+    "w": "nigra"
+  }, 
+  "nigrigas": {
+    "pos": "v", 
+    "w": "denigras"
+  }, 
+  "nilono": {
+    "pos": "n", 
+    "w": "nilono"
+  }, 
+  "nimbo": {
+    "pos": "n", 
+    "w": "aureolo"
+  }, 
+  "nivelo": {
+    "pos": "n", 
+    "w": "nivelo"
+  }, 
+  "nobela": {
+    "pos": "adj", 
+    "w": "nobela"
+  }, 
+  "nobla": {
+    "pos": "adj", 
+    "w": "nobla"
+  }, 
+  "nodo": {
+    "pos": "n", 
+    "w": "nodo"
+  }, 
+  "nokto": {
+    "pos": "n", 
+    "w": "nokto"
+  }, 
+  "nomas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "nomas"
+  }, 
+  "nombras": {
+    "pos": "v", 
+    "w": "kontas"
+  }, 
+  "nombro": {
+    "pos": "n", 
+    "w": "nombro"
+  }, 
+  "nomo": {
+    "pos": "n", 
+    "w": "nomo"
+  }, 
+  "nordo": {
+    "pos": "n", 
+    "w": "nordo"
+  }, 
+  "normala": {
+    "pos": "adj", 
+    "w": "normala"
+  }, 
+  "normo": {
+    "pos": "n", 
+    "w": "normo"
+  }, 
+  "notas": {
+    "pos": "v", 
+    "w": "notas"
+  }, 
+  "nova": {
+    "pos": "adj", 
+    "w": "nova"
+  }, 
+  "novembro": {
+    "pos": "n", 
+    "w": "novembro"
+  }, 
+  "noĉo": {
+    "pos": "n", 
+    "w": "nocho"
+  }, 
+  "nuanco": {
+    "pos": "n", 
+    "w": "nuanco"
+  }, 
+  "nubo": {
+    "pos": "n", 
+    "w": "nubo"
+  }, 
+  "nuda": {
+    "pos": "adj", 
+    "w": "nuda"
+  }, 
+  "nudelo": {
+    "pos": "n", 
+    "w": "nudlo"
+  }, 
+  "nukleo": {
+    "pos": "n", 
+    "w": "nukleo"
+  }, 
+  "nukso": {
+    "pos": "n", 
+    "w": "nuco"
+  }, 
+  "nulo": {
+    "pos": "n", 
+    "w": "zero"
+  }, 
+  "numero": {
+    "pos": "n", 
+    "w": "numero"
+  }, 
+  "nun": {
+    "pos": "?", 
+    "w": "nun"
+  }, 
+  "nuna": {
+    "pos": "adj", 
+    "w": "nuna"
+  }, 
+  "nuntempa": {
+    "pos": "adj", 
+    "w": "prezenta"
+  }, 
+  "nur": {
+    "pos": "?", 
+    "w": "nur"
+  }, 
+  "nura": {
+    "pos": "adj", 
+    "w": "nura"
+  }, 
+  "nutras": {
+    "pos": "v", 
+    "w": "nutras"
+  }, 
+  "obeas": {
+    "pos": "v", 
+    "w": "obedias"
+  }, 
+  "obeema": {
+    "pos": "adj", 
+    "w": "docila"
+  }, 
+  "objekto": {
+    "pos": "n", 
+    "w": "objekto"
+  }, 
+  "oblikva": {
+    "pos": "adj", 
+    "w": "obliqua"
+  }, 
+  "oblonga": {
+    "pos": "adj", 
+    "w": "oblonga"
+  }, 
+  "observas": {
+    "pos": "v", 
+    "w": "observas"
+  }, 
+  "obskura": {
+    "pos": "adj", 
+    "w": "obskura"
+  }, 
+  "obstaklo": {
+    "pos": "n", 
+    "w": "obstaklo"
+  }, 
+  "obstinas": {
+    "pos": "v", 
+    "w": "obstinas"
+  }, 
+  "obstrukcas": [
+    {
+      "pos": "v", 
+      "w": "impedas"
+    }, 
+    {
+      "pos": "v", 
+      "w": "obstruktas"
+    }
+  ], 
+  "oceano": {
+    "pos": "n", 
+    "w": "oceano"
+  }, 
+  "odoras": {
+    "pos": "v", 
+    "w": "odoras"
+  }, 
+  "ofendas": {
+    "pos": "v", 
+    "w": "ofensas"
+  }, 
+  "oferas": {
+    "pos": "v", 
+    "w": "ofras"
+  }, 
+  "ofertas": {
+    "pos": "v", 
+    "w": "ofras"
+  }, 
+  "oficiala": {
+    "pos": "adj", 
+    "w": "oficala"
+  }, 
+  "oficiro": {
+    "pos": "n", 
+    "w": "oficiro"
+  }, 
+  "ofico": {
+    "pos": "n", 
+    "w": "ofico"
+  }, 
+  "ofta": {
+    "pos": "adj", 
+    "w": "ofta"
+  }, 
+  "ofte": {
+    "pos": "adv", 
+    "w": "ofte"
+  }, 
+  "ok": {
+    "pos": "num", 
+    "w": "ok"
+  }, 
+  "okazas": {
+    "pos": "v", 
+    "w": "eventas"
+  }, 
+  "okazo": [
+    {
+      "pos": "n", 
+      "w": "evento"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "n", 
+      "w": "okaziono"
+    }
+  ], 
+  "okcidento": {
+    "pos": "n", 
+    "w": "westo"
+  }, 
+  "oktobro": {
+    "pos": "n", 
+    "w": "oktobro"
+  }, 
+  "okulo": {
+    "pos": "n", 
+    "w": "okulo"
+  }, 
+  "okulvitroj": {
+    "pos": "n", 
+    "w": "binoklo"
+  }, 
+  "okupas": {
+    "pos": "v", 
+    "w": "okupas"
+  }, 
+  "okupigas": {
+    "pos": "v", 
+    "w": "employas"
+  }, 
+  "ol": {
+    "pos": "?", 
+    "w": "kam"
+  }, 
+  "olda": {
+    "pos": "adj", 
+    "w": "olda"
+  }, 
+  "oleo": {
+    "pos": "n", 
+    "w": "oleo"
+  }, 
+  "olivo": {
+    "pos": "n", 
+    "w": "olivo"
+  }, 
+  "ombro": {
+    "pos": "n", 
+    "w": "ombro"
+  }, 
+  "omleto": {
+    "pos": "n", 
+    "w": "omleto"
+  }, 
+  "ondo": {
+    "pos": "n", 
+    "w": "ondo"
+  }, 
+  "oni": {
+    "pos": "pronoun", 
+    "w": "onu"
+  }, 
+  "onia": {
+    "pos": "adj", 
+    "w": "onua"
+  }, 
+  "onklino": {
+    "pos": "n", 
+    "w": "onklino"
+  }, 
+  "onklo": {
+    "pos": "n", 
+    "w": "onklulo"
+  }, 
+  "opinias": {
+    "pos": "v", 
+    "w": "opinionas"
+  }, 
+  "opona": {
+    "pos": "adj", 
+    "w": "adversa"
+  }, 
+  "oponas": {
+    "pos": "v", 
+    "w": "opozas"
+  }, 
+  "oportuna": {
+    "pos": "adj", 
+    "w": "oportuna"
+  }, 
+  "optimismo": {
+    "pos": "n", 
+    "w": "optimismo"
+  }, 
+  "optimisto": {
+    "pos": "n", 
+    "w": "optimisto"
+  }, 
+  "oranĝo": {
+    "pos": "n", 
+    "w": "oranjo"
+  }, 
+  "ordigas": {
+    "pos": "v", 
+    "w": "ordinas"
+  }, 
+  "ordinara": {
+    "pos": "adj", 
+    "w": "ordinara"
+  }, 
+  "ordonas": {
+    "pos": "v", 
+    "w": "imperas"
+  }, 
+  "orelo": {
+    "pos": "n", 
+    "w": "orelo"
+  }, 
+  "orfo": {
+    "pos": "n", 
+    "w": "orfano"
+  }, 
+  "organizas": {
+    "pos": "v", 
+    "w": "organizas"
+  }, 
+  "organo": {
+    "pos": "n", 
+    "w": "organo"
+  }, 
+  "oriento": {
+    "pos": "n", 
+    "w": "esto"
+  }, 
+  "originala": {
+    "pos": "adj", 
+    "w": "originala"
+  }, 
+  "origino": {
+    "pos": "n", 
+    "w": "origino"
+  }, 
+  "ornamas": {
+    "pos": "v", 
+    "w": "ornas"
+  }, 
+  "ornamaĵo": {
+    "pos": "n", 
+    "w": "ornamento"
+  }, 
+  "oro": {
+    "pos": "n", 
+    "w": "oro"
+  }, 
+  "orta": {
+    "pos": "adj", 
+    "w": "orta"
+  }, 
+  "ortodoksa": {
+    "pos": "adj", 
+    "w": "ortodoxa"
+  }, 
+  "osto": {
+    "pos": "n", 
+    "w": "osto"
+  }, 
+  "ovala": {
+    "pos": "adj", 
+    "w": "ovala"
+  }, 
+  "ovo": {
+    "pos": "n", 
+    "w": "ovo"
+  }, 
+  "pacienca": {
+    "pos": "adj", 
+    "w": "pacienta"
+  }, 
+  "paco": {
+    "pos": "n", 
+    "w": "paco"
+  }, 
+  "pafas": {
+    "pos": "v", 
+    "w": "pafas"
+  }, 
+  "pagas": {
+    "pos": "v", 
+    "w": "pagas"
+  }, 
+  "pajlo": {
+    "pos": "n", 
+    "w": "palio"
+  }, 
+  "pako": {
+    "pos": "n", 
+    "w": "pako"
+  }, 
+  "pala": {
+    "pos": "adj", 
+    "w": "pala"
+  }, 
+  "palaco": {
+    "pos": "n", 
+    "w": "palaco"
+  }, 
+  "paliso": {
+    "pos": "n", 
+    "w": "paliso"
+  }, 
+  "palmobranĉo": {
+    "pos": "n", 
+    "w": "palmo"
+  }, 
+  "palpas": [
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "palpas"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "tastas"
+    }
+  ], 
+  "palpserĉas": {
+    "pos": "v", 
+    "w": "tastas"
+  }, 
+  "palto": {
+    "pos": "n", 
+    "w": "paltoto"
+  }, 
+  "paneas": {
+    "pos": "v", 
+    "w": "paneas"
+  }, 
+  "panelo": {
+    "pos": "n", 
+    "w": "panelo"
+  }, 
+  "pano": {
+    "pos": "n", 
+    "w": "pano"
+  }, 
+  "panoramo": {
+    "pos": "n", 
+    "w": "panoramo"
+  }, 
+  "pantalono": {
+    "pos": "n", 
+    "w": "pantalono"
+  }, 
+  "pantoflo": {
+    "pos": "n", 
+    "w": "pantoflo"
+  }, 
+  "papero": {
+    "pos": "n", 
+    "w": "papero"
+  }, 
+  "papilio": {
+    "pos": "n", 
+    "w": "papiliono"
+  }, 
+  "para": {
+    "pos": "adj", 
+    "w": "para"
+  }, 
+  "paradizo": {
+    "pos": "n", 
+    "w": "paradizo"
+  }, 
+  "paradokso": {
+    "pos": "n", 
+    "w": "paradoxo"
+  }, 
+  "paragrafo": {
+    "pos": "n", 
+    "w": "paragrafo"
+  }, 
+  "paralela": {
+    "pos": "adj", 
+    "w": "paralela"
+  }, 
+  "pardonas": {
+    "pos": "v", 
+    "w": "pardonas"
+  }, 
+  "parenca": {
+    "pos": "adj", 
+    "w": "parenta"
+  }, 
+  "parfumo": {
+    "pos": "n", 
+    "w": "parfumo"
+  }, 
+  "parko": {
+    "pos": "n", 
+    "w": "parko"
+  }, 
+  "paro": {
+    "pos": "n", 
+    "w": "paro"
+  }, 
+  "paroladas": {
+    "pos": "v", 
+    "w": "diskursas"
+  }, 
+  "parolas": {
+    "pos": "v", 
+    "w": "parolas"
+  }, 
+  "partio": {
+    "pos": "n", 
+    "w": "partiso"
+  }, 
+  "parto": {
+    "pos": "n", 
+    "w": "parto"
+  }, 
+  "pasas": {
+    "pos": "v", 
+    "w": "pasas"
+  }, 
+  "pasio": {
+    "pos": "n", 
+    "w": "pasiono"
+  }, 
+  "pasiva": {
+    "pos": "adj", 
+    "w": "pasiva"
+  }, 
+  "pasporto": {
+    "pos": "n", 
+    "w": "pasporto"
+  }, 
+  "pasteĉo": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "pasteto"
+  }, 
+  "pasto": {
+    "pos": "n", 
+    "w": "pasto"
+  }, 
+  "pastoro": {
+    "pos": "n", 
+    "w": "pastoro"
+  }, 
+  "patrino": {
+    "pos": "n", 
+    "w": "matro"
+  }, 
+  "patriota": {
+    "pos": "adj", 
+    "w": "patriota"
+  }, 
+  "patro": {
+    "pos": "n", 
+    "w": "patro"
+  }, 
+  "pavimero": {
+    "pos": "n", 
+    "w": "pavo"
+  }, 
+  "pavo": {
+    "pos": "n", 
+    "w": "pavono"
+  }, 
+  "paĝo": {
+    "pos": "n", 
+    "w": "pagino"
+  }, 
+  "paŝas": {
+    "pos": "v", 
+    "w": "pazas"
+  }, 
+  "paŝtelo": {
+    "pos": "n", 
+    "w": "pastelo"
+  }, 
+  "paŭtas": {
+    "pos": "v", 
+    "w": "budas"
+  }, 
+  "paŭzas": {
+    "pos": "v", 
+    "w": "pauzas"
+  }, 
+  "peco": {
+    "pos": "n", 
+    "w": "peco"
+  }, 
+  "pejzaĝo": {
+    "pos": "n", 
+    "w": "peizajo"
+  }, 
+  "pekas": {
+    "pos": "v", 
+    "w": "pekas"
+  }, 
+  "pelto": {
+    "pos": "n", 
+    "w": "furo"
+  }, 
+  "pelvo": {
+    "pos": "n", 
+    "w": "bolo"
+  }, 
+  "penas": {
+    "pos": "v", 
+    "w": "penas"
+  }, 
+  "pendigas": {
+    "pos": "v", 
+    "w": "suspendas"
+  }, 
+  "peniga": {
+    "pos": "adj", 
+    "w": "ardua"
+  }, 
+  "pensas": {
+    "pos": "v", 
+    "w": "pensas"
+  }, 
+  "pentas": {
+    "pos": "v", 
+    "w": "repentas"
+  }, 
+  "pentras": {
+    "pos": "v", 
+    "w": "piktas"
+  }, 
+  "pentraĵo": {
+    "pos": "n", 
+    "w": "pikturo"
+  }, 
+  "per": {
+    "pos": "prep", 
+    "w": "per"
+  }, 
+  "perdas": {
+    "pos": "v", 
+    "w": "perdas"
+  }, 
+  "perdetas": {
+    "pos": "v", 
+    "w": "egaras"
+  }, 
+  "pereas": {
+    "pos": "v", 
+    "w": "perisas"
+  }, 
+  "pereiga": {
+    "pos": "adj", 
+    "w": "funesta"
+  }, 
+  "perfekta": {
+    "pos": "adj", 
+    "w": "perfekta"
+  }, 
+  "perfida": {
+    "pos": "adj", 
+    "w": "perfida"
+  }, 
+  "perfidas": {
+    "pos": "v", 
+    "w": "trahizas"
+  }, 
+  "perforto": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "violento"
+  }, 
+  "periodo": {
+    "pos": "n", 
+    "w": "periodo"
+  }, 
+  "permesas": [
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "lasas"
+    }, 
+    {
+      "pos": "v", 
+      "w": "permisas"
+    }
+  ], 
+  "persono": {
+    "pos": "n", 
+    "w": "persono"
+  }, 
+  "persvadas": {
+    "pos": "v", 
+    "w": "persuadas"
+  }, 
+  "pesas": {
+    "pos": "v", 
+    "w": "ponderas"
+  }, 
+  "petolado": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "malico"
+  }, 
+  "petolas": [
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "gambolas"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "petulas"
+    }
+  ], 
+  "peza": {
+    "pos": "adj", 
+    "w": "grava"
+  }, 
+  "pezas": {
+    "pos": "v", 
+    "w": "pezas"
+  }, 
+  "piedo": {
+    "pos": "n", 
+    "w": "pedo"
+  }, 
+  "pigra": {
+    "pos": "adj", 
+    "w": "indolenta"
+  }, 
+  "pilko": {
+    "pos": "n", 
+    "w": "bulo"
+  }, 
+  "pinglo": {
+    "pos": "n", 
+    "w": "pinglo"
+  }, 
+  "pinto": {
+    "pos": "n", 
+    "w": "pinto"
+  }, 
+  "pinĉas": {
+    "pos": "v", 
+    "w": "pinchas"
+  }, 
+  "pipo": {
+    "pos": "n", 
+    "w": "pipo"
+  }, 
+  "pizo": {
+    "pos": "n", 
+    "w": "pizo"
+  }, 
+  "placo": {
+    "pos": "n", 
+    "w": "placo"
+  }, 
+  "plado": {
+    "pos": "n", 
+    "w": "plado"
+  }, 
+  "plafono": {
+    "pos": "n", 
+    "w": "plafono"
+  }, 
+  "plando": {
+    "pos": "n", 
+    "w": "plando"
+  }, 
+  "plandumo": {
+    "pos": "n", 
+    "w": "suolo"
+  }, 
+  "plantas": {
+    "pos": "v", 
+    "w": "plantacas"
+  }, 
+  "planto": {
+    "pos": "n", 
+    "w": "planto"
+  }, 
+  "plata": {
+    "pos": "adj", 
+    "w": "plata"
+  }, 
+  "plato": {
+    "pos": "n", 
+    "w": "plako"
+  }, 
+  "plaĉas": {
+    "pos": "v", 
+    "w": "plezas"
+  }, 
+  "plaĝo": {
+    "pos": "n", 
+    "w": "plajo"
+  }, 
+  "plej": {
+    "pos": "?", 
+    "w": "maxim"
+  }, 
+  "plena": {
+    "pos": "adj", 
+    "w": "plena"
+  }, 
+  "plenaĝa": {
+    "pos": "adj", 
+    "w": "adulta"
+  }, 
+  "plendas": {
+    "pos": "v", 
+    "w": "plendas"
+  }, 
+  "plenumas": {
+    "pos": "v", 
+    "w": "satisfacas"
+  }, 
+  "plezuro": {
+    "pos": "n", 
+    "w": "plezuro"
+  }, 
+  "pli": {
+    "pos": "?", 
+    "w": "plu"
+  }, 
+  "plialtigas": {
+    "pos": "v", 
+    "w": "elevas"
+  }, 
+  "plibonigas": {
+    "pos": "v", 
+    "w": "amelioras"
+  }, 
+  "plifortigas": {
+    "pos": "v", 
+    "w": "rinforcas"
+  }, 
+  "pligrandigas": {
+    "pos": "v", 
+    "w": "expansas"
+  }, 
+  "pliigas": {
+    "pos": "v", 
+    "w": "augmentas"
+  }, 
+  "plimultigas": {
+    "pos": "v", 
+    "w": "augmentas"
+  }, 
+  "plimulto": {
+    "pos": "n", 
+    "w": "majoritato"
+  }, 
+  "plonĝas": {
+    "pos": "v", 
+    "w": "plunjas"
+  }, 
+  "ploras": {
+    "pos": "v", 
+    "w": "ploras"
+  }, 
+  "plorsingultas": {
+    "pos": "v", 
+    "w": "singlutas"
+  }, 
+  "plua": {
+    "pos": "adj", 
+    "w": "ultra"
+  }, 
+  "plugas": {
+    "pos": "v", 
+    "w": "plugas"
+  }, 
+  "plukas": {
+    "pos": "v", 
+    "w": "kolias"
+  }, 
+  "plumo": {
+    "pos": "n", 
+    "w": "plumo"
+  }, 
+  "plura": {
+    "pos": "adj", 
+    "w": "plura"
+  }, 
+  "pluralo": {
+    "pos": "n", 
+    "w": "pluralo"
+  }, 
+  "plus": {
+    "pos": "?", 
+    "w": "plus"
+  }, 
+  "pluvas": {
+    "pos": "v", 
+    "w": "pluvas"
+  }, 
+  "pluvkaveto": {
+    "pos": "n", 
+    "w": "flako"
+  }, 
+  "pneŭmatiko": {
+    "pos": "n", 
+    "w": "bandajo"
+  }, 
+  "po": {
+    "pos": "?", 
+    "w": "po"
+  }, 
+  "podetala": {
+    "pos": "adj", 
+    "w": "endetala"
+  }, 
+  "pogranda": {
+    "pos": "adj", 
+    "w": "engrosa"
+  }, 
+  "pojno": {
+    "pos": "n", 
+    "w": "karpo"
+  }, 
+  "polekso": {
+    "pos": "n", 
+    "w": "polexo"
+  }, 
+  "polico": {
+    "pos": "n", 
+    "w": "polico"
+  }, 
+  "polmo": {
+    "pos": "n", 
+    "w": "palmo"
+  }, 
+  "poluras": {
+    "pos": "v", 
+    "w": "polisas"
+  }, 
+  "polvo": {
+    "pos": "n", 
+    "w": "polvo"
+  }, 
+  "pomo": {
+    "pos": "n", 
+    "w": "pomo"
+  }, 
+  "ponto": {
+    "pos": "n", 
+    "w": "ponto"
+  }, 
+  "popolo": {
+    "pos": "n", 
+    "w": "populo"
+  }, 
+  "populara": {
+    "pos": "adj", 
+    "w": "populara"
+  }, 
+  "por": {
+    "pos": "prep", 
+    "w": "por"
+  }, 
+  "porcio": {
+    "pos": "n", 
+    "w": "porciono"
+  }, 
+  "pordo": {
+    "pos": "n", 
+    "w": "pordo"
+  }, 
+  "portas": {
+    "pos": "v", 
+    "w": "portas"
+  }, 
+  "posedas": {
+    "pos": "v", 
+    "w": "posedas"
+  }, 
+  "post": {
+    "pos": "prep", 
+    "w": "pos"
+  }, 
+  "postulas": {
+    "pos": "v", 
+    "w": "postulas"
+  }, 
+  "povas": {
+    "pos": "v", 
+    "w": "povas"
+  }, 
+  "povo": {
+    "pos": "n", 
+    "w": "povo"
+  }, 
+  "povra": {
+    "pos": "adj", 
+    "w": "povra"
+  }, 
+  "poŝo": {
+    "pos": "n", 
+    "w": "posho"
+  }, 
+  "poŝtmandato": {
+    "pos": "n", 
+    "w": "mandato"
+  }, 
+  "poŝto": {
+    "pos": "n", 
+    "w": "posto"
+  }, 
+  "praktikas": {
+    "pos": "v", 
+    "w": "praktikas"
+  }, 
+  "prapatrino": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "ancestro"
+  }, 
+  "prapatro": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "ancestro"
+  }, 
+  "praulo": {
+    "pos": "n", 
+    "w": "ancestro"
+  }, 
+  "precipa": {
+    "pos": "adj", 
+    "w": "precipua"
+  }, 
+  "preciza": {
+    "pos": "adj", 
+    "w": "exakta"
+  }, 
+  "preferas": {
+    "pos": "v", 
+    "w": "preferas"
+  }, 
+  "premas": [
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "opresas"
+    }, 
+    {
+      "pos": "v", 
+      "w": "presas"
+    }
+  ], 
+  "prenas": {
+    "pos": "v", 
+    "w": "prenas"
+  }, 
+  "preparas": {
+    "pos": "v", 
+    "w": "preparas"
+  }, 
+  "presas": {
+    "pos": "v", 
+    "w": "imprimas"
+  }, 
+  "preskaŭ": {
+    "pos": "adv", 
+    "w": "preske"
+  }, 
+  "preta": {
+    "pos": "adj", 
+    "w": "pronta"
+  }, 
+  "preter": {
+    "pos": "?", 
+    "w": "preter"
+  }, 
+  "preterlasas": {
+    "pos": "v", 
+    "w": "omisas"
+  }, 
+  "preterpasas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "devancas"
+  }, 
+  "pretpansaĵo": {
+    "pos": "n", 
+    "w": "emplastro"
+  }, 
+  "preventas": {
+    "pos": "v", 
+    "w": "preventas"
+  }, 
+  "prezentas": [
+    {
+      "pos": "v", 
+      "w": "introduktas"
+    }, 
+    {
+      "pos": "v", 
+      "w": "prizentas"
+    }
+  ], 
+  "prezervas": {
+    "pos": "v", 
+    "w": "prezervas"
+  }, 
+  "prezo": {
+    "pos": "n", 
+    "w": "preco"
+  }, 
+  "preĝejo": {
+    "pos": "n", 
+    "w": "kirko"
+  }, 
+  "pri": {
+    "pos": "?", 
+    "w": "pri"
+  }, 
+  "prifriponas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "atrapas"
+  }, 
+  "principo": {
+    "pos": "n", 
+    "w": "principo"
+  }, 
+  "printempo": {
+    "pos": "n", 
+    "w": "printempo"
+  }, 
+  "prirespondas": {
+    "pos": "v", 
+    "w": "responsas"
+  }, 
+  "priskribas": {
+    "pos": "v", 
+    "w": "deskriptas"
+  }, 
+  "pritondas": {
+    "pos": "v", 
+    "w": "emundas"
+  }, 
+  "privata": {
+    "pos": "adj", 
+    "w": "privata"
+  }, 
+  "pro": {
+    "pos": "n", 
+    "w": "pro"
+  }, 
+  "probabla": [
+    {
+      "pos": "adj", 
+      "w": "probabla"
+    }, 
+    {
+      "pos": "adj", 
+      "w": "probabla"
+    }
+  ], 
+  "problemo": {
+    "pos": "n", 
+    "w": "problemo"
+  }, 
+  "produktas": {
+    "pos": "v", 
+    "w": "produktas"
+  }, 
+  "profesio": {
+    "pos": "n", 
+    "w": "profesiono"
+  }, 
+  "profitas": {
+    "pos": "v", 
+    "w": "profitas"
+  }, 
+  "profunda": {
+    "pos": "adj", 
+    "w": "profunda"
+  }, 
+  "projektas": {
+    "pos": "v", 
+    "w": "projetas"
+  }, 
+  "proklamas": {
+    "pos": "v", 
+    "w": "proklamas"
+  }, 
+  "prokrastas": {
+    "pos": "v", 
+    "w": "ajornas"
+  }, 
+  "proksimumigas": {
+    "pos": "v", 
+    "w": "aproximas"
+  }, 
+  "promenas": {
+    "pos": "v", 
+    "w": "promenas"
+  }, 
+  "promesas": {
+    "pos": "v", 
+    "w": "promisas"
+  }, 
+  "proponas": {
+    "pos": "v", 
+    "w": "propozas"
+  }, 
+  "proporcio": {
+    "pos": "n", 
+    "w": "proporciono"
+  }, 
+  "propra": {
+    "pos": "adj", 
+    "w": "propra"
+  }, 
+  "proprietas": {
+    "pos": "v", 
+    "w": "proprietas"
+  }, 
+  "protektas": {
+    "pos": "v", 
+    "w": "protektas"
+  }, 
+  "provas": {
+    "pos": "v", 
+    "w": "probas"
+  }, 
+  "proverbo": {
+    "pos": "n", 
+    "w": "proverbo"
+  }, 
+  "provizas": {
+    "pos": "v", 
+    "w": "provizas"
+  }, 
+  "provizejo": {
+    "pos": "n", 
+    "w": "magazino"
+  }, 
+  "provizora": {
+    "pos": "adj", 
+    "w": "provizora"
+  }, 
+  "prudenta": {
+    "pos": "adj", 
+    "w": "prudenta"
+  }, 
+  "pruntas": [
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "prestas"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "pruntas"
+    }
+  ], 
+  "pruntedonas": {
+    "pos": "v", 
+    "w": "prestas"
+  }, 
+  "prunteprenas": {
+    "pos": "v", 
+    "w": "pruntas"
+  }, 
+  "pruvas": {
+    "pos": "v", 
+    "w": "pruvas"
+  }, 
+  "publika": {
+    "pos": "adj", 
+    "w": "publika"
+  }, 
+  "pulvoro": {
+    "pos": "n", 
+    "w": "pulvero"
+  }, 
+  "punas": {
+    "pos": "v", 
+    "w": "punisas"
+  }, 
+  "punkto": {
+    "pos": "n", 
+    "w": "punto"
+  }, 
+  "punto": {
+    "pos": "n", 
+    "w": "dentelo"
+  }, 
+  "pura": {
+    "pos": "adj", 
+    "w": "pura"
+  }, 
+  "purigas": {
+    "pos": "v", 
+    "w": "detersas"
+  }, 
+  "puŝas": {
+    "pos": "v", 
+    "w": "pulsas"
+  }, 
+  "rabarbo": {
+    "pos": "n", 
+    "w": "rubarbo"
+  }, 
+  "rabas": {
+    "pos": "v", 
+    "w": "spolias"
+  }, 
+  "racio": {
+    "pos": "n", 
+    "w": "raciono"
+  }, 
+  "radias": {
+    "pos": "v", 
+    "w": "radias"
+  }, 
+  "radiko": {
+    "pos": "n", 
+    "w": "radiko"
+  }, 
+  "radio": {
+    "pos": "n", 
+    "w": "radio"
+  }, 
+  "rado": {
+    "pos": "n", 
+    "w": "roto"
+  }, 
+  "radrondo": {
+    "pos": "n", 
+    "w": "felgo"
+  }, 
+  "rajdas": {
+    "pos": "v", 
+    "w": "kavalkas"
+  }, 
+  "rajto": {
+    "pos": "n", 
+    "w": "yuro"
+  }, 
+  "rakedo": {
+    "pos": "n", 
+    "w": "raketo"
+  }, 
+  "rampas": {
+    "pos": "v", 
+    "w": "reptas"
+  }, 
+  "rando": {
+    "pos": "n", 
+    "w": "bordo"
+  }, 
+  "rango": {
+    "pos": "n", 
+    "w": "rango"
+  }, 
+  "rano": {
+    "pos": "n", 
+    "w": "rano"
+  }, 
+  "ranuro": {
+    "pos": "n", 
+    "w": "kanelo"
+  }, 
+  "rapida": {
+    "pos": "adj", 
+    "w": "rapida"
+  }, 
+  "rapidas": {
+    "pos": "v", 
+    "w": "hastas"
+  }, 
+  "raportas": {
+    "pos": "v", 
+    "w": "raportas"
+  }, 
+  "rara": {
+    "pos": "adj", 
+    "w": "rara"
+  }, 
+  "raso": {
+    "pos": "n", 
+    "w": "raso"
+  }, 
+  "rato": {
+    "pos": "n", 
+    "w": "rato"
+  }, 
+  "ravas": {
+    "pos": "v", 
+    "w": "delektas"
+  }, 
+  "razas": {
+    "pos": "v", 
+    "w": "razas"
+  }, 
+  "raŭka": {
+    "pos": "adj", 
+    "w": "rauka"
+  }, 
+  "reagas": {
+    "pos": "v", 
+    "w": "reaktas"
+  }, 
+  "reakcias": {
+    "pos": "v", 
+    "w": "reaktas"
+  }, 
+  "reala": {
+    "pos": "adj", 
+    "w": "reala"
+  }, 
+  "recepto": {
+    "pos": "n", 
+    "w": "recepto"
+  }, 
+  "reciproka": {
+    "pos": "adj", 
+    "w": "reciproka"
+  }, 
+  "redaktas": {
+    "pos": "v", 
+    "w": "redaktas"
+  }, 
+  "reduktas": {
+    "pos": "v", 
+    "w": "reduktas"
+  }, 
+  "reflektas": {
+    "pos": "v", 
+    "w": "reflektas"
+  }, 
+  "refojigas": {
+    "pos": "v", 
+    "w": "iteras"
+  }, 
+  "refutas": {
+    "pos": "v", 
+    "w": "refutas"
+  }, 
+  "regas": [
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "guvernas"
+    }, 
+    {
+      "pos": "v", 
+      "w": "regnas"
+    }
+  ], 
+  "regiono": {
+    "pos": "n", 
+    "w": "regiono"
+  }, 
+  "registras": {
+    "pos": "v", 
+    "w": "enrejistras"
+  }, 
+  "registro": {
+    "pos": "n", 
+    "w": "registro"
+  }, 
+  "regostango": {
+    "pos": "n", 
+    "w": "levero"
+  }, 
+  "regulo": {
+    "pos": "n", 
+    "w": "regulo"
+  }, 
+  "reklamas": {
+    "pos": "v", 
+    "w": "reklamas"
+  }, 
+  "rekomendas": {
+    "pos": "v", 
+    "w": "rekomendas"
+  }, 
+  "rekompencas": {
+    "pos": "v", 
+    "w": "rekompensas"
+  }, 
+  "rekonas": {
+    "pos": "v", 
+    "w": "rikonocas"
+  }, 
+  "rekordo": {
+    "pos": "n", 
+    "w": "rekordo"
+  }, 
+  "rekremento": {
+    "pos": "n", 
+    "w": "reziduo"
+  }, 
+  "rekta": {
+    "pos": "adj", 
+    "w": "rekta"
+  }, 
+  "religio": {
+    "pos": "n", 
+    "w": "religio"
+  }, 
+  "relo": {
+    "pos": "n", 
+    "w": "relo"
+  }, 
+  "remas": {
+    "pos": "v", 
+    "w": "remas"
+  }, 
+  "remizo": {
+    "pos": "n", 
+    "w": "garajo"
+  }, 
+  "rendimenta": {
+    "pos": "adj", 
+    "w": "eficienta"
+  }, 
+  "renkontas": {
+    "pos": "v", 
+    "w": "renkontras"
+  }, 
+  "renoma": {
+    "pos": "adj", 
+    "w": "famoza"
+  }, 
+  "renversas": {
+    "pos": "v", 
+    "w": "renversas"
+  }, 
+  "repacigas": {
+    "pos": "v", 
+    "w": "koncilias"
+  }, 
+  "reprezentas": {
+    "pos": "v", 
+    "w": "reprezentas"
+  }, 
+  "repuŝas": [
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "represas"
+    }, 
+    {
+      "pos": "v", 
+      "w": "repulsas"
+    }
+  ], 
+  "respektas": {
+    "pos": "v", 
+    "w": "respektas"
+  }, 
+  "respekteginda": {
+    "pos": "adj", 
+    "w": "augusta"
+  }, 
+  "respondas": {
+    "pos": "v", 
+    "w": "respondas"
+  }, 
+  "respondecas": {
+    "pos": "v", 
+    "w": "responsas"
+  }, 
+  "respubliko": {
+    "pos": "n", 
+    "w": "republiko"
+  }, 
+  "restas": {
+    "pos": "v", 
+    "w": "restas"
+  }, 
+  "restaĵo": {
+    "pos": "n", 
+    "w": "reziduo"
+  }, 
+  "restaŭras": {
+    "pos": "v", 
+    "w": "restauras"
+  }, 
+  "restoracio": {
+    "pos": "n", 
+    "w": "restorerio"
+  }, 
+  "resumas": {
+    "pos": "v", 
+    "w": "rezumas"
+  }, 
+  "reto": {
+    "pos": "n", 
+    "w": "reto"
+  }, 
+  "revas": {
+    "pos": "v", 
+    "w": "revas"
+  }, 
+  "revizias": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "revizas"
+  }, 
+  "revuas": {
+    "pos": "v", 
+    "w": "revuas"
+  }, 
+  "revuo": {
+    "pos": "n", 
+    "w": "revuo"
+  }, 
+  "rezervas": {
+    "pos": "v", 
+    "w": "rezervas"
+  }, 
+  "rezidas": {
+    "pos": "v", 
+    "w": "rezidas"
+  }, 
+  "rezignacias": {
+    "pos": "v", 
+    "w": "rezignas"
+  }, 
+  "rezistas": {
+    "pos": "v", 
+    "w": "rezistas"
+  }, 
+  "rezonas": {
+    "pos": "v", 
+    "w": "rezonas"
+  }, 
+  "rezultas": {
+    "pos": "v", 
+    "w": "rezultas"
+  }, 
+  "reĝimo": {
+    "pos": "n", 
+    "w": "rejimo"
+  }, 
+  "ribo": {
+    "pos": "n", 
+    "w": "kasiso"
+  }, 
+  "ricevas": {
+    "pos": "v", 
+    "w": "recevas"
+  }, 
+  "ridas": {
+    "pos": "v", 
+    "w": "ridas"
+  }, 
+  "ridetas": {
+    "pos": "v", 
+    "w": "ridetas"
+  }, 
+  "rifuzas": {
+    "pos": "v", 
+    "w": "refuzas"
+  }, 
+  "rigardas": {
+    "pos": "v", 
+    "w": "regardas"
+  }, 
+  "rigida": {
+    "pos": "adj", 
+    "w": "rigida"
+  }, 
+  "rikoltas": {
+    "pos": "v", 
+    "w": "rekoltas"
+  }, 
+  "rilatigas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "referas"
+  }, 
+  "rimarkas": {
+    "pos": "v", 
+    "w": "remarkas"
+  }, 
+  "rimedo": {
+    "pos": "n", 
+    "w": "moyeno"
+  }, 
+  "rimeno": {
+    "pos": "n", 
+    "w": "rimeno"
+  }, 
+  "rimo": {
+    "pos": "n", 
+    "w": "rimo"
+  }, 
+  "ringo": {
+    "pos": "n", 
+    "w": "ringo"
+  }, 
+  "riparas": {
+    "pos": "v", 
+    "w": "reparas"
+  }, 
+  "ripetas": [
+    {
+      "pos": "v", 
+      "w": "iteras"
+    }, 
+    {
+      "pos": "v", 
+      "w": "repetas"
+    }
+  ], 
+  "ripo": {
+    "pos": "n", 
+    "w": "kosto"
+  }, 
+  "ripozas": {
+    "pos": "v", 
+    "w": "repozas"
+  }, 
+  "riproĉas": {
+    "pos": "v", 
+    "w": "reprochas"
+  }, 
+  "riskas": {
+    "pos": "v", 
+    "w": "riskas"
+  }, 
+  "ritmo": {
+    "pos": "n", 
+    "w": "ritmo"
+  }, 
+  "rivala": {
+    "pos": "adj", 
+    "w": "rivala"
+  }, 
+  "rivelas": {
+    "pos": "v", 
+    "w": "revelas"
+  }, 
+  "rivero": {
+    "pos": "n", 
+    "w": "rivero"
+  }, 
+  "rizo": {
+    "pos": "n", 
+    "w": "rizo"
+  }, 
+  "riĉa": {
+    "pos": "adj", 
+    "w": "richa"
+  }, 
+  "robo": {
+    "pos": "n", 
+    "w": "robo"
+  }, 
+  "roko": {
+    "pos": "n", 
+    "w": "roko"
+  }, 
+  "rolo": {
+    "pos": "n", 
+    "w": "rolo"
+  }, 
+  "romano": {
+    "pos": "n", 
+    "w": "romano"
+  }, 
+  "romantika": {
+    "pos": "adj", 
+    "w": "romantika"
+  }, 
+  "rompas": {
+    "pos": "v", 
+    "w": "ruptas"
+  }, 
+  "rompiĝema": {
+    "pos": "adj", 
+    "w": "frajila"
+  }, 
+  "ronda": {
+    "pos": "adj", 
+    "w": "ronda"
+  }, 
+  "rondiras": {
+    "pos": "v", 
+    "w": "jiras"
+  }, 
+  "rondiro": {
+    "pos": "n", 
+    "w": "cirkuito"
+  }, 
+  "rondvojaĝo": {
+    "pos": "n", 
+    "w": "turo"
+  }, 
+  "rostas": {
+    "pos": "v", 
+    "w": "rostas"
+  }, 
+  "roto": {
+    "pos": "n", 
+    "w": "esquado"
+  }, 
+  "rozo": {
+    "pos": "n", 
+    "w": "rozo"
+  }, 
+  "rubando": {
+    "pos": "n", 
+    "w": "rubando"
+  }, 
+  "rubo": {
+    "pos": "n", 
+    "w": "eskombro"
+  }, 
+  "ruinigas": {
+    "pos": "v", 
+    "w": "ruinas"
+  }, 
+  "rusto": {
+    "pos": "n", 
+    "w": "rusto"
+  }, 
+  "rutino": {
+    "pos": "n", 
+    "w": "rutino"
+  }, 
+  "ruĝa": {
+    "pos": "adj", 
+    "w": "reda"
+  }, 
+  "sabato": {
+    "pos": "n", 
+    "w": "saturdio"
+  }, 
+  "sablo": {
+    "pos": "n", 
+    "w": "sablo"
+  }, 
+  "sageto": {
+    "pos": "n", 
+    "w": "dardo"
+  }, 
+  "sago": {
+    "pos": "n", 
+    "w": "flecho"
+  }, 
+  "sako": {
+    "pos": "n", 
+    "w": "sako"
+  }, 
+  "salajro": {
+    "pos": "n", 
+    "w": "salario"
+  }, 
+  "salato": {
+    "pos": "n", 
+    "w": "salado"
+  }, 
+  "salo": {
+    "pos": "n", 
+    "w": "salo"
+  }, 
+  "salono": {
+    "pos": "n", 
+    "w": "salono"
+  }, 
+  "saltas": {
+    "pos": "v", 
+    "w": "saltas"
+  }, 
+  "saltetadas": {
+    "pos": "v", 
+    "w": "gambolas"
+  }, 
+  "salutas": {
+    "pos": "v", 
+    "w": "salutas"
+  }, 
+  "sama": {
+    "pos": "adj", 
+    "w": "sama"
+  }, 
+  "samaspekta": {
+    "pos": "adj", 
+    "w": "uniforma"
+  }, 
+  "samnivela": {
+    "pos": "adj", 
+    "w": "reza"
+  }, 
+  "sana": {
+    "pos": "adj", 
+    "w": "sana"
+  }, 
+  "sandalo": {
+    "pos": "n", 
+    "w": "sandalo"
+  }, 
+  "sango": {
+    "pos": "n", 
+    "w": "sango"
+  }, 
+  "sapo": {
+    "pos": "n", 
+    "w": "sapono"
+  }, 
+  "sarkas": {
+    "pos": "v", 
+    "w": "sarklas"
+  }, 
+  "savas": [
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "prezervas"
+    }, 
+    {
+      "pos": "v", 
+      "w": "salvas"
+    }
+  ], 
+  "saĝa": {
+    "pos": "adj", 
+    "w": "saja"
+  }, 
+  "saŭco": {
+    "pos": "n", 
+    "w": "sauco"
+  }, 
+  "sceno": {
+    "pos": "n", 
+    "w": "ceno"
+  }, 
+  "scias": {
+    "pos": "v", 
+    "w": "savas"
+  }, 
+  "scienco": {
+    "pos": "n", 
+    "w": "cienco"
+  }, 
+  "scivola": {
+    "pos": "adj", 
+    "w": "kurioza"
+  }, 
+  "se": {
+    "pos": "?", 
+    "w": "se"
+  }, 
+  "sed": {
+    "pos": "conj", 
+    "w": "ma"
+  }, 
+  "sedimento": {
+    "pos": "n", 
+    "w": "sedimento"
+  }, 
+  "segas": {
+    "pos": "v", 
+    "w": "segas"
+  }, 
+  "segmento": {
+    "pos": "n", 
+    "w": "segmento"
+  }, 
+  "seka": {
+    "pos": "adj", 
+    "w": "sika"
+  }, 
+  "sekcas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "sekas"
+  }, 
+  "sekreta": {
+    "pos": "adj", 
+    "w": "sekreta"
+  }, 
+  "sekundo": {
+    "pos": "n", 
+    "w": "sekundo"
+  }, 
+  "sekura": {
+    "pos": "adj", 
+    "w": "sekura"
+  }, 
+  "sekvas": {
+    "pos": "v", 
+    "w": "sequas"
+  }, 
+  "semajno": {
+    "pos": "n", 
+    "w": "semano"
+  }, 
+  "semas": {
+    "pos": "v", 
+    "w": "semas"
+  }, 
+  "semo": {
+    "pos": "n", 
+    "w": "semino"
+  }, 
+  "sen": {
+    "pos": "?", 
+    "w": "sen"
+  }, 
+  "senco": {
+    "pos": "n", 
+    "w": "senco"
+  }, 
+  "sendas": {
+    "pos": "v", 
+    "w": "sendas"
+  }, 
+  "senelirejo": {
+    "pos": "n", 
+    "w": "impaso"
+  }, 
+  "senhavulo": {
+    "pos": "n", 
+    "w": "indijanto"
+  }, 
+  "senkonsciigas": {
+    "pos": "v", 
+    "w": "aturdas"
+  }, 
+  "senkulpa": {
+    "fuz": true, 
+    "pos": "adj", 
+    "w": "inocenta"
+  }, 
+  "senpaga": {
+    "pos": "adj", 
+    "w": "gratuita"
+  }, 
+  "senpera": {
+    "pos": "adj", 
+    "w": "direta"
+  }, 
+  "senpezigas": {
+    "pos": "v", 
+    "w": "alejas"
+  }, 
+  "senso": {
+    "pos": "n", 
+    "w": "senso"
+  }, 
+  "sentas": {
+    "pos": "v", 
+    "w": "sentas"
+  }, 
+  "sentimento": {
+    "pos": "n", 
+    "w": "sentimento"
+  }, 
+  "sep": {
+    "pos": "num", 
+    "w": "sep"
+  }, 
+  "septembro": {
+    "pos": "n", 
+    "w": "septembro"
+  }, 
+  "serio": {
+    "pos": "n", 
+    "w": "serio"
+  }, 
+  "serioza": {
+    "pos": "adj", 
+    "w": "serioza"
+  }, 
+  "serpento": {
+    "pos": "n", 
+    "w": "serpento"
+  }, 
+  "serpo": {
+    "pos": "n", 
+    "w": "siklo"
+  }, 
+  "seruro": {
+    "pos": "n", 
+    "w": "seruro"
+  }, 
+  "servas": {
+    "pos": "v", 
+    "w": "servas"
+  }, 
+  "serĉas": {
+    "pos": "v", 
+    "w": "serchas"
+  }, 
+  "ses": {
+    "pos": "num", 
+    "w": "sis"
+  }, 
+  "severa": {
+    "pos": "adj", 
+    "w": "severa"
+  }, 
+  "sezono": {
+    "pos": "n", 
+    "w": "sezono"
+  }, 
+  "seĝo": {
+    "pos": "n", 
+    "w": "stulo"
+  }, 
+  "sfero": {
+    "pos": "n", 
+    "w": "sfero"
+  }, 
+  "si": {
+    "pos": "?", 
+    "w": "su"
+  }, 
+  "sia": {
+    "pos": "adj", 
+    "w": "sua"
+  }, 
+  "siblas": {
+    "pos": "v", 
+    "w": "sisas"
+  }, 
+  "sidas": {
+    "pos": "v", 
+    "w": "sidas"
+  }, 
+  "sieĝas": {
+    "pos": "v", 
+    "w": "asiejas"
+  }, 
+  "signalas": {
+    "pos": "v", 
+    "w": "signalas"
+  }, 
+  "signifas": {
+    "pos": "v", 
+    "w": "signifikas"
+  }, 
+  "signo": {
+    "pos": "n", 
+    "w": "signo"
+  }, 
+  "silentas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "tacas"
+  }, 
+  "silko": {
+    "pos": "n", 
+    "w": "silko"
+  }, 
+  "simbolo": {
+    "pos": "n", 
+    "w": "simbolo"
+  }, 
+  "simila": {
+    "pos": "adj", 
+    "w": "simila"
+  }, 
+  "simpla": {
+    "pos": "adj", 
+    "w": "simpla"
+  }, 
+  "simptomo": {
+    "pos": "n", 
+    "w": "simptomo"
+  }, 
+  "sincera": {
+    "pos": "adj", 
+    "w": "sincera"
+  }, 
+  "sindona": {
+    "pos": "adj", 
+    "w": "devota"
+  }, 
+  "singarda": {
+    "fuz": true, 
+    "pos": "adj", 
+    "w": "cirkonspekta"
+  }, 
+  "singulara": {
+    "pos": "adj", 
+    "w": "singulara"
+  }, 
+  "singultas": {
+    "pos": "v", 
+    "w": "hipas"
+  }, 
+  "sinjorino": {
+    "pos": "n", 
+    "w": "siorino"
+  }, 
+  "sinjoro": [
+    {
+      "fuz": true, 
+      "pos": "n", 
+      "w": "sinioro"
+    }, 
+    {
+      "pos": "n", 
+      "w": "sioro"
+    }, 
+    {
+      "pos": "n", 
+      "w": "siorulo"
+    }
+  ], 
+  "sinteno": {
+    "pos": "n", 
+    "w": "atitudo"
+  }, 
+  "siropo": {
+    "pos": "n", 
+    "w": "siropo"
+  }, 
+  "sistemo": {
+    "pos": "n", 
+    "w": "sistemo"
+  }, 
+  "sitelo": {
+    "pos": "n", 
+    "w": "sitelo"
+  }, 
+  "situacio": {
+    "pos": "n", 
+    "w": "situeso"
+  }, 
+  "situigas": {
+    "pos": "v", 
+    "w": "situas"
+  }, 
+  "situo": {
+    "pos": "n", 
+    "w": "situeso"
+  }, 
+  "skalo": {
+    "pos": "n", 
+    "w": "skalo"
+  }, 
+  "skarpo": [
+    {
+      "fuz": true, 
+      "pos": "n", 
+      "w": "bretelo"
+    }, 
+    {
+      "pos": "n", 
+      "w": "sharpo"
+    }
+  ], 
+  "skatolo": {
+    "pos": "n", 
+    "w": "buxo"
+  }, 
+  "skemo": {
+    "pos": "n", 
+    "w": "skemo"
+  }, 
+  "skeptika": {
+    "pos": "adj", 
+    "w": "skeptika"
+  }, 
+  "skeptikulo": {
+    "pos": "n", 
+    "w": "skeptiko"
+  }, 
+  "skizas": {
+    "pos": "v", 
+    "w": "skisas"
+  }, 
+  "skolo": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "skolo"
+  }, 
+  "skrapas": {
+    "pos": "v", 
+    "w": "skrapas"
+  }, 
+  "skribas": {
+    "pos": "v", 
+    "w": "skribas"
+  }, 
+  "skuas": {
+    "pos": "v", 
+    "w": "sukusas"
+  }, 
+  "socia": {
+    "pos": "adj", 
+    "w": "sociala"
+  }, 
+  "sociala": {
+    "pos": "adj", 
+    "w": "sociala"
+  }, 
+  "societo": {
+    "pos": "n", 
+    "w": "societo"
+  }, 
+  "socio": {
+    "pos": "n", 
+    "w": "socio"
+  }, 
+  "soifas": {
+    "pos": "v", 
+    "w": "durstas"
+  }, 
+  "sola": [
+    {
+      "pos": "adj", 
+      "w": "sola"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "adj", 
+      "w": "solitara"
+    }
+  ], 
+  "soldato": {
+    "pos": "n", 
+    "w": "soldato"
+  }, 
+  "solena": {
+    "pos": "adj", 
+    "w": "solena"
+  }, 
+  "solenas": [
+    {
+      "pos": "v", 
+      "w": "celebras"
+    }, 
+    {
+      "pos": "v", 
+      "w": "festas"
+    }
+  ], 
+  "solida": {
+    "pos": "adj", 
+    "w": "solida"
+  }, 
+  "solvas": {
+    "pos": "v", 
+    "w": "solvas"
+  }, 
+  "somero": {
+    "pos": "n", 
+    "w": "somero"
+  }, 
+  "sonas": {
+    "pos": "v", 
+    "w": "sonas"
+  }, 
+  "sonora": {
+    "pos": "adj", 
+    "w": "sonora"
+  }, 
+  "sonorilo": {
+    "pos": "n", 
+    "w": "klosho"
+  }, 
+  "sonĝas": {
+    "pos": "v", 
+    "w": "sonjas"
+  }, 
+  "sorbas": {
+    "pos": "v", 
+    "w": "absorbas"
+  }, 
+  "sordida": {
+    "pos": "adj", 
+    "w": "sordida"
+  }, 
+  "sortimentas": {
+    "pos": "v", 
+    "w": "asortas"
+  }, 
+  "sorto": {
+    "pos": "n", 
+    "w": "fato"
+  }, 
+  "sovaĝa": {
+    "pos": "adj", 
+    "w": "sovaja"
+  }, 
+  "spaco": {
+    "pos": "n", 
+    "w": "spaco"
+  }, 
+  "sparkilo": {
+    "pos": "n", 
+    "w": "bujio"
+  }, 
+  "spasmoploras": {
+    "pos": "v", 
+    "w": "singlutas"
+  }, 
+  "speciala": {
+    "fuz": true, 
+    "pos": "adj", 
+    "w": "partikulara"
+  }, 
+  "specimeno": {
+    "pos": "n", 
+    "w": "specimeno"
+  }, 
+  "specio": {
+    "pos": "n", 
+    "w": "speco"
+  }, 
+  "speco": {
+    "pos": "n", 
+    "w": "sorto"
+  }, 
+  "spegulo": {
+    "pos": "n", 
+    "w": "spegulo"
+  }, 
+  "spektaklo": {
+    "pos": "n", 
+    "w": "spektaklo"
+  }, 
+  "spektas": {
+    "pos": "v", 
+    "w": "spektas"
+  }, 
+  "sperta": {
+    "pos": "adj", 
+    "w": "experta"
+  }, 
+  "spertas": {
+    "pos": "v", 
+    "w": "experiencas"
+  }, 
+  "spico": {
+    "pos": "n", 
+    "w": "spico"
+  }, 
+  "spino": {
+    "pos": "n", 
+    "w": "spino"
+  }, 
+  "spiralo": {
+    "pos": "n", 
+    "w": "spiralo"
+  }, 
+  "spiras": {
+    "pos": "v", 
+    "w": "respiras"
+  }, 
+  "spirito": {
+    "pos": "n", 
+    "w": "spirito"
+  }, 
+  "spongo": {
+    "pos": "n", 
+    "w": "sponjo"
+  }, 
+  "spontana": {
+    "pos": "adj", 
+    "w": "spontana"
+  }, 
+  "sporto": {
+    "pos": "n", 
+    "w": "sporto"
+  }, 
+  "stabila": {
+    "pos": "adj", 
+    "w": "stabila"
+  }, 
+  "stablo": {
+    "pos": "n", 
+    "w": "tresto"
+  }, 
+  "stacio": {
+    "pos": "n", 
+    "w": "staciono"
+  }, 
+  "stagnas": {
+    "pos": "v", 
+    "w": "stagnas"
+  }, 
+  "stalo": {
+    "pos": "n", 
+    "w": "stablo"
+  }, 
+  "standardo": {
+    "pos": "n", 
+    "w": "standardo"
+  }, 
+  "stango": {
+    "pos": "n", 
+    "w": "stango"
+  }, 
+  "staplo": {
+    "pos": "n", 
+    "w": "magazino"
+  }, 
+  "staras": {
+    "pos": "v", 
+    "w": "stacas"
+  }, 
+  "starigas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "institucas"
+  }, 
+  "stato": {
+    "pos": "n", 
+    "w": "stando"
+  }, 
+  "steleto": {
+    "pos": "n", 
+    "w": "asterisko"
+  }, 
+  "stelo": {
+    "pos": "n", 
+    "w": "stelo"
+  }, 
+  "sterila": {
+    "pos": "adj", 
+    "w": "sterila"
+  }, 
+  "sterko": {
+    "pos": "n", 
+    "w": "dungo"
+  }, 
+  "stilo": {
+    "pos": "n", 
+    "w": "stilo"
+  }, 
+  "stoko": {
+    "pos": "n", 
+    "w": "stoko"
+  }, 
+  "stomako": {
+    "pos": "n", 
+    "w": "stomako"
+  }, 
+  "stovo": {
+    "pos": "n", 
+    "w": "furnelo"
+  }, 
+  "stranga": {
+    "pos": "adj", 
+    "w": "stranja"
+  }, 
+  "strategio": {
+    "pos": "n", 
+    "w": "strategio"
+  }, 
+  "strato": {
+    "pos": "n", 
+    "w": "strado"
+  }, 
+  "stratumo": {
+    "pos": "n", 
+    "w": "strato"
+  }, 
+  "streko": {
+    "pos": "n", 
+    "w": "streko"
+  }, 
+  "streĉas": {
+    "pos": "v", 
+    "w": "tensas"
+  }, 
+  "strikas": {
+    "pos": "v", 
+    "w": "strikas"
+  }, 
+  "strikta": {
+    "pos": "adj", 
+    "w": "strikta"
+  }, 
+  "stringas": {
+    "pos": "v", 
+    "w": "embracas"
+  }, 
+  "strio": {
+    "pos": "n", 
+    "w": "bendo"
+  }, 
+  "strukturo": {
+    "pos": "n", 
+    "w": "strukturo"
+  }, 
+  "studas": {
+    "pos": "v", 
+    "w": "studias"
+  }, 
+  "studento": {
+    "pos": "n", 
+    "w": "studento"
+  }, 
+  "stumbligas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "gambitas"
+  }, 
+  "sub": {
+    "pos": "prep", 
+    "w": "sub"
+  }, 
+  "subfalas": {
+    "pos": "v", 
+    "w": "sukombas"
+  }, 
+  "subita": {
+    "pos": "adj", 
+    "w": "subita"
+  }, 
+  "subjekto": {
+    "pos": "n", 
+    "w": "subjekto"
+  }, 
+  "subjugigas": {
+    "pos": "v", 
+    "w": "domtas"
+  }, 
+  "subpremas": {
+    "pos": "v", 
+    "w": "supresas"
+  }, 
+  "subskribas": {
+    "pos": "v", 
+    "w": "signatas"
+  }, 
+  "substanco": {
+    "pos": "n", 
+    "w": "substanco"
+  }, 
+  "substantivo": {
+    "pos": "n", 
+    "w": "substantivo"
+  }, 
+  "substituas": {
+    "pos": "v", 
+    "w": "substitucas"
+  }, 
+  "subtenas": [
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "mantenas"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "suportas"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "sustenas"
+    }
+  ], 
+  "subtila": {
+    "pos": "adj", 
+    "w": "subtila"
+  }, 
+  "subtrahas": {
+    "pos": "v", 
+    "w": "sustracionas"
+  }, 
+  "sudo": {
+    "pos": "n", 
+    "w": "sudo"
+  }, 
+  "suferas": {
+    "pos": "v", 
+    "w": "sufras"
+  }, 
+  "sufiĉa": {
+    "pos": "adj", 
+    "w": "pasabla"
+  }, 
+  "sufiĉas": {
+    "pos": "v", 
+    "w": "suficas"
+  }, 
+  "sufiĉe": {
+    "pos": "adv", 
+    "w": "sate"
+  }, 
+  "sufokas": {
+    "pos": "v", 
+    "w": "sufokas"
+  }, 
+  "sugestas": {
+    "pos": "v", 
+    "w": "sugestas"
+  }, 
+  "sukcesas": {
+    "pos": "v", 
+    "w": "sucesas"
+  }, 
+  "sukero": {
+    "pos": "n", 
+    "w": "sukro"
+  }, 
+  "suko": {
+    "pos": "n", 
+    "w": "suko"
+  }, 
+  "sulka": {
+    "pos": "adj", 
+    "w": "ardua"
+  }, 
+  "sumo": {
+    "pos": "n", 
+    "w": "sumo"
+  }, 
+  "suno": {
+    "pos": "n", 
+    "w": "suno"
+  }, 
+  "super": {
+    "pos": "?", 
+    "w": "super"
+  }, 
+  "superas": {
+    "pos": "v", 
+    "w": "ecelas"
+  }, 
+  "superstiĉo": {
+    "pos": "n", 
+    "w": "superstico"
+  }, 
+  "suplemento": {
+    "pos": "n", 
+    "w": "suplemento"
+  }, 
+  "supo": {
+    "pos": "n", 
+    "w": "supo"
+  }, 
+  "supozas": {
+    "pos": "v", 
+    "w": "supozas"
+  }, 
+  "supplado": {
+    "pos": "n", 
+    "w": "eskudelo"
+  }, 
+  "supra": {
+    "pos": "adj", 
+    "w": "supra"
+  }, 
+  "supraĵo": {
+    "pos": "n", 
+    "w": "surfaco"
+  }, 
+  "supre": {
+    "pos": "adv", 
+    "w": "supre"
+  }, 
+  "supreniras": {
+    "pos": "v", 
+    "w": "acensas"
+  }, 
+  "supro": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "somito"
+  }, 
+  "sur": {
+    "pos": "prep", 
+    "w": "sur"
+  }, 
+  "surda": {
+    "pos": "adj", 
+    "w": "surda"
+  }, 
+  "surfaco": {
+    "pos": "n", 
+    "w": "surfaco"
+  }, 
+  "surprizas": {
+    "pos": "v", 
+    "w": "surprizas"
+  }, 
+  "suspektas": {
+    "pos": "v", 
+    "w": "suspektas"
+  }, 
+  "suspiras": {
+    "pos": "v", 
+    "w": "sospiras"
+  }, 
+  "suĉas": {
+    "pos": "v", 
+    "w": "sugas"
+  }, 
+  "svarmo": {
+    "pos": "n", 
+    "w": "esamo"
+  }, 
+  "svenas": [
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "desaparas"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "esvanas"
+    }
+  ], 
+  "svingas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "brandisas"
+  }, 
+  "tabelo": {
+    "pos": "n", 
+    "w": "tabelo"
+  }, 
+  "tablo": {
+    "pos": "n", 
+    "w": "tablo"
+  }, 
+  "tabulo": {
+    "pos": "n", 
+    "w": "planko"
+  }, 
+  "tagiĝo": {
+    "pos": "n", 
+    "w": "auroro"
+  }, 
+  "taglibro": {
+    "pos": "n", 
+    "w": "diario"
+  }, 
+  "tagmanĝas": {
+    "pos": "v", 
+    "w": "dejunas"
+  }, 
+  "tago": [
+    {
+      "fuz": true, 
+      "pos": "n", 
+      "w": "dio"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "n", 
+      "w": "jorno"
+    }
+  ], 
+  "tajloro": {
+    "pos": "n", 
+    "w": "talioro"
+  }, 
+  "taksas": {
+    "pos": "v", 
+    "w": "evaluas"
+  }, 
+  "talento": {
+    "pos": "n", 
+    "w": "talento"
+  }, 
+  "talio": {
+    "pos": "n", 
+    "w": "tayo"
+  }, 
+  "talismano": {
+    "pos": "n", 
+    "w": "talismano"
+  }, 
+  "tamen": {
+    "pos": "?", 
+    "w": "tamen"
+  }, 
+  "tanko": {
+    "pos": "n", 
+    "w": "tanko"
+  }, 
+  "tapiŝo": {
+    "pos": "n", 
+    "w": "tapiso"
+  }, 
+  "tasko": {
+    "pos": "n", 
+    "w": "tasko"
+  }, 
+  "taso": {
+    "pos": "n", 
+    "w": "taso"
+  }, 
+  "taverno": {
+    "pos": "n", 
+    "w": "taverno"
+  }, 
+  "tavolo": {
+    "pos": "n", 
+    "w": "strato"
+  }, 
+  "taŭga": {
+    "pos": "adj", 
+    "w": "apta"
+  }, 
+  "teamo": {
+    "pos": "n", 
+    "w": "esquado"
+  }, 
+  "teatro": {
+    "pos": "n", 
+    "w": "teatro"
+  }, 
+  "tedas": {
+    "pos": "v", 
+    "w": "tedas"
+  }, 
+  "tegas": {
+    "pos": "v", 
+    "w": "tegas"
+  }, 
+  "tegmento": {
+    "pos": "n", 
+    "w": "tekto"
+  }, 
+  "tekniko": {
+    "pos": "n", 
+    "w": "tekniko"
+  }, 
+  "tekseĝo": {
+    "pos": "n", 
+    "w": "bordumo"
+  }, 
+  "teksto": {
+    "pos": "n", 
+    "w": "texto"
+  }, 
+  "telefonas": {
+    "pos": "v", 
+    "w": "telefonas"
+  }, 
+  "temo": {
+    "pos": "n", 
+    "w": "temo"
+  }, 
+  "temperamento": {
+    "pos": "n", 
+    "w": "temperamento"
+  }, 
+  "temperaturo": {
+    "pos": "n", 
+    "w": "temperaturo"
+  }, 
+  "tempo": {
+    "pos": "n", 
+    "w": "tempo"
+  }, 
+  "tenaca": {
+    "pos": "adj", 
+    "w": "tenaca"
+  }, 
+  "tenas": {
+    "pos": "v", 
+    "w": "tenas"
+  }, 
+  "tendencas": {
+    "pos": "v", 
+    "w": "tendencas"
+  }, 
+  "tendumas": {
+    "pos": "v", 
+    "w": "kampas"
+  }, 
+  "tenera": {
+    "pos": "adj", 
+    "w": "tenera"
+  }, 
+  "tentas": {
+    "pos": "v", 
+    "w": "tentas"
+  }, 
+  "teo": {
+    "pos": "n", 
+    "w": "teo"
+  }, 
+  "tepida": {
+    "pos": "adj", 
+    "w": "tepida"
+  }, 
+  "tero": {
+    "pos": "n", 
+    "w": "tero"
+  }, 
+  "terpomo": {
+    "pos": "n", 
+    "w": "terpomo"
+  }, 
+  "teruriĝas": {
+    "pos": "v", 
+    "w": "teroras"
+  }, 
+  "tia": {
+    "pos": "adj", 
+    "w": "tala"
+  }, 
+  "tiam": {
+    "pos": "adv", 
+    "w": "lore"
+  }, 
+  "tie": {
+    "pos": "adv", 
+    "w": "ibe"
+  }, 
+  "tiel": {
+    "pos": "adv", 
+    "w": "tale"
+  }, 
+  "tiklas": {
+    "pos": "v", 
+    "w": "titilas"
+  }, 
+  "tintegas": {
+    "pos": "v", 
+    "w": "kliktas"
+  }, 
+  "tinuso": {
+    "pos": "n", 
+    "w": "atuno"
+  }, 
+  "tioma": {
+    "pos": "adj", 
+    "w": "tanta"
+  }, 
+  "tipo": {
+    "pos": "n", 
+    "w": "tipo"
+  }, 
+  "tiras": {
+    "pos": "v", 
+    "w": "tiras"
+  }, 
+  "titolo": {
+    "pos": "n", 
+    "w": "titulo"
+  }, 
+  "tolaĵo": {
+    "pos": "n", 
+    "w": "linjo"
+  }, 
+  "toleras": {
+    "pos": "v", 
+    "w": "toleras"
+  }, 
+  "tomato": {
+    "pos": "n", 
+    "w": "tomato"
+  }, 
+  "tombo": {
+    "pos": "n", 
+    "w": "tombo"
+  }, 
+  "tondas": {
+    "pos": "v", 
+    "w": "tondas"
+  }, 
+  "tondilo": {
+    "pos": "n", 
+    "w": "cizo"
+  }, 
+  "tondras": {
+    "pos": "v", 
+    "w": "tondras"
+  }, 
+  "tono": {
+    "pos": "n", 
+    "w": "tono"
+  }, 
+  "tordas": {
+    "pos": "v", 
+    "w": "tordas"
+  }, 
+  "torento": {
+    "pos": "n", 
+    "w": "torento"
+  }, 
+  "torso": {
+    "pos": "n", 
+    "w": "torso"
+  }, 
+  "torto": {
+    "pos": "n", 
+    "w": "tarto"
+  }, 
+  "torĉo": {
+    "pos": "n", 
+    "w": "torcho"
+  }, 
+  "tra": {
+    "pos": "adj", 
+    "w": "tra"
+  }, 
+  "tradukas": {
+    "pos": "v", 
+    "w": "tradukas"
+  }, 
+  "trafas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "shokas"
+  }, 
+  "trafiko": {
+    "pos": "n", 
+    "w": "trafiko"
+  }, 
+  "tragedio": {
+    "pos": "n", 
+    "w": "tragedio"
+  }, 
+  "trajno": {
+    "pos": "n", 
+    "w": "treno"
+  }, 
+  "traktas": {
+    "pos": "v", 
+    "w": "traktas"
+  }, 
+  "tralavas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "rinsas"
+  }, 
+  "trankvila": {
+    "pos": "adj", 
+    "w": "tranquila"
+  }, 
+  "trans": {
+    "pos": "?", 
+    "w": "trans"
+  }, 
+  "transdonas": {
+    "pos": "v", 
+    "w": "transferas"
+  }, 
+  "transigas": {
+    "pos": "v", 
+    "w": "transferas"
+  }, 
+  "transportas": {
+    "pos": "v", 
+    "w": "transportas"
+  }, 
+  "transversa": {
+    "pos": "adj", 
+    "w": "transversa"
+  }, 
+  "tranĉaĵo": {
+    "pos": "n", 
+    "w": "loncho"
+  }, 
+  "tranĉetas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "sekas"
+  }, 
+  "tranĉilo": {
+    "pos": "n", 
+    "w": "kultelo"
+  }, 
+  "travidebla": {
+    "pos": "adj", 
+    "w": "diafana"
+  }, 
+  "tre": {
+    "pos": "adv", 
+    "w": "tre"
+  }, 
+  "tremas": {
+    "pos": "v", 
+    "w": "tremas"
+  }, 
+  "trenas": {
+    "pos": "v", 
+    "w": "haulas"
+  }, 
+  "trezoro": {
+    "pos": "n", 
+    "w": "trezoro"
+  }, 
+  "tri": {
+    "pos": "num", 
+    "w": "tri"
+  }, 
+  "trikas": {
+    "pos": "v", 
+    "w": "trikotas"
+  }, 
+  "trinkas": {
+    "pos": "v", 
+    "w": "drinkas"
+  }, 
+  "tritiko": {
+    "pos": "n", 
+    "w": "frumento"
+  }, 
+  "triviala": {
+    "fuz": true, 
+    "pos": "adj", 
+    "w": "ruda"
+  }, 
+  "tro": {
+    "pos": "n", 
+    "w": "tro"
+  }, 
+  "trogo": {
+    "pos": "n", 
+    "w": "trogo"
+  }, 
+  "troigas": {
+    "pos": "v", 
+    "w": "exajeras"
+  }, 
+  "trompas": {
+    "pos": "v", 
+    "w": "trompas"
+  }, 
+  "trotuaro": {
+    "pos": "n", 
+    "w": "trotuaro"
+  }, 
+  "trovas": {
+    "pos": "v", 
+    "w": "trovas"
+  }, 
+  "trudas": {
+    "pos": "v", 
+    "w": "impozas"
+  }, 
+  "trunko": {
+    "pos": "n", 
+    "w": "trunko"
+  }, 
+  "truo": {
+    "pos": "n", 
+    "w": "truo"
+  }, 
+  "trupo": {
+    "pos": "n", 
+    "w": "trupo"
+  }, 
+  "tualeto": {
+    "pos": "n", 
+    "w": "tualeto"
+  }, 
+  "tubero": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "gibo"
+  }, 
+  "tubo": {
+    "pos": "n", 
+    "w": "tubo"
+  }, 
+  "tufo": {
+    "pos": "n", 
+    "w": "tufo"
+  }, 
+  "tuj": {
+    "pos": "?", 
+    "w": "quik"
+  }, 
+  "tuko": {
+    "pos": "n", 
+    "w": "tuko"
+  }, 
+  "tunelo": {
+    "pos": "n", 
+    "w": "tunelo"
+  }, 
+  "turisto": {
+    "pos": "n", 
+    "w": "turisto"
+  }, 
+  "turo": {
+    "pos": "n", 
+    "w": "turmo"
+  }, 
+  "tusas": {
+    "pos": "v", 
+    "w": "tusas"
+  }, 
+  "tuta": {
+    "pos": "adj", 
+    "w": "tota"
+  }, 
+  "tuŝas": {
+    "pos": "v", 
+    "w": "tushas"
+  }, 
+  "ujo": {
+    "pos": "n", 
+    "w": "utensilo"
+  }, 
+  "ungo": {
+    "pos": "n", 
+    "w": "unglo"
+  }, 
+  "ungvento": {
+    "pos": "n", 
+    "w": "unguento"
+  }, 
+  "uniformo": {
+    "pos": "n", 
+    "w": "uniformo"
+  }, 
+  "unika": {
+    "pos": "adj", 
+    "w": "unika"
+  }, 
+  "unio": {
+    "pos": "n", 
+    "w": "uniono"
+  }, 
+  "unu": {
+    "pos": "num", 
+    "w": "un"
+  }, 
+  "unua": {
+    "pos": "adj", 
+    "w": "unesma"
+  }, 
+  "unuanima": {
+    "pos": "adj", 
+    "w": "unanima"
+  }, 
+  "unufoje": {
+    "pos": "adv", 
+    "w": "unfoye"
+  }, 
+  "unuforma": {
+    "pos": "adj", 
+    "w": "uniforma"
+  }, 
+  "unuigas": {
+    "pos": "v", 
+    "w": "unionas"
+  }, 
+  "unuiĝo": {
+    "pos": "n", 
+    "w": "uniono"
+  }, 
+  "uragano": {
+    "pos": "n", 
+    "w": "uragano"
+  }, 
+  "urbo": {
+    "pos": "n", 
+    "w": "urbo"
+  }, 
+  "urso": {
+    "pos": "n", 
+    "w": "urso"
+  }, 
+  "urĝas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "urjas"
+  }, 
+  "utila": {
+    "pos": "adj", 
+    "w": "utila"
+  }, 
+  "uzas": {
+    "pos": "v", 
+    "w": "uzas"
+  }, 
+  "vagono": {
+    "pos": "n", 
+    "w": "vagono"
+  }, 
+  "vakas": {
+    "pos": "v", 
+    "w": "vakas"
+  }, 
+  "vakskandelo": {
+    "pos": "n", 
+    "w": "bujio"
+  }, 
+  "vakso": {
+    "pos": "n", 
+    "w": "vaxo"
+  }, 
+  "valida": {
+    "pos": "adj", 
+    "w": "valida"
+  }, 
+  "valizo": {
+    "pos": "n", 
+    "w": "valizo"
+  }, 
+  "valo": {
+    "pos": "n", 
+    "w": "valo"
+  }, 
+  "valoras": {
+    "pos": "v", 
+    "w": "valoras"
+  }, 
+  "vana": {
+    "pos": "adj", 
+    "w": "vana"
+  }, 
+  "vango": {
+    "pos": "n", 
+    "w": "vango"
+  }, 
+  "vaporo": {
+    "pos": "n", 
+    "w": "vaporo"
+  }, 
+  "varias": {
+    "pos": "v", 
+    "w": "varias"
+  }, 
+  "varma": {
+    "pos": "adj", 
+    "w": "varma"
+  }, 
+  "varmeta": {
+    "pos": "adj", 
+    "w": "tepida"
+  }, 
+  "varo": {
+    "pos": "n", 
+    "w": "varo"
+  }, 
+  "vartenejo": {
+    "pos": "n", 
+    "w": "magazino"
+  }, 
+  "vasta": {
+    "pos": "adj", 
+    "w": "vasta"
+  }, 
+  "vazo": {
+    "pos": "n", 
+    "w": "vazo"
+  }, 
+  "vejno": {
+    "pos": "n", 
+    "w": "veino"
+  }, 
+  "vekas": {
+    "pos": "v", 
+    "w": "vekigas"
+  }, 
+  "vekiĝas": {
+    "pos": "v", 
+    "w": "vekas"
+  }, 
+  "velo": {
+    "pos": "n", 
+    "w": "seglo"
+  }, 
+  "venas": {
+    "pos": "v", 
+    "w": "venas"
+  }, 
+  "vendas": {
+    "pos": "v", 
+    "w": "vendas"
+  }, 
+  "vendoplaco": {
+    "pos": "n", 
+    "w": "merkato"
+  }, 
+  "vendredo": {
+    "pos": "n", 
+    "w": "venerdio"
+  }, 
+  "veneno": {
+    "pos": "n", 
+    "w": "veneno"
+  }, 
+  "venkas": {
+    "pos": "v", 
+    "w": "vinkas"
+  }, 
+  "vento": {
+    "pos": "n", 
+    "w": "vento"
+  }, 
+  "ventro": {
+    "pos": "n", 
+    "w": "ventro"
+  }, 
+  "vera": {
+    "pos": "adj", 
+    "w": "vera"
+  }, 
+  "veraltet": {
+    "pos": "adj", 
+    "w": "obsoleta"
+  }, 
+  "verbo": {
+    "pos": "n", 
+    "w": "verbo"
+  }, 
+  "verda": {
+    "pos": "adj", 
+    "w": "verda"
+  }, 
+  "vergo": {
+    "pos": "n", 
+    "w": "vergo"
+  }, 
+  "versio": {
+    "pos": "n", 
+    "w": "versiono"
+  }, 
+  "vertikala": {
+    "pos": "adj", 
+    "w": "vertikala"
+  }, 
+  "verva": [
+    {
+      "fuz": true, 
+      "pos": "adj", 
+      "w": "briska"
+    }, 
+    {
+      "pos": "adj", 
+      "w": "vivaca"
+    }
+  ], 
+  "vervo": {
+    "pos": "n", 
+    "w": "vervo"
+  }, 
+  "verŝajna": {
+    "pos": "adj", 
+    "w": "probabla"
+  }, 
+  "verŝas": {
+    "pos": "v", 
+    "w": "varsas"
+  }, 
+  "vespermanĝas": {
+    "pos": "v", 
+    "w": "dineas"
+  }, 
+  "vespero": {
+    "pos": "n", 
+    "w": "vespero"
+  }, 
+  "vesperto": {
+    "fuz": true, 
+    "pos": "n", 
+    "w": "kiroptero"
+  }, 
+  "vespo": {
+    "pos": "n", 
+    "w": "vespo"
+  }, 
+  "vesto": {
+    "pos": "n", 
+    "w": "vesto"
+  }, 
+  "vetas": {
+    "pos": "v", 
+    "w": "parias"
+  }, 
+  "vetero": {
+    "pos": "n", 
+    "w": "vetero"
+  }, 
+  "veturilo": {
+    "pos": "n", 
+    "w": "veturo"
+  }, 
+  "vibras": {
+    "pos": "v", 
+    "w": "vibras"
+  }, 
+  "vicigas": {
+    "pos": "v", 
+    "w": "alinias"
+  }, 
+  "vidas": {
+    "pos": "v", 
+    "w": "vidas"
+  }, 
+  "vidva": {
+    "pos": "adj", 
+    "w": "vidva"
+  }, 
+  "vigla": [
+    {
+      "pos": "adj", 
+      "w": "alerta"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "adj", 
+      "w": "briska"
+    }
+  ], 
+  "viktimo": {
+    "pos": "n", 
+    "w": "viktimo"
+  }, 
+  "vilaĝo": {
+    "pos": "n", 
+    "w": "vilajo"
+  }, 
+  "vinagro": {
+    "pos": "n", 
+    "w": "vinagro"
+  }, 
+  "vindotuko": {
+    "pos": "n", 
+    "w": "lanjo"
+  }, 
+  "vino": {
+    "pos": "n", 
+    "w": "vino"
+  }, 
+  "vintro": {
+    "pos": "n", 
+    "w": "vintro"
+  }, 
+  "virino": {
+    "pos": "n", 
+    "w": "muliero"
+  }, 
+  "viro": {
+    "pos": "n", 
+    "w": "viro"
+  }, 
+  "virseksa": {
+    "pos": "adj", 
+    "w": "maskula"
+  }, 
+  "virto": {
+    "pos": "n", 
+    "w": "vertuo"
+  }, 
+  "vitro": {
+    "pos": "n", 
+    "w": "vitro"
+  }, 
+  "vivas": {
+    "pos": "v", 
+    "w": "vivas"
+  }, 
+  "viveca": {
+    "pos": "adj", 
+    "w": "vivaca"
+  }, 
+  "vizaĝo": {
+    "pos": "n", 
+    "w": "vizajo"
+  }, 
+  "vizitas": {
+    "pos": "v", 
+    "w": "vizitas"
+  }, 
+  "viŝas": {
+    "pos": "v", 
+    "w": "vishas"
+  }, 
+  "vojaĝas": {
+    "pos": "v", 
+    "w": "voyajas"
+  }, 
+  "vojo": {
+    "pos": "n", 
+    "w": "voyo"
+  }, 
+  "vojstreko": {
+    "pos": "n", 
+    "w": "treko"
+  }, 
+  "vokalo": {
+    "pos": "n", 
+    "w": "vokalo"
+  }, 
+  "vokas": {
+    "pos": "v", 
+    "w": "vokas"
+  }, 
+  "volas": {
+    "pos": "v", 
+    "w": "volas"
+  }, 
+  "volontas": {
+    "pos": "v", 
+    "w": "voluntas"
+  }, 
+  "volumeno": {
+    "pos": "n", 
+    "w": "volumino"
+  }, 
+  "volvas": {
+    "pos": "v", 
+    "w": "volvas"
+  }, 
+  "vorto": {
+    "pos": "n", 
+    "w": "vorto"
+  }, 
+  "vortpentras": {
+    "pos": "v", 
+    "w": "deskriptas"
+  }, 
+  "vosto": {
+    "pos": "n", 
+    "w": "kaudo"
+  }, 
+  "voĉdonas": {
+    "pos": "v", 
+    "w": "votas"
+  }, 
+  "voĉo": {
+    "pos": "n", 
+    "w": "voco"
+  }, 
+  "vulgara": {
+    "pos": "adj", 
+    "w": "vulgara"
+  }, 
+  "vundas": {
+    "pos": "v", 
+    "w": "vundas"
+  }, 
+  "zingibro": {
+    "pos": "n", 
+    "w": "jinjero"
+  }, 
+  "zono": {
+    "pos": "n", 
+    "w": "zono"
+  }, 
+  "zorgas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "sorgas"
+  }, 
+  "ĉagrenas": {
+    "pos": "v", 
+    "w": "vexas"
+  }, 
+  "ĉambro": {
+    "pos": "n", 
+    "w": "chambro"
+  }, 
+  "ĉampiono": {
+    "pos": "n", 
+    "w": "championo"
+  }, 
+  "ĉapelo": {
+    "pos": "n", 
+    "w": "chapelo"
+  }, 
+  "ĉapitro": {
+    "pos": "n", 
+    "w": "chapitro"
+  }, 
+  "ĉapo": {
+    "pos": "n", 
+    "w": "boneto"
+  }, 
+  "ĉarmas": {
+    "pos": "v", 
+    "w": "charmas"
+  }, 
+  "ĉarniro": {
+    "pos": "n", 
+    "w": "charniro"
+  }, 
+  "ĉaro": {
+    "pos": "n", 
+    "w": "charo"
+  }, 
+  "ĉarpentas": {
+    "pos": "v", 
+    "w": "karpentas"
+  }, 
+  "ĉarumo": {
+    "pos": "n", 
+    "w": "brueto"
+  }, 
+  "ĉasas": {
+    "pos": "v", 
+    "w": "chasas"
+  }, 
+  "ĉasio": {
+    "pos": "n", 
+    "w": "framo"
+  }, 
+  "ĉasta": {
+    "pos": "adj", 
+    "w": "chasta"
+  }, 
+  "ĉeestanta": {
+    "pos": "adj", 
+    "w": "prezenta"
+  }, 
+  "ĉeestas": {
+    "pos": "v", 
+    "w": "asistas"
+  }, 
+  "ĉefa": [
+    {
+      "pos": "adj", 
+      "w": "chefa"
+    }, 
+    {
+      "pos": "adj", 
+      "w": "precipua"
+    }
+  ], 
+  "ĉeko": {
+    "pos": "n", 
+    "w": "cheko"
+  }, 
+  "ĉelo": {
+    "pos": "n", 
+    "w": "celulo"
+  }, 
+  "ĉemizo": {
+    "pos": "n", 
+    "w": "kamizo"
+  }, 
+  "ĉeno": {
+    "pos": "n", 
+    "w": "kateno"
+  }, 
+  "ĉerizo": {
+    "pos": "n", 
+    "w": "cerizo"
+  }, 
+  "ĉerko": {
+    "pos": "n", 
+    "w": "sarko"
+  }, 
+  "ĉesas": {
+    "pos": "v", 
+    "w": "cesas"
+  }, 
+  "ĉevalo": {
+    "pos": "n", 
+    "w": "kavalo"
+  }, 
+  "ĉiam": {
+    "pos": "adv", 
+    "w": "sempre"
+  }, 
+  "ĉielo": {
+    "pos": "n", 
+    "w": "cielo"
+  }, 
+  "ĉifas": {
+    "pos": "v", 
+    "w": "krumplas"
+  }, 
+  "ĉifono": {
+    "pos": "n", 
+    "w": "rago"
+  }, 
+  "ĉio": {
+    "pos": "n", 
+    "w": "omno"
+  }, 
+  "ĉirkaŭas": {
+    "pos": "v", 
+    "w": "cirkondas"
+  }, 
+  "ĉirkaŭfosaĵo": {
+    "pos": "n", 
+    "w": "fosato"
+  }, 
+  "ĉirkaŭiras": {
+    "pos": "v", 
+    "w": "jiras"
+  }, 
+  "ĉirkaŭiro": {
+    "pos": "n", 
+    "w": "cirkuito"
+  }, 
+  "ĉirkaŭprenas": {
+    "pos": "v", 
+    "w": "embracas"
+  }, 
+  "ĉirkaŭtranĉas": {
+    "pos": "v", 
+    "w": "emundas"
+  }, 
+  "ĉizas": {
+    "pos": "v", 
+    "w": "cizelas"
+  }, 
+  "ĉokolado": {
+    "pos": "n", 
+    "w": "chokolado"
+  }, 
+  "ĝangalo": {
+    "pos": "n", 
+    "w": "junglo"
+  }, 
+  "ĝardeno": {
+    "pos": "n", 
+    "w": "gardeno"
+  }, 
+  "ĝemas": {
+    "pos": "v", 
+    "w": "jemas"
+  }, 
+  "ĝemelo": {
+    "pos": "n", 
+    "w": "jemelo"
+  }, 
+  "ĝenas": {
+    "pos": "v", 
+    "w": "jenas"
+  }, 
+  "ĝenerala": {
+    "pos": "adj", 
+    "w": "generala"
+  }, 
+  "ĝentila": {
+    "fuz": true, 
+    "pos": "adj", 
+    "w": "jentila"
+  }, 
+  "ĝi": {
+    "pos": "pronoun", 
+    "w": "olu"
+  }, 
+  "ĝia": {
+    "pos": "adj", 
+    "w": "olua"
+  }, 
+  "ĝibo": {
+    "pos": "n", 
+    "w": "gibo"
+  }, 
+  "ĝis": {
+    "pos": "?", 
+    "w": "til"
+  }, 
+  "ĝisiĝas": {
+    "pos": "v", 
+    "w": "rajuntas"
+  }, 
+  "ĝojas": {
+    "pos": "v", 
+    "w": "joyas"
+  }, 
+  "ĝuas": {
+    "pos": "v", 
+    "w": "juas"
+  }, 
+  "ĝusta": {
+    "pos": "adj", 
+    "w": "justa"
+  }, 
+  "ĥaoso": [
+    {
+      "pos": "n", 
+      "w": "kaoso"
+    }, 
+    {
+      "pos": "n", 
+      "w": "kaoso"
+    }
+  ], 
+  "ĥoro": {
+    "pos": "n", 
+    "w": "koro"
+  }, 
+  "ĵaluza": {
+    "pos": "adj", 
+    "w": "jaluza"
+  }, 
+  "ĵaŭdo": {
+    "pos": "n", 
+    "w": "jovdio"
+  }, 
+  "ĵeleo": {
+    "pos": "n", 
+    "w": "jeleo"
+  }, 
+  "ĵetas": [
+    {
+      "pos": "v", 
+      "w": "jetas"
+    }, 
+    {
+      "fuz": true, 
+      "pos": "v", 
+      "w": "lansas"
+    }
+  ], 
+  "ĵonglas": {
+    "pos": "v", 
+    "w": "jonglas"
+  }, 
+  "ĵuras": {
+    "pos": "v", 
+    "w": "juras"
+  }, 
+  "ĵurnalo": {
+    "pos": "n", 
+    "w": "jurnalo"
+  }, 
+  "ĵus": {
+    "pos": "?", 
+    "w": "jus"
+  }, 
+  "ŝafo": {
+    "pos": "n", 
+    "w": "mutono"
+  }, 
+  "ŝajnas": {
+    "pos": "v", 
+    "w": "semblas"
+  }, 
+  "ŝaltas": {
+    "pos": "v", 
+    "w": "swichas"
+  }, 
+  "ŝam": {
+    "pos": "v", 
+    "w": "fingas"
+  }, 
+  "ŝampinjono": {
+    "pos": "n", 
+    "w": "champiniono"
+  }, 
+  "ŝanceliĝas": {
+    "pos": "v", 
+    "w": "shancelas"
+  }, 
+  "ŝanco": {
+    "pos": "n", 
+    "w": "chanco"
+  }, 
+  "ŝanĝas": {
+    "pos": "v", 
+    "w": "chanjas"
+  }, 
+  "ŝarĝas": {
+    "pos": "v", 
+    "w": "charjas"
+  }, 
+  "ŝatas": {
+    "pos": "v", 
+    "w": "prizas"
+  }, 
+  "ŝaŭmo": {
+    "pos": "n", 
+    "w": "spumo"
+  }, 
+  "ŝelko": {
+    "pos": "n", 
+    "w": "bretelo"
+  }, 
+  "ŝercas": {
+    "pos": "v", 
+    "w": "jokas"
+  }, 
+  "ŝia": {
+    "pos": "adj", 
+    "w": "elua"
+  }, 
+  "ŝimas": {
+    "pos": "v", 
+    "w": "moldas"
+  }, 
+  "ŝipo": {
+    "pos": "n", 
+    "w": "navo"
+  }, 
+  "ŝiras": {
+    "pos": "v", 
+    "w": "laceras"
+  }, 
+  "ŝirmas": {
+    "pos": "v", 
+    "w": "shirmas"
+  }, 
+  "ŝlosas": {
+    "pos": "v", 
+    "w": "klefklozas"
+  }, 
+  "ŝlosilo": {
+    "pos": "n", 
+    "w": "klefo"
+  }, 
+  "ŝminko": {
+    "pos": "n", 
+    "w": "fardo"
+  }, 
+  "ŝmiras": {
+    "pos": "v", 
+    "w": "indutas"
+  }, 
+  "ŝmiraĵo": {
+    "pos": "n", 
+    "w": "unguento"
+  }, 
+  "ŝnuro": {
+    "pos": "n", 
+    "w": "kordo"
+  }, 
+  "ŝokas": {
+    "fuz": true, 
+    "pos": "v", 
+    "w": "shokas"
+  }, 
+  "ŝoseo": {
+    "pos": "n", 
+    "w": "choseo"
+  }, 
+  "ŝparas": {
+    "pos": "v", 
+    "w": "sparas"
+  }, 
+  "ŝpato": {
+    "pos": "n", 
+    "w": "spado"
+  }, 
+  "ŝranko": {
+    "pos": "n", 
+    "w": "armoro"
+  }, 
+  "ŝraŭbas": {
+    "pos": "v", 
+    "w": "visas"
+  }, 
+  "ŝraŭbingo": {
+    "pos": "n", 
+    "w": "skrubino"
+  }, 
+  "ŝraŭbo": {
+    "pos": "n", 
+    "w": "skrubo"
+  }, 
+  "ŝtalo": {
+    "pos": "n", 
+    "w": "stalo"
+  }, 
+  "ŝtato": {
+    "pos": "n", 
+    "w": "stato"
+  }, 
+  "ŝtelas": {
+    "pos": "v", 
+    "w": "furtas"
+  }, 
+  "ŝtofo": {
+    "pos": "n", 
+    "w": "stofo"
+  }, 
+  "ŝtopas": {
+    "pos": "v", 
+    "w": "stopas"
+  }, 
+  "ŝtormo": {
+    "pos": "n", 
+    "w": "sturmo"
+  }, 
+  "ŝtrumpeto": {
+    "pos": "n", 
+    "w": "kalzeto"
+  }, 
+  "ŝtrumpo": {
+    "pos": "n", 
+    "w": "kalzo"
+  }, 
+  "ŝtuparo": {
+    "pos": "n", 
+    "w": "eskalero"
+  }, 
+  "ŝtupetaro": {
+    "pos": "n", 
+    "w": "skalo"
+  }, 
+  "ŝtupo": {
+    "pos": "n", 
+    "w": "grado"
+  }, 
+  "ŝuldas": {
+    "pos": "v", 
+    "w": "debas"
+  }, 
+  "ŝultro": {
+    "pos": "n", 
+    "w": "shultro"
+  }, 
+  "ŝuo": {
+    "pos": "n", 
+    "w": "shuo"
+  }, 
+  "ŝvelas": {
+    "pos": "v", 
+    "w": "bufas"
+  }, 
+  "ŝveligas": {
+    "pos": "v", 
+    "w": "inflas"
+  }, 
+  "ŝvito": {
+    "pos": "n", 
+    "w": "sudoro"
+  }
+}
