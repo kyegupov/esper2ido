@@ -1,14 +1,16 @@
 
-var dict;
+var dict = {};
 
 function main() {
-    $.getJSON("dicts/base_dict.json", function(data){
-        dict = data;
-        for (var key in data) {
-            dict[esp_normalize(key, "ĉ")] = data[key];
-        }
+    dict_names = ["base_dict.json", "custom_dict.json"];
+    $.each(dict_names, function() {
+        $.getJSON("dicts/"+this, function(data){
+            for (var key in data) {
+                dict[esp_normalize(key, "ĉ")] = data[key];
+            }
+        });
     });
-	$.getJSON("dicts/dyer.json", function(data){
+    $.getJSON("dicts/dyer.json", function(data){
         dyer = data;
     });
     $("#go").click(translate);
@@ -32,7 +34,7 @@ function esp_normalize(text0, style) {
     var text = text0.toLowerCase();
     for (var digraph in trtab) {
         text = text.replace(new RegExp(digraph, "g"), trtab[digraph]);
-		text = text.replace(new RegExp(digraph, "gi"), trtab[digraph].toUpperCase());
+        text = text.replace(new RegExp(digraph, "gi"), trtab[digraph].toUpperCase());
     }
     return set_case(text, wcase);
 }
@@ -73,7 +75,7 @@ function get_case(s) {
 }
 
 function set_case(word0, wordcase) {
-	var word = word0;
+    var word = word0;
     if (wordcase=="u") word = word.toUpperCase();
     if (wordcase=="c") word = word.charAt(0).toUpperCase()+word.substr(1);
     return word;
@@ -142,14 +144,14 @@ function translate_word(deco) {
 
 function get_next_pure_word(words, startIndex) {
     for (var i=startIndex;i<words.length; i++) {
-		var word = words[i];
-		
+        var word = words[i];
+        
         var match = re_pureword.exec(word);
         if (match===null) {
             continue;
         }
         return match[0];
-	}
+    }
 }
 
 re_conso = /[bcdfghjklmnpqrstvwxyz]/i;
@@ -162,22 +164,23 @@ function is_consonant(c) {
 }
 
 function hescape(s) {
-	return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
 
 function translate() {
     var text = $("#source").val();
     var target = $("#target2");
+    target.empty();
     var out = [];   
     
     var words = text.split(" ");
     
     
     for (var i=0;i<words.length; i++) {
-		if (i>0) target.append(" ");
-		var word = words[i];
-		
+        if (i>0) target.append(" ");
+        var word = words[i];
+        
         var match = re_pureword.exec(word);
         if (match===null) {
             target.append($("<span/>").text(word));
@@ -193,32 +196,32 @@ function translate() {
         var translations = translate_word(deco);
         
         if (deco.base=="kaj" || deco.base=="au") {
-			var pw = get_next_pure_word(words, i+1);
-			if (is_consonant(pw.charAt(0))) {
-				translations = $.grep(translations, function(x){return x.w.length==1});
-			} else {
-				translations = $.grep(translations, function(x){return x.w.length==2});
-			}
-		}
+            var pw = get_next_pure_word(words, i+1);
+            if (is_consonant(pw.charAt(0))) {
+                translations = $.grep(translations, function(x){return x.w.length==1});
+            } else {
+                translations = $.grep(translations, function(x){return x.w.length==2});
+            }
+        }
         
         var end2 = ending_e2i(deco.end); // TODO: remove accusative in SVO constructs
         if (typeof(translations)!=="undefined" && typeof(end2)!=="undefined") {
             var a = $.map(translations, function(t){return });
             target.append($("<span/>").text(deco_left));
             $.each(translations, function(i){
-				if (i>0) target.append("\\");
-				var r = reconstruct(this, end2, wordcase);
-				var el = $("<b/>").text(r);
-				var eng = dyer[this.w];
-				if (typeof(eng)!=="undefined") {
-					el.tooltip({ 
-						bodyHandler: function() { 
-							return eng; 
-						} 
-					});
-				}
-				target.append(el);
-			});
+                if (i>0) target.append("\\");
+                var r = reconstruct(this, end2, wordcase);
+                var el = $("<b/>").text(r);
+                var eng = dyer[this.w];
+                if (typeof(eng)!=="undefined") {
+                    el.tooltip({ 
+                        bodyHandler: function() { 
+                            return eng; 
+                        } 
+                    });
+                }
+                target.append(el);
+            });
             target.append($("<span/>").text(deco_right));
         } else {
             target.append($("<span/>").text(word));
