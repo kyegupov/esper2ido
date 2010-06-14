@@ -15,6 +15,8 @@ function main() {
     });
     $("#go").click(translate);
     
+    $("#add_word").click(add_word);
+    
 }
 
 esp_normalize_tables = {
@@ -227,8 +229,19 @@ function translate() {
             target.append($("<span/>").text(word));
         }
     };
-    
 }
+
+function add_word() {
+    var data = {word:$("#word").val(), trans:$("#trans").val()};
+    $("#result").text("saving...");
+    var onSuccess = function(data, status){
+        $("#result").text("saved succesfully");
+        console.log(data);
+        console.log(status)
+    };
+    $.post("http://127.0.0.1:8080/add_word", data, onSuccess, "text");
+}
+
 
 $(document).ready(main);
 
