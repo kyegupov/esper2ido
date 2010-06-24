@@ -15,7 +15,7 @@ function main() {
     });
     $("#go").click(translate);
     
-    $("#add_word").click(add_word);
+    $("#add_word").click(add_custom_translation);
     
 }
 
@@ -63,11 +63,11 @@ function deconstruct_esp(word) {
         for (var end in ends) {
             var index = word.length-end.length;
             if (index>1 && word.substr(index)===end) {
-                return {base:word.substr(0, index), end:end, canonical:ends[end]};
+                return {base:word.substr(0, index), form:end, posCode:ends[end]};
             }
         }
     }
-    return {base:word, end:"", canonical:""};
+    return {base:word, form:"", posCode:""};
 }
 
 function get_case(s) {
@@ -83,16 +83,16 @@ function set_case(word0, wordcase) {
     return word;
 }
 
-function reconstruct(trans, newend, wordcase) {
-    var word = trans.x;
-    var fuzzy = trans.fuz;
+function reconstruct_ido_word(translation, new_form, wordcase) {
+    var word = translation.x;
+    var fuzzy = translation.fuz;
     if (word.length>2) {
         var ends = ["o","i","a","e","as"];
         for (var i=0; i<ends.length; i++) {
             var end = ends[i];
             var index = word.length-end.length;
             if (index>1 && word.substr(index)===end) {
-                word = word.substr(0, index)+newend;
+                word = word.substr(0, index)+new_form;
                 break;
             }
         }
@@ -102,7 +102,7 @@ function reconstruct(trans, newend, wordcase) {
     return word;
 }
 
-function ending_e2i(ending) {
+function translate_form_eo2io(ending) {
     var ends = {
         "":"",
         "ojn":"in",
@@ -123,7 +123,9 @@ function ending_e2i(ending) {
     return ends[ending];
 }
 
-function translate_word(deco) {
+function translate_using_dictionary(deco) {
+    
+    // If we do not find translation using the exact part of speech - try alternative POS
     var fallback_table = {
         "o":["o"],
         "a":["a","o"],
@@ -132,7 +134,7 @@ function translate_word(deco) {
         "":[""]
     }
     
-    var fallbacks = fallback_table[deco.canonical];
+    var fallbacks = fallback_table[deco.posCode];
     for (var i=0; i<fallbacks.length; i++) {
         var end = fallbacks[i];
         var res = dict[deco.base+end];
@@ -141,8 +143,22 @@ function translate_word(deco) {
         if (i>0) res = $.each(res,function(x){return x.fuz=true});
         return res;
     }
-    return undefined;
+    return null;
 }
+
+function translate_word(deco, words) {
+    var translations = translate_using_dictionary(deco);
+    if (deco.base=="kaj" || deco.base=="au") {
+        var pw = get_next_pure_word(words, i+1);
+        if (is_consonant(pw.charAt(0))) {
+            translations = $.grep(translations, function(x){return x.x.length==1});
+        } else {
+            translations = $.grep(translations, function(x){return x.x.length==2});
+        }
+    }
+    return translations;
+}
+
 
 function get_next_pure_word(words, startIndex) {
     for (var i=startIndex;i<words.length; i++) {
@@ -177,6 +193,24 @@ function canonicalize_for_dyer(s) {
     }
 }
 
+function parse_esperanto_word(word) {
+        var match = re_pureword.exec(word);
+        if (match===null) {
+            return {verbatim: word};
+        }
+        var pureword = match[0]
+        pureword = esp_normalize(pureword, "ĉ");
+        
+        var deco = deconstruct_esp(pureword.toLowerCase());
+        deco.verbatim = word;
+        deco.pureWord = pureword;
+        deco.caseCode = get_case(pureword);
+        deco.left = word.substr(0, match.index);
+        deco.right = word.substr(match.index+pureword.length);
+        
+        return deco;
+}
+
 
 function translate() {
     var text = $("#source").val();
@@ -189,39 +223,32 @@ function translate() {
     
     for (var i=0;i<words.length; i++) {
         if (i>0) target.append(" ");
-        var word = words[i];
         
-        var match = re_pureword.exec(word);
-        if (match===null) {
-            target.append($("<span/>").text(word));
-            continue;
-        }
-        var pureword = match[0]
-        var deco_left = word.substr(0, match.index);
-        var deco_right = word.substr(match.index+pureword.length);
-        pureword = esp_normalize(pureword, "ĉ");
+        // Deconstruct Esperanto word
+        var deco = parse_esperanto_word(words[i]);
         
-        var wordcase = get_case(pureword);
-        var deco = deconstruct_esp(pureword.toLowerCase());
-        var translations = translate_word(deco);
+        var translations = null;
         
-        if (deco.base=="kaj" || deco.base=="au") {
-            var pw = get_next_pure_word(words, i+1);
-            if (is_consonant(pw.charAt(0))) {
-                translations = $.grep(translations, function(x){return x.x.length==1});
-            } else {
-                translations = $.grep(translations, function(x){return x.x.length==2});
+        if (deco.hasOwnProperty("base")) {
+            // Generate list of possible translations
+            translations = translate_word(deco, words);    
+            // Convert Esperanto grammar form (ending) to Ido grammar form
+            var ido_form = translate_form_eo2io(deco.form); // TODO: remove accusative in SVO constructs
+            if (typeof(ido_form)==="undefined") {
+                translations = null;
             }
         }
         
-        var end2 = ending_e2i(deco.end); // TODO: remove accusative in SVO constructs
-        if (typeof(translations)!=="undefined" && typeof(end2)!=="undefined") {
-            var a = $.map(translations, function(t){return });
-            target.append($("<span/>").text(deco_left));
+        // Append backslash-separated translations to output text
+        if (translations!==null) {
+            target.append($("<span/>").text(deco.left));
             $.each(translations, function(i){
                 if (i>0) target.append("\\");
-                var r = reconstruct(this, end2, wordcase);
+                var r = reconstruct_ido_word(this, ido_form, deco.caseCode);
                 var el = $("<b/>").text(r);
+                if (translations.length>1) {
+                    el.css("color","#a0a0a0");                    
+                }
                 var eng = dyer[canonicalize_for_dyer(this.x)];
                 if (typeof(eng)!=="undefined") {
                     if (eng.alias) eng = dyer[eng.alias];
@@ -235,20 +262,18 @@ function translate() {
                 }
                 target.append(el);
             });
-            target.append($("<span/>").text(deco_right));
+            target.append($("<span/>").text(deco.right));
         } else {
-            target.append($("<span/>").text(word));
+            target.append($("<span/>").text(deco.verbatim));
         }
     };
 }
 
-function add_word() {
+function add_custom_translation() {
     var data = {word:$("#word").val(), trans:$("#trans").val()};
     $("#result").text("saving...");
     var onSuccess = function(data, status){
         $("#result").text("saved succesfully");
-        console.log(data);
-        console.log(status)
     };
     $.post("http://127.0.0.1:8080/add_word", data, onSuccess, "text");
 }

@@ -647,7 +647,7 @@ civit.o
 ciz.o -- tondilo
 cizel.as (tr) -- chizas
 co (= ico) -- chi tio, tio chi
-da -- de (indikante aganton), far*
+da -- de, far*
 dal = da la -- de~ la
 dam.o -- virino (edzinighinta au` vidvino)
 damn.as
@@ -661,7 +661,7 @@ darf.as (netr) -- havas rajton au` permeson
 darn.as (tr) -- riparas nur kudre (vestojn)
 dat.o
 dazl.as (tr) -- blindumas, blindetigas
-de -- de, da (indikante originon, devenon, enhavon au` kvanton)
+de -- de, da
 de.pos -- depost, ekde
 de.o -- dio
 deb.as (tr) -- shuldas
@@ -749,7 +749,7 @@ dextr.a -- dekstra
 dezert.a
 dezir.as
 dezol.as (tr) -- malghojigas, afliktas
-di -- de (indikante proprieton, ian rilaton au` genitivon)
+di -- de
 di qua -- kies
 di qui -- kies
 di.o -- tago~, diurno
@@ -970,7 +970,6 @@ erste -- ne antau` (pri tempo)
 erupt.as (netr) -- erupcias, (eruptas)
 -es- -- -igh- (kun verbo; ekz. skribesos = skribighos); -ec- [ekz. beleso, infanteso, qualeso = kvalito]
 es.as (netr) -- estas
-es (= es.as) -- estas
 esam.o -- svarmo
 esenc.o
 esforc.as (netr) -- penas
@@ -3328,13 +3327,11 @@ def to_entry(word, tr, fuzzy, pos=None):
 def store(res, ew, entry):
     if res.has_key(ew):
         old = res[ew]
-        if type(old)!=list:
-            old = [old]
         exists = [e for e in old if e["x"] == entry["x"]]
         if not exists:
             old.append(entry)
     else:
-        res[ew] = entry
+        res[ew] = [entry]
         
 res = {}
 
@@ -3346,7 +3343,7 @@ for line in s.splitlines():
     if len(ido_words):
         for ido_word in ido_words:
             if len(pieces)==1:
-                res[ido_word[0]] = to_entry(ido_word[0], ido_word[1], False)
+                res[ido_word[0]] = [to_entry(ido_word[0], ido_word[1], False)]
             elif len(pieces)==2:
                 ewords = [x.strip() for x in pieces[1].split(",")]
                 invalids = False
@@ -3358,12 +3355,15 @@ for line in s.splitlines():
                     else:
                         invalids = True
                 if invalids:
-                    print "NT "+line
+                    #~ print "NT "+line
+                    pass
                     
             else:
-                print "3P "+line
+                #~ print "3P "+line
+                pass
     else:
-        print "NW " +line
+        #~ print "NW " +line
+        pass
         
 print len(res)
     
