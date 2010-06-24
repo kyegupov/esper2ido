@@ -84,7 +84,7 @@ function set_case(word0, wordcase) {
 }
 
 function reconstruct(trans, newend, wordcase) {
-    var word = trans.w;
+    var word = trans.x;
     var fuzzy = trans.fuz;
     if (word.length>2) {
         var ends = ["o","i","a","e","as"];
@@ -169,6 +169,14 @@ function hescape(s) {
     return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
+function canonicalize_for_dyer(s) {
+    if (s.substr(s.length-2)=="as") {
+        return s.substr(0, s.length-2)+"ar"
+    } else {
+        return s
+    }
+}
+
 
 function translate() {
     var text = $("#source").val();
@@ -200,9 +208,9 @@ function translate() {
         if (deco.base=="kaj" || deco.base=="au") {
             var pw = get_next_pure_word(words, i+1);
             if (is_consonant(pw.charAt(0))) {
-                translations = $.grep(translations, function(x){return x.w.length==1});
+                translations = $.grep(translations, function(x){return x.x.length==1});
             } else {
-                translations = $.grep(translations, function(x){return x.w.length==2});
+                translations = $.grep(translations, function(x){return x.x.length==2});
             }
         }
         
@@ -214,13 +222,16 @@ function translate() {
                 if (i>0) target.append("\\");
                 var r = reconstruct(this, end2, wordcase);
                 var el = $("<b/>").text(r);
-                var eng = dyer[this.w];
+                var eng = dyer[canonicalize_for_dyer(this.x)];
                 if (typeof(eng)!=="undefined") {
-                    el.tooltip({ 
-                        bodyHandler: function() { 
-                            return eng; 
-                        } 
-                    });
+                    if (eng.alias) eng = dyer[eng.alias];
+                    if (typeof(eng)!=="undefined" && eng.x) {
+                        el.tooltip({ 
+                            bodyHandler: function() { 
+                                return eng.x; 
+                            } 
+                        });
+                    }
                 }
                 target.append(el);
             });
