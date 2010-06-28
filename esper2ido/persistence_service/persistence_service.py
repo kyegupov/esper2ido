@@ -1,7 +1,8 @@
 import web, json
 
 urls = (
-    '/add_word', 'AddWord'
+    '/add_word', 'AddWord',
+    '/ping', 'Ping'
 )
 app = web.application(urls, globals())
 
@@ -16,6 +17,8 @@ class AddWord:
             dic[params.word] = [{"x":params.trans}]
             try:
                 json.dump(dic, open("../dicts/custom_dict.json", "wt"))
+                web.header('Access-Control-Allow-Origin','*', unique=True)
+                web.header('Access-Control-Allow-Methods','POST, GET, OPTIONS', unique=True)
                 return "success"
             except:
                 raise
@@ -25,6 +28,16 @@ class AddWord:
         web.header('Access-Control-Allow-Methods','POST, GET, OPTIONS', unique=True)
         return ""
 
+class Ping:        
+    def POST(self):
+        web.header('Access-Control-Allow-Origin','*', unique=True)
+        web.header('Access-Control-Allow-Methods','POST, GET, OPTIONS', unique=True)
+        return "pong"
+                
+    def OPTIONS(self):
+        web.header('Access-Control-Allow-Origin','*', unique=True)
+        web.header('Access-Control-Allow-Methods','POST, GET, OPTIONS', unique=True)
+        return ""
 
 
 if __name__ == "__main__":

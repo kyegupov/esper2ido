@@ -15,7 +15,10 @@ function main() {
     });
     $("#go").click(translate);
     
+    // Persistence service-related stuff
+    $("#add_word")[0].disabled = true;
     $("#add_word").click(add_custom_translation);
+    setInterval(ping_service, 1000);
     
 }
 
@@ -146,7 +149,7 @@ function translate_using_dictionary(deco) {
     return null;
 }
 
-function translate_word(deco, words) {
+function translate_word(deco, words, i) {
     var translations = translate_using_dictionary(deco);
     if (deco.base=="kaj" || deco.base=="au") {
         var pw = get_next_pure_word(words, i+1);
@@ -231,7 +234,7 @@ function translate() {
         
         if (deco.hasOwnProperty("base")) {
             // Generate list of possible translations
-            translations = translate_word(deco, words);    
+            translations = translate_word(deco, words, i);    
             // Convert Esperanto grammar form (ending) to Ido grammar form
             var ido_form = translate_form_eo2io(deco.form); // TODO: remove accusative in SVO constructs
             if (typeof(ido_form)==="undefined") {
@@ -273,9 +276,27 @@ function add_custom_translation() {
     var data = {word:$("#word").val(), trans:$("#trans").val()};
     $("#result").text("saving...");
     var onSuccess = function(data, status){
-        $("#result").text("saved succesfully");
+        if (data==="success") {
+            $("#result").text("saved succesfully");
+        } else {
+            $("#result").css("color","red").text("SOME ERROR");
+        }
     };
     $.post("http://127.0.0.1:8080/add_word", data, onSuccess, "text");
+}
+
+function ping_service() {
+    var onSuccess = function(data, status){
+        if (data==="pong") {
+            $("#service_status").css("color","green").text("Available");
+            $("#add_word")[0].disabled = false;
+        } else {
+            $("#service_status").css("color","red").text("Not available");
+            $("#add_word")[0].disabled = true;
+        }
+    };
+    $("#service_status").css("color","black").text("Checking...");
+    $.post("http://127.0.0.1:8080/ping", {}, onSuccess, "text");
 }
 
 
