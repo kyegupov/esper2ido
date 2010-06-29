@@ -12,9 +12,14 @@
 <script src="esper2ido.js"></script>
 </head>
 <body>
-<textarea id="source" rows="10" cols="80"></textarea>
-<div id="target2" style="width:500px;height:200px;border:1px solid black"></div>
-<button id="go">go</button>
+Input Esperanto text:<br>
+<textarea id="source" rows="10" cols="80"></textarea><br>
+<button id="go">Translate</button>
+Ido:<br>
+<div id="target" style="width:500px;height:200px;border:1px solid black"></div>
+<textarea id="target2" rows="10" cols="80" style="display:none"></textarea>
+<br>
+<button id="edit">Switch view/edit</button>
 <hr>
 Persistence service: <span id="service_status"></span>
 <br>
