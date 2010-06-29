@@ -10,8 +10,11 @@ function main() {
             }
         });
     });
+    
+    $("#go")[0].disabled = true;
     $.getJSON("dicts/dyer.json", function(data){
         dyer = data;
+        $("#go")[0].disabled = false;
     });
     $("#go").click(translate);
     
@@ -19,7 +22,8 @@ function main() {
     $("#add_word")[0].disabled = true;
     $("#add_word").click(add_custom_translation);
     $("#edit").click(view2edit);
-    setInterval(ping_service, 1000);
+    $("#view").click(edit2view);
+    //~ setInterval(ping_service, 1000);
     
 }
 
@@ -314,18 +318,20 @@ function translate() {
 }
 
 function write_decorated_output(textOutput) {
-    var target = $("#target");
-    target.empty();
+    var target2 = $("#target");
+    target2.empty();
+    
+    var target = [];
     
     for (var i=0; i<textOutput.length; i++) {
         var wordObj = parse_translated_word(textOutput[i]);
         // Append backslash-separated translations to output text
-        if (i>0) target.append(" ");
+        if (i>0) target.push(" ");
         if (wordObj.hasOwnProperty("pureTrans")) {
-            target.append($("<span/>").text(wordObj.left));
+            target.push($("<span/>").text(wordObj.left));
             var translations = wordObj.pureTrans.split("\\");
             $.each(translations, function(j, item){
-                if (j>0) target.append("\\");
+                if (j>0) target.push("\\");
                 var el = $("<span/>").text(item);
                 var id = "iw"+i;
 
@@ -348,13 +354,14 @@ function write_decorated_output(textOutput) {
                         });
                     }
                 }
-                target.append(el);
+                target.push(el);
             });
-            target.append($("<span/>").text(wordObj.right));
+            target.push($("<span/>").text(wordObj.right));
         } else {
-            target.append($("<span/>").text(wordObj.verbatim));
+            target.push($("<span/>").text(wordObj.verbatim));
         }
     };
+    $(target).appendTo(target2);
 }    
 
 function highlight_choice() {
@@ -373,19 +380,20 @@ function highlight_choice() {
 function view2edit() {
     var txt = $("#target")[0].textContent;
     $("#target2").val(txt);
-    $("#target").css("display","none");
-    $("#target2").css("display","");
-    $("#edit").click(edit2view);
-    
+    $("#target").hide();
+    $("#target2").show();
+    $("#edit").hide();
+    $("#view").show();
 }
 
 
 function edit2view() {
     var txt = $("#target2").val();
     write_decorated_output(txt.split(" "));
-    $("#target2").css("display","none");
-    $("#target").css("display","");
-    $("#edit").click(view2edit);
+    $("#target").show();
+    $("#target2").hide();
+    $("#edit").show();
+    $("#view").hide();
 }
 
 
