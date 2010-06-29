@@ -12,32 +12,60 @@
 <script src="esper2ido.js"></script>
 
 <style>
-    .ambiguous, .unselected {
+    .ambiguous {
+        color: #a0a000;
+    }
+    .untranslated {
+        color: #800000;
+    }
+    .unselected {
         color: #a0a0a0;
     }
     .selected {
         color: #000000;
+    }
+    .fuzzy {
+        color: #008000;
     }
 </style>
 
 </head>
 <body>
 Input Esperanto text:<br>
-<textarea id="source" rows="10" cols="80"></textarea><br>
-<button id="go">Translate</button>
-Ido:<br>
-<div id="target" style="width:500px;height:200px;border:1px solid black"></div>
-<div id="stats"></div>
-<textarea id="target2" rows="10" cols="80" style="display:none"></textarea>
+<textarea id="source" rows="7" cols="80"></textarea><button id="go">Translate</button>
 <br>
-<button id="edit">Switch to edit</button>
-<button id="view" style="display:none">Switch to view</button>
+<table width="100%">
+    <tr>
+        <td width="50%" valign="top"> 
+            Esperanto:<br>
+            <div id="target_e" style="width:500px;height:200px;border:1px solid black"></div>
+        </td>
+        <td valign="top">
+            Ido:<br>
+            <div id="target" style="width:500px;height:200px;border:1px solid black"></div>
+            <div id="stats"></div>
+            <textarea id="target2" rows="10" cols="80" style="display:none"></textarea>
+            <button id="edit">Switch to edit</button>
+            <button id="view" style="display:none">Switch to view</button>
+        </td>
+    </tr>
+</table>
+<br>
 <hr>
 Persistence service: <span id="service_status"></span>
 <br>
 Add new word translation:
 Esperanto: <input id="word">
 Ido: <input id="trans">
+POS: <select id="posCode">
+<option value="?">Autodetect</option>
+<option value="N">Noun</option>
+<option value="V">Verb</option>
+<option value="ADJ">Adjective</option>
+<option value="ADV">Adverb</option>
+<option value="P">Preposition</option>
+<option value="PRO">Pronoun</option>
+</select>
 <button id="add_word">Submit</button>
 <span id="result"></span>
 </body>

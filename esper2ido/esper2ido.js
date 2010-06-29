@@ -27,7 +27,6 @@ function main() {
     
     stats = {translated:0,ambiguous:0,fuzzy:0,untranslated:0};
     word_status = {};
-    
 }
 
 esp_normalize_tables = {
@@ -58,34 +57,38 @@ function deconstruct_esperanto(wordObj) {
     var word = wordObj.pureWord.toLowerCase();
     if (word.length>2) {
         var ends = {
-            "ojn":"o",
-            "on":"o",
-            "oj":"o",
-            "o":"o",
-            "ajn":"a",
-            "an":"a",
-            "aj":"a",
-            "a":"a",
-            "is":"as",
-            "as":"as",
-            "os":"as",
-            "u":"as",
-            "i":"as",
-            "e":"e"
+            "ojn":"o N",
+            "on":"o N",
+            "oj":"o N",
+            "o":"o N",
+            "ajn":"a ADJ",
+            "an":"a ADJ",
+            "aj":"a ADJ",
+            "a":"a ADJ",
+            "is":"as V",
+            "as":"as V",
+            "os":"as V",
+            "u":"as V",
+            "i":"as V",
+            "e":"e ADV"
         };
         for (var end in ends) {
             var index = word.length-end.length;
             if (index>1 && word.substr(index)===end) {
                 wordObj.base = word.substr(0, index);
                 wordObj.form = end;
-                wordObj.posCode = ends[end];
+                var ce_pos = ends[end].split(" ");
+                
+                wordObj.canonicalEnding = ce_pos[0];
+                wordObj.posCode = ce_pos[1];
                 return 
             }
         }
     }
     wordObj.base = word;
     wordObj.form = "";
-    wordObj.posCode = "";
+    wordObj.posCode = "?";
+    wordObj.canonicalEnding = "";
     return;
 }
 
@@ -153,13 +156,17 @@ function translate_using_dictionary(wordObj) {
         "":[""]
     }
     
-    var fallbacks = fallback_table[wordObj.posCode];
+    var base = esp_normalize(wordObj.base, "ĉ");
+    var pureWord = esp_normalize(wordObj.pureWord, "ĉ");
+
+    var fallbacks = fallback_table[wordObj.canonicalEnding];
+    fallbacks.unshift(null);
     for (var i=0; i<fallbacks.length; i++) {
         var end = fallbacks[i];
-        var res = dict[wordObj.base+end];
+        var res = end===null ? dict[pureWord.toLowerCase()] : dict[base+end];
         if (res===undefined) continue;
         if (typeof(res[0])==="undefined") res = [res];
-        if (i>0) res = $.each(res,function(x){return x.fuz=true});
+        if (i>1) res = $.each(res,function(x){return x.fuz=true});
         return res;
     }
     return null;
@@ -191,9 +198,8 @@ function get_next_pure_word(words, startIndex) {
 }
 
 re_conso = /[bcdfghjklmnpqrstvwxyz]/i;
-re_pureword = /[a-zĝĉĵŝĥŭ]+/i;
-re_pureido = /[a-z]+/i;
-re_transword = /{?[a-z\\]+[}~]?/i;
+re_pureword = /[a-zĝĉĵŝĥŭ-]+/i;
+re_transword = /{?[a-zĝĉĵŝĥŭ\\-]+[}~]?/i;
 
 
 
@@ -206,7 +212,7 @@ function hescape(s) {
 }
 
 function canonicalize_for_dyer(s) {
-    var match = re_pureido.exec(s.toLowerCase());
+    var match = re_pureword.exec(s.toLowerCase());
     if (match===null) return s;
     var word = match[0];
     if (word.length>2) {
@@ -239,7 +245,6 @@ function parse_word(word) {
             return {verbatim: word};
         }
         var pureword = match[0];
-        pureword = esp_normalize(pureword, "ĉ");
         
         wordObj = {};
         wordObj.verbatim = word;
@@ -317,7 +322,7 @@ function translate() {
     }
     
     write_decorated_output(textOutput);
-    
+    $("#target_e").text(text);
 }
 
 function add_hover_translation(el, item) {
@@ -371,9 +376,11 @@ function write_decorated_output(textOutput) {
                 el.text(item);
                 add_hover_translation(el, item)
                 if (item.charAt(0)=="{") {
-                    el.css("color","#800000");
+                    el.addClass("untranslated");
                     stats.untranslated++;
+                    el.click(add_translation_on_click);
                 } else if (item.charAt(item.length-1)=="~"){
+                    el.addClass("fuzzy");
                     stats.fuzzy++;
                 } else {
                     stats.translated++;
@@ -419,6 +426,17 @@ function highlight_choice() {
         stats.translated++;
     }
     refresh_stats();
+}
+
+function add_translation_on_click() {
+    var txt = $(this).text();
+    txt = txt.substring(1,txt.length-1);
+    var wordObj = {pureWord:txt};
+    deconstruct_esperanto(wordObj);
+    $("#word").val(wordObj.base+wordObj.canonicalEnding);
+    $("#trans").val("");
+    $("#posCode").val(wordObj.posCode);
+    $("#trans").focus();
 }
 
 function view2edit() {
@@ -470,16 +488,21 @@ function refresh_stats() {
 
 
 function add_custom_translation() {
-    var data = {word:$("#word").val(), trans:$("#trans").val()};
+    var params = {word:$("#word").val(), trans:$("#trans").val(), posCode:$("#posCode").val()};
     $("#result").text("saving...");
-    var onSuccess = function(data, status){
-        if (data==="success") {
+    var onSuccess = function(response, status){
+        if (response==="success") {
             $("#result").text("saved succesfully");
+            var ew = esp_normalize(params.word, "ĉ");
+            if (!dict.hasOwnProperty(ew)) dict[ew]=[];
+            dict[ew].push({x:params.trans, posCode:params.posCode});
+            console.log(ew);
+            console.log(dict[ew]);
         } else {
             $("#result").css("color","red").text("SOME ERROR");
         }
     };
-    $.post("http://127.0.0.1:8080/add_word", data, onSuccess, "text");
+    $.post("http://127.0.0.1:8080/add_word", params, onSuccess, "text");
 }
 
 function ping_service() {

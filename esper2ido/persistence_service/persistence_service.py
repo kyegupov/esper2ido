@@ -14,7 +14,7 @@ class AddWord:
             dic = {}
         params = web.input()
         if params.word and params.trans:
-            dic[params.word] = [{"x":params.trans}]
+            dic[params.word] = [{"x":params.trans,"pos":params.posCode}]
             try:
                 json.dump(dic, open("../dicts/custom_dict.json", "wt"))
                 web.header('Access-Control-Allow-Origin','*', unique=True)
