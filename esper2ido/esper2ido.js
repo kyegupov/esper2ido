@@ -23,7 +23,10 @@ function main() {
     $("#add_word").click(add_custom_translation);
     $("#edit").click(view2edit);
     $("#view").click(edit2view);
-    //~ setInterval(ping_service, 1000);
+    setInterval(ping_service, 1000);
+    
+    stats = {translated:0,ambiguous:0,fuzzy:0,untranslated:0};
+    word_status = {};
     
 }
 
@@ -317,11 +320,28 @@ function translate() {
     
 }
 
+function add_hover_translation(el, item) {
+    var eng = dyer[canonicalize_for_dyer(item)];
+    if (typeof(eng)!=="undefined") {
+        if (eng.alias) eng = dyer[eng.alias];
+        if (typeof(eng)!=="undefined" && eng.x) {
+            el.tooltip({ 
+                bodyHandler: function() { 
+                    return eng.x; 
+                } 
+            });
+        }
+    }
+}
+
 function write_decorated_output(textOutput) {
     var target2 = $("#target");
     target2.empty();
     
     var target = [];
+    
+    stats = {translated:0,ambiguous:0,fuzzy:0,untranslated:0};
+    word_status = {};
     
     for (var i=0; i<textOutput.length; i++) {
         var wordObj = parse_translated_word(textOutput[i]);
@@ -330,38 +350,43 @@ function write_decorated_output(textOutput) {
         if (wordObj.hasOwnProperty("pureTrans")) {
             target.push($("<span/>").text(wordObj.left));
             var translations = wordObj.pureTrans.split("\\");
-            $.each(translations, function(j, item){
-                if (j>0) target.push("\\");
-                var el = $("<span/>").text(item);
-                var id = "iw"+i;
-
-                if (translations.length>1) {
-                    id += "_"+j;
-                    el.css("color","#a0a0a0");
-                    el.click(highlight_choice);
-                } else if (item.charAt(0)=="{") {
+            var el = $("<span/>");
+            if (translations.length>1) {
+                el.attr("id", "iw"+i);
+                word_status[i] = null;
+                $.each(translations, function(j, item){
+                    if (j>0) el.append("\\");
+                    var el2 = $("<span/>");
+                    el2.addClass("ambiguous");
+                    el2.click(highlight_choice);
+                    var id = "iw"+i+"_"+j;
+                    el2.attr("id", id);
+                    el2.text(item);
+                    add_hover_translation(el2, item)
+                    el.append(el2);
+                });
+                stats.ambiguous++;
+            } else {
+                var item = translations[0];
+                el.text(item);
+                add_hover_translation(el, item)
+                if (item.charAt(0)=="{") {
                     el.css("color","#800000");
+                    stats.untranslated++;
+                } else if (item.charAt(item.length-1)=="~"){
+                    stats.fuzzy++;
+                } else {
+                    stats.translated++;
                 }
-                el.attr("id", id);
-                var eng = dyer[canonicalize_for_dyer(item)];
-                if (typeof(eng)!=="undefined") {
-                    if (eng.alias) eng = dyer[eng.alias];
-                    if (typeof(eng)!=="undefined" && eng.x) {
-                        el.tooltip({ 
-                            bodyHandler: function() { 
-                                return eng.x; 
-                            } 
-                        });
-                    }
-                }
-                target.push(el);
-            });
+            }
+            target.push(el);
             target.push($("<span/>").text(wordObj.right));
         } else {
             target.push($("<span/>").text(wordObj.verbatim));
         }
     };
     $(target).appendTo(target2);
+    refresh_stats();
 }    
 
 function highlight_choice() {
@@ -369,21 +394,60 @@ function highlight_choice() {
     var parts = id.substr(2).split("_");
     var i = parseInt(parts[0]);
     var jj = parseInt(parts[1]);
+    var old_status = word_status[i];
+    if (old_status===null) {
+        stats.ambiguous--;
+    } else {
+        stats[old_status]--;
+    }
+    
     for (var j=0; true; j++) {
         var el = $("#iw"+i+"_"+j);
         if (el.length===0) break;
-        var col = (j==jj) ? "#000000" : "#a0a0a0";
-        el.css("color", col);
+        if (j===jj) {
+            el[0].className = "selected";
+        } else {
+            el[0].className = "unselected";
+        }
     }
+    var txt = $("#iw"+i+"_"+jj).text();
+    if (txt.charAt(txt.length-1)==="~") {
+        word_status[i] = "fuzzy";
+        stats.fuzzy++;
+    } else {
+        word_status[i] = "translated";
+        stats.translated++;
+    }
+    refresh_stats();
 }
 
 function view2edit() {
-    var txt = $("#target")[0].textContent;
+    var txtNodes = $("#target")[0].childNodes;
+    var txt = "";
+    $.each(txtNodes, function(j, item){
+        if (item.id) {
+            // Ambiguous translation
+            var i = parseInt(item.id.substr(2));
+            var status = word_status[i];
+            if (status) {
+                $.each(item.childNodes, function(k, item2){
+                    if (item2.className==="selected") {
+                        txt+=item2.textContent;
+                        
+                        return;
+                    }
+                });
+                return;
+            } 
+        }
+        txt+=item.textContent;
+    });
     $("#target2").val(txt);
     $("#target").hide();
     $("#target2").show();
     $("#edit").hide();
     $("#view").show();
+    $("#stats").text("");
 }
 
 
@@ -394,6 +458,14 @@ function edit2view() {
     $("#target2").hide();
     $("#edit").show();
     $("#view").hide();
+}
+
+function refresh_stats() {
+    var txt = "";
+    for (var name in stats) {
+        txt+= name+": "+stats[name]+" ";
+    }
+    $("#stats").text(txt);
 }
 
 

@@ -10,6 +10,16 @@
 
 
 <script src="esper2ido.js"></script>
+
+<style>
+    .ambiguous, .unselected {
+        color: #a0a0a0;
+    }
+    .selected {
+        color: #000000;
+    }
+</style>
+
 </head>
 <body>
 Input Esperanto text:<br>
@@ -17,6 +27,7 @@ Input Esperanto text:<br>
 <button id="go">Translate</button>
 Ido:<br>
 <div id="target" style="width:500px;height:200px;border:1px solid black"></div>
+<div id="stats"></div>
 <textarea id="target2" rows="10" cols="80" style="display:none"></textarea>
 <br>
 <button id="edit">Switch to edit</button>
