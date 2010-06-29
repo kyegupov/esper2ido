@@ -1,5 +1,6 @@
 
 var dict = {};
+dyer = null;
 
 function main() {
     dict_names = ["base_dict.json", "custom_dict.json"];
@@ -11,22 +12,37 @@ function main() {
         });
     });
     
-    $("#go")[0].disabled = true;
     $.getJSON("dicts/dyer.json", function(data){
         dyer = data;
-        $("#go")[0].disabled = false;
     });
     $("#go").click(translate);
+    $("#go")[0].disabled = false;
     
     // Persistence service-related stuff
     $("#add_word")[0].disabled = true;
     $("#add_word").click(add_custom_translation);
     $("#edit").click(view2edit);
     $("#view").click(edit2view);
+    $("#discard_edits_cb").click(toggle_discard);
     setInterval(ping_service, 1000);
     
     stats = {translated:0,ambiguous:0,fuzzy:0,untranslated:0};
     word_status = {};
+}
+
+function mark_has_edits(flag) {
+    if (flag===false) {
+        $("#discard_edits").hide();
+        $("#discard_edits_cb").val(true);
+    } else {
+        $("#discard_edits").show();
+        $("#discard_edits_cb").val(false);
+        $("#go")[0].disabled = true;
+    }
+}
+
+function toggle_discard() {
+    $("#go")[0].disabled = !$("#discard_edits_cb").val();
 }
 
 esp_normalize_tables = {
@@ -323,9 +339,11 @@ function translate() {
     
     write_decorated_output(textOutput);
     $("#target_e").text(text);
+    mark_has_edits(false);
 }
 
 function add_hover_translation(el, item) {
+    if (dyer===null) return;
     var eng = dyer[canonicalize_for_dyer(item)];
     if (typeof(eng)!=="undefined") {
         if (eng.alias) eng = dyer[eng.alias];
@@ -426,6 +444,7 @@ function highlight_choice() {
         stats.translated++;
     }
     refresh_stats();
+    mark_has_edits(true);
 }
 
 function add_translation_on_click() {
@@ -466,6 +485,7 @@ function view2edit() {
     $("#edit").hide();
     $("#view").show();
     $("#stats").text("");
+    mark_has_edits(true);
 }
 
 

@@ -32,7 +32,18 @@
 </head>
 <body>
 Input Esperanto text:<br>
-<textarea id="source" rows="7" cols="80"></textarea><button id="go">Translate</button>
+<table>
+    <tr>
+        <td>
+            <textarea id="source" rows="7" cols="80"></textarea>
+        </td>
+        <td valign="top">
+            <button id="go" style="width:150px;height:50px">Translate</button><br>
+            <span id="discard_edits" style="display:none"><input type="checkbox" id="discard_edits_cb"><label for="discard_edits_cb"> discard manual edits</label></span>
+        </td>
+    </tr>
+</table>
+
 <br>
 <table width="100%">
     <tr>
