@@ -1,6 +1,11 @@
 
 var dict = {};
 dyer = null;
+bokaryov = null;
+
+re_conso = /[bcdfghjklmnpqrstvwxyz]/i;
+re_pureword = /[a-zĝĉĵŝĥŭ-]+/i;
+re_transword = /{?[a-zĝĉĵŝĥŭ\\-]+[}~]?/i;
 
 function main() {
     dict_names = ["base_dict.json", "custom_dict.json"];
@@ -11,10 +16,17 @@ function main() {
             }
         });
     });
-    
+    $.getJSON("dicts/bokaryov.json", function(data){
+        bokaryov = data;
+        console.log("BBB");
+        console.log(bokaryov);
+    });    
     $.getJSON("dicts/dyer.json", function(data){
         dyer = data;
+        console.log("DDD");
+        console.log(dyer);
     });
+
     $("#go").click(translate);
     $("#go")[0].disabled = false;
     
@@ -213,12 +225,6 @@ function get_next_pure_word(words, startIndex) {
     }
 }
 
-re_conso = /[bcdfghjklmnpqrstvwxyz]/i;
-re_pureword = /[a-zĝĉĵŝĥŭ-]+/i;
-re_transword = /{?[a-zĝĉĵŝĥŭ\\-]+[}~]?/i;
-
-
-
 function is_consonant(c) {
     return re_conso.exec(c)!==null;
 }
@@ -243,6 +249,37 @@ function canonicalize_for_dyer(s) {
             "as":"ar",
             "os":"ar",
             "ez":"ar",
+            "e":"e"
+        };
+        for (var end in ends) {
+            var index = word.length-end.length;
+            if (index>1 && word.substr(index)===end) {
+                return word.substr(0, index)+ends[end];
+            }
+        }
+    }
+    return s;
+}
+
+function canonicalize_for_bokaryov(s) {
+    var match = re_pureword.exec(s.toLowerCase());
+    if (match===null) return s;
+    var word = match[0];
+    if (word.length>2) {
+        var ends = {
+            "ojn":"o",
+            "on":"o",
+            "oj":"o",
+            "o":"o",
+            "ajn":"a",
+            "an":"a",
+            "aj":"a",
+            "a":"a",
+            "is":"i",
+            "as":"i",
+            "os":"i",
+            "u":"i",
+            "i":"i",
             "e":"e"
         };
         for (var end in ends) {
@@ -338,22 +375,22 @@ function translate() {
     }
     
     write_decorated_output(textOutput);
-    $("#target_e").text(text);
+    write_decorated_source(text.split(" "));
+    //~ $("#target_e").text(text);
     mark_has_edits(false);
 }
 
-function add_hover_translation(el, item) {
-    if (dyer===null) return;
-    var eng = dyer[canonicalize_for_dyer(item)];
-    if (typeof(eng)!=="undefined") {
-        if (eng.alias) eng = dyer[eng.alias];
-        if (typeof(eng)!=="undefined" && eng.x) {
-            el.tooltip({ 
-                bodyHandler: function() { 
-                    return eng.x; 
-                } 
-            });
-        }
+function add_hover_translation(dict, el, item) {
+    if (dict===null) return;
+    var article_ids = dict.index[item];
+    if (typeof(article_ids)!=="undefined") {
+        var texts = [];
+        $.each(article_ids, function() { texts.push(dict.articles[this]) });
+        el.tooltip({ 
+            bodyHandler: function() { 
+                return texts.join("<br>"); 
+            } 
+        });
     }
 }
 
@@ -385,14 +422,14 @@ function write_decorated_output(textOutput) {
                     var id = "iw"+i+"_"+j;
                     el2.attr("id", id);
                     el2.text(item);
-                    add_hover_translation(el2, item)
+                    add_hover_translation(dyer, el2, canonicalize_for_dyer(item))
                     el.append(el2);
                 });
                 stats.ambiguous++;
             } else {
                 var item = translations[0];
                 el.text(item);
-                add_hover_translation(el, item)
+                add_hover_translation(dyer, el, canonicalize_for_dyer(item))
                 if (item.charAt(0)=="{") {
                     el.addClass("untranslated");
                     stats.untranslated++;
@@ -413,6 +450,31 @@ function write_decorated_output(textOutput) {
     $(target).appendTo(target2);
     refresh_stats();
 }    
+
+function write_decorated_source(textOutput) {
+    var target2 = $("#target_e");
+    target2.empty();
+    
+    var target = [];
+    
+    for (var i=0; i<textOutput.length; i++) {
+        var wordObj = parse_word(textOutput[i]);
+        // Append backslash-separated translations to output text
+        if (i>0) target.push(" ");
+        if (wordObj.hasOwnProperty("pureWord")) {
+            target.push($("<span/>").text(wordObj.left));
+            var el = $("<span/>");
+            var item = wordObj.pureWord;
+            el.text(item);
+            add_hover_translation(bokaryov, el, canonicalize_for_bokaryov(item))
+            target.push(el);
+            target.push($("<span/>").text(wordObj.right));
+        } else {
+            target.push($("<span/>").text(wordObj.verbatim));
+        }
+    };
+    $(target).appendTo(target2);
+}  
 
 function highlight_choice() {
     var id = $(this).attr("id");
@@ -516,8 +578,6 @@ function add_custom_translation() {
             var ew = esp_normalize(params.word, "ĉ");
             if (!dict.hasOwnProperty(ew)) dict[ew]=[];
             dict[ew].push({x:params.trans, posCode:params.posCode});
-            console.log(ew);
-            console.log(dict[ew]);
         } else {
             $("#result").css("color","red").text("SOME ERROR");
         }

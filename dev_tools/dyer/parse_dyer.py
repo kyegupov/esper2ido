@@ -5,7 +5,8 @@ from HTMLParser import HTMLParser
 from htmlentitydefs import name2codepoint
 
 
-dic = {}
+articles = []
+index = {}
 
 re_w = re.compile("[a-zA-Z]*-?[a-zA-Z]+")
 
@@ -14,6 +15,13 @@ S_READING_WORD = 1
 S_READING_DEF = 3
 
 strong = ["b","strong"]
+
+
+def register(key, idx):
+    if key in index:
+        index[key].append(idx)
+    else:
+        index[key] = [idx]
 
 
 class MyParser(HTMLParser):
@@ -72,6 +80,7 @@ class MyParser(HTMLParser):
         if self.state == 2:
             if self.substate == S_READING_WORD:
                 self.word += data
+                self.definition += data
             if self.substate == S_READING_DEF:
                 self.definition += data
     
@@ -91,8 +100,7 @@ class MyParser(HTMLParser):
             #~ if attrs:
                 #~ print "oh boy, attrs!", attrs
                 #~ raise
-            
-                    
+          
     def save_word(self, end_of_entry):
         if self.word=="" and self.definition=="":
             return
@@ -123,7 +131,8 @@ class MyParser(HTMLParser):
             self.word = u"".join(parts)
             
             if self.word!="":
-                dic[self.word] = {"x":self.definition}
+                articles.append(self.definition)
+                register(self.word, len(articles)-1)
                 for a in self.aliases[1:]:
                     a = a.strip()
                     if a=="":
@@ -136,7 +145,7 @@ class MyParser(HTMLParser):
                     alias = "".join(parts)
                     kwords = re_w.findall(alias)
                     if len(kwords)==1:
-                        dic[alias] = {"alias":self.word}
+                        register(alias, len(articles)-1)
                     else:
                         print "A? /%s/%s/" % (self.word.encode("latin1", 'replace'), self.lastword.encode("latin1", 'replace'))
         else:
@@ -148,23 +157,25 @@ class MyParser(HTMLParser):
         self.definition = ""
         self.is_new_entry = end_of_entry
 
-		
+        
 
 
 for fn in glob.glob("i*.htm"):
     p = MyParser()
     p.feed(open(fn).read().decode('latin-1'))
     
-	#~ soup = BeautifulSoup(open(fn).read())
+    #~ soup = BeautifulSoup(open(fn).read())
 
-	#~ p = soup.findAll('p')[1]
+    #~ p = soup.findAll('p')[1]
 
-	#~ c.key = ""
-	#~ c.value = ""
-	#~ for child in p:
-		#~ process_node(child, c, toplevel = True)
-	#~ register_word(c)
-	#~ print fn, len(dic)
+    #~ c.key = ""
+    #~ c.value = ""
+    #~ for child in p:
+        #~ process_node(child, c, toplevel = True)
+    #~ register_word(c)
+    #~ print fn, len(dic)
 
+        
+dictionary = {"articles": articles, "index":index}
 
-json.dump(dic, codecs.open("../../esper2ido/dicts/dyer.json", "wt", "utf-8"), indent=2, sort_keys=True, ensure_ascii=False)    
+json.dump(dictionary, codecs.open("../../esper2ido/dicts/dyer.json", "wt", "utf-8"), indent=None, sort_keys=True, ensure_ascii=False)    
