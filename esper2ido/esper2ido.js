@@ -18,13 +18,9 @@ function main() {
     });
     $.getJSON("dicts/bokaryov.json", function(data){
         bokaryov = data;
-        console.log("BBB");
-        console.log(bokaryov);
     });    
     $.getJSON("dicts/dyer.json", function(data){
         dyer = data;
-        console.log("DDD");
-        console.log(dyer);
     });
 
     $("#go").click(translate);
@@ -233,63 +229,63 @@ function hescape(s) {
     return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
-function canonicalize_for_dyer(s) {
+function get_pureword(s) {
     var match = re_pureword.exec(s.toLowerCase());
-    if (match===null) return s;
-    var word = match[0];
-    if (word.length>2) {
-        var ends = {
-            "in":"o",
-            "on":"o",
-            "i":"o",
-            "o":"o",
-            "a":"a",
-            "ar":"ar",
-            "is":"ar",
-            "as":"ar",
-            "os":"ar",
-            "ez":"ar",
-            "e":"e"
-        };
-        for (var end in ends) {
-            var index = word.length-end.length;
-            if (index>1 && word.substr(index)===end) {
-                return word.substr(0, index)+ends[end];
-            }
-        }
-    }
-    return s;
+    if (match===null) return null;
+    return match[0];
 }
 
-function canonicalize_for_bokaryov(s) {
-    var match = re_pureword.exec(s.toLowerCase());
-    if (match===null) return s;
-    var word = match[0];
-    if (word.length>2) {
-        var ends = {
-            "ojn":"o",
-            "on":"o",
-            "oj":"o",
-            "o":"o",
-            "ajn":"a",
-            "an":"a",
-            "aj":"a",
-            "a":"a",
-            "is":"i",
-            "as":"i",
-            "os":"i",
-            "u":"i",
-            "i":"i",
-            "e":"e"
-        };
-        for (var end in ends) {
-            var index = word.length-end.length;
-            if (index>1 && word.substr(index)===end) {
-                return word.substr(0, index)+ends[end];
-            }
+function canonicalize_ido(word) {
+    var forms = {
+        "in":"i o",
+        "on":"o",
+        "i":"i o",
+        "o":"o",
+        "a":"a o",
+        "ar":"ar as",
+        "is":"ar as",
+        "as":"ar as",
+        "os":"ar as",
+        "ez":"ar as",
+        "e":"e a"
+    };
+    for (var end in forms) {
+        var index = word.length-end.length;
+        if (index>1 && word.substr(index)===end) {
+            var inflex = function(e) {return word.substr(0, index)+e};
+            return $.map(forms[end].split(" "), inflex);
+            
         }
     }
-    return s;
+    return [word];
+}
+
+function canonicalize_esperanto(word) {
+     var forms = {
+            "ojn":"oj o",
+            "on":"o",
+            "oj":"oj o",
+            "o":"o",
+            "ajn":"aj a",
+            "an":"a o",
+            "aj":"aj a o",
+            "a":"a o",
+            "is":"i as",
+            "as":"i as",
+            "os":"i as",
+            "u":"i as",
+            "i":"i as",
+            "e":"e a"
+    };
+    for (var end in forms) {
+        var index = word.length-end.length;
+        if (index>1 && word.substr(index)===end) {
+            var inflex = function(e) {return word.substr(0, index)+e};
+            return $.map(forms[end].split(" "), inflex);
+            
+        }
+    }
+    return [word];
 }
 
 function parse_word(word) {
@@ -380,17 +376,31 @@ function translate() {
     mark_has_edits(false);
 }
 
-function add_hover_translation(dict, el, item) {
+function xdxf2html(s) {
+    return s.replace(/<k>/g, "<b>").replace(/<\/k>/g, "</b>").replace(/<ex>/g, "<i>").replace(/<\/ex>/g, "</i>");
+}
+
+function add_hover_translation(dict, el, raw, canonicalizer) {
     if (dict===null) return;
-    var article_ids = dict.index[item];
-    if (typeof(article_ids)!=="undefined") {
-        var texts = [];
-        $.each(article_ids, function() { texts.push(dict.articles[this]) });
-        el.tooltip({ 
-            bodyHandler: function() { 
-                return texts.join("<br>"); 
-            } 
-        });
+    var words = canonicalizer(raw);
+    if (words[0]!=raw) {
+        words.unshift(raw);
+    }
+    for (var i=0; i<words.length; i++) {
+        var item = words[i];
+        var article_ids = dict.index[item];
+        if (typeof(article_ids)!=="undefined") {
+            console.log(item+" "+article_ids);
+            var texts = [];
+            $.each(article_ids, function() { texts.push(xdxf2html(dict.articles[this])) });
+            console.log(texts);
+            el.tooltip({ 
+                bodyHandler: function() { 
+                    return texts.join("<br>"); 
+                } 
+            });
+            return;
+        }
     }
 }
 
@@ -422,14 +432,14 @@ function write_decorated_output(textOutput) {
                     var id = "iw"+i+"_"+j;
                     el2.attr("id", id);
                     el2.text(item);
-                    add_hover_translation(dyer, el2, canonicalize_for_dyer(item))
+                    add_hover_translation(dyer, el2, get_pureword(item), canonicalize_ido)
                     el.append(el2);
                 });
                 stats.ambiguous++;
             } else {
                 var item = translations[0];
                 el.text(item);
-                add_hover_translation(dyer, el, canonicalize_for_dyer(item))
+                add_hover_translation(dyer, el, get_pureword(item), canonicalize_ido)
                 if (item.charAt(0)=="{") {
                     el.addClass("untranslated");
                     stats.untranslated++;
@@ -466,7 +476,7 @@ function write_decorated_source(textOutput) {
             var el = $("<span/>");
             var item = wordObj.pureWord;
             el.text(item);
-            add_hover_translation(bokaryov, el, canonicalize_for_bokaryov(item))
+            add_hover_translation(bokaryov, el, get_pureword(item), canonicalize_esperanto)
             target.push(el);
             target.push($("<span/>").text(wordObj.right));
         } else {

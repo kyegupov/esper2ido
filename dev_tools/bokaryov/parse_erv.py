@@ -46,6 +46,7 @@ class Machine:
         elif cls.wordBase == "":
 			cls.wordBase = cls.word.split("|")[0]
         cls.word = cls.word.replace("|","").replace("*","")
+        cls.word = cls.word.replace(", ","</k>, <k>")
         cls.entry = cls.entry[0:cls.kstart]+cls.word
         cls.skipping = False
         return "</k>"
@@ -66,13 +67,10 @@ class Machine:
     @classmethod
     def process_line(cls, line):
         if line=="":
-            if cls.in_def:
-                cls.entry+="</def>"
             cls.word = ""
             print >>sink, "<ar>"+cls.entry+"</ar>"
             cls.entry =""
             cls.wordBase =""
-            cls.in_def = False
         for c in line:
             if (not cls.skipping) or c=="]":
                 if c in char2action:
@@ -83,6 +81,9 @@ class Machine:
             #~ print cls.skipping, cls.entry.encode("cp1251","replace")
             if c!="=":
                 cls.in_arrow = False
+		if cls.in_def:
+			cls.entry+="</def>"
+		cls.in_def = False
             
     @classmethod
     def start_def(cls, line):
