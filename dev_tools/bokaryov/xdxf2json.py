@@ -12,7 +12,10 @@ index = {}
 
 c=0
 for ar in root.findall("ar"):
-    articles.append(ElementTree.tostring(ar, encoding="utf-8").decode("utf-8"))
+    xml = ElementTree.tostring(ar, encoding="utf-8").decode("utf-8").strip()
+    if xml.startswith(u"<ar>") and xml.endswith(u"</ar>"):
+        xml = xml[4:-5]
+    articles.append(xml)
     c+=1
     for k in ar.findall("k"):
         key = k.text
