@@ -31,6 +31,8 @@
 
 </head>
 <body>
+Helper service: <span id="service_status"></span>
+<br>
 Input Esperanto text:<br>
 <table>
     <tr>
@@ -49,11 +51,11 @@ Input Esperanto text:<br>
     <tr>
         <td width="50%" valign="top"> 
             Esperanto:<br>
-            <div id="target_e" style="width:500px;height:200px;border:1px solid black"></div>
+            <div id="target_e" style="width:480px;height:180px;border:1px solid black"></div>
         </td>
         <td valign="top">
             Ido:<br>
-            <div id="target" style="width:500px;height:200px;border:1px solid black"></div>
+            <div id="target" style="width:480px;height:180px;border:1px solid black"></div>
             <div id="stats"></div>
             <textarea id="target2" rows="10" cols="80" style="display:none"></textarea>
             <button id="edit">Switch to edit</button>
@@ -61,9 +63,10 @@ Input Esperanto text:<br>
         </td>
     </tr>
 </table>
+Click a word to see the dictionary translation to English:
+<div id="word_trans" style="width:700px;height:100px;border:1px solid black; overflow:scroll;"></div>
 <br>
 <hr>
-Persistence service: <span id="service_status"></span>
 <br>
 Add new word translation:
 Esperanto: <input id="word">

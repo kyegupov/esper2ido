@@ -380,7 +380,7 @@ function xdxf2html(s) {
     return s.replace(/<k>/g, "<b>").replace(/<\/k>/g, "</b>").replace(/<ex>/g, "<i>").replace(/<\/ex>/g, "</i>");
 }
 
-function add_hover_translation(dict, el, raw, canonicalizer) {
+function show_dictionary_translation(dict, el, raw, canonicalizer) {
     if (dict===null) return;
     var words = canonicalizer(raw);
     if (words[0]!=raw) {
@@ -392,12 +392,11 @@ function add_hover_translation(dict, el, raw, canonicalizer) {
         if (typeof(article_ids)!=="undefined") {
             console.log(item+" "+article_ids);
             var texts = [];
+            var texts = [];
             $.each(article_ids, function() { texts.push(xdxf2html(dict.articles[this])) });
             console.log(texts);
-            el.tooltip({ 
-                bodyHandler: function() { 
-                    return texts.join("<br>"); 
-                } 
+            el.click(function(){ 
+                $("#word_trans")[0].innerHTML = texts.join("<br>");
             });
             return;
         }
@@ -428,22 +427,22 @@ function write_decorated_output(textOutput) {
                     if (j>0) el.append("\\");
                     var el2 = $("<span/>");
                     el2.addClass("ambiguous");
-                    el2.click(highlight_choice);
+                    el2.dblclick(highlight_choice);
                     var id = "iw"+i+"_"+j;
                     el2.attr("id", id);
                     el2.text(item);
-                    add_hover_translation(dyer, el2, get_pureword(item), canonicalize_ido)
+                    show_dictionary_translation(dyer, el2, get_pureword(item), canonicalize_ido)
                     el.append(el2);
                 });
                 stats.ambiguous++;
             } else {
                 var item = translations[0];
                 el.text(item);
-                add_hover_translation(dyer, el, get_pureword(item), canonicalize_ido)
+                show_dictionary_translation(dyer, el, get_pureword(item), canonicalize_ido)
                 if (item.charAt(0)=="{") {
                     el.addClass("untranslated");
                     stats.untranslated++;
-                    el.click(add_translation_on_click);
+                    el.dblclick(add_translation_on_click);
                 } else if (item.charAt(item.length-1)=="~"){
                     el.addClass("fuzzy");
                     stats.fuzzy++;
@@ -476,7 +475,7 @@ function write_decorated_source(textOutput) {
             var el = $("<span/>");
             var item = wordObj.pureWord;
             el.text(item);
-            add_hover_translation(bokaryov, el, get_pureword(item), canonicalize_esperanto)
+            show_dictionary_translation(bokaryov, el, get_pureword(item), canonicalize_esperanto)
             target.push(el);
             target.push($("<span/>").text(wordObj.right));
         } else {
