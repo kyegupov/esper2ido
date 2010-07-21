@@ -16,12 +16,6 @@ function main() {
             }
         });
     });
-    $.getJSON("dicts/bokaryov.json", function(data){
-        bokaryov = data;
-    });    
-    $.getJSON("dicts/dyer.json", function(data){
-        dyer = data;
-    });
 
     $("#go").click(translate);
     $("#go")[0].disabled = false;
@@ -380,27 +374,18 @@ function xdxf2html(s) {
     return s.replace(/<k>/g, "<b>").replace(/<\/k>/g, "</b>").replace(/<ex>/g, "<i>").replace(/<\/ex>/g, "</i>");
 }
 
-function show_dictionary_translation(dict, el, raw, canonicalizer) {
-    if (dict===null) return;
+function show_word_translation(lang, el, raw, canonicalizer) {
     var words = canonicalizer(raw);
     if (words[0]!=raw) {
         words.unshift(raw);
     }
-    for (var i=0; i<words.length; i++) {
-        var item = words[i];
-        var article_ids = dict.index[item];
-        if (typeof(article_ids)!=="undefined") {
-            console.log(item+" "+article_ids);
-            var texts = [];
-            var texts = [];
-            $.each(article_ids, function() { texts.push(xdxf2html(dict.articles[this])) });
-            console.log(texts);
-            el.click(function(){ 
-                $("#word_trans")[0].innerHTML = texts.join("<br>");
-            });
-            return;
-        }
+    var onSuccess = function(response) {
+        $("#word_trans")[0].innerHTML = xdxf2html(response);
     }
+    el.click(function(){ 
+        params = {lang:lang, word:words.join("\n")};
+        $.get("http://127.0.0.1:8080/get_word_trans", params, onSuccess, "text");
+    });
 }
 
 function write_decorated_output(textOutput) {
@@ -431,14 +416,14 @@ function write_decorated_output(textOutput) {
                     var id = "iw"+i+"_"+j;
                     el2.attr("id", id);
                     el2.text(item);
-                    show_dictionary_translation(dyer, el2, get_pureword(item), canonicalize_ido)
+                    show_word_translation("io", el2, get_pureword(item), canonicalize_ido)
                     el.append(el2);
                 });
                 stats.ambiguous++;
             } else {
                 var item = translations[0];
                 el.text(item);
-                show_dictionary_translation(dyer, el, get_pureword(item), canonicalize_ido)
+                show_word_translation("io", el, get_pureword(item), canonicalize_ido)
                 if (item.charAt(0)=="{") {
                     el.addClass("untranslated");
                     stats.untranslated++;
@@ -475,7 +460,7 @@ function write_decorated_source(textOutput) {
             var el = $("<span/>");
             var item = wordObj.pureWord;
             el.text(item);
-            show_dictionary_translation(bokaryov, el, get_pureword(item), canonicalize_esperanto)
+            show_word_translation("eo", el, get_pureword(item), canonicalize_esperanto)
             target.push(el);
             target.push($("<span/>").text(wordObj.right));
         } else {
@@ -605,7 +590,7 @@ function ping_service() {
         }
     };
     //~ $("#service_status").css("color","black").text("Checking...");
-    $.post("http://127.0.0.1:8080/ping", {}, onSuccess, "text");
+    $.get("http://127.0.0.1:8080/ping", {}, onSuccess, "text");
 }
 
 

@@ -41,9 +41,9 @@ class MyParser(HTMLParser):
         if tag=="p":
             self.state+=1
         if self.state == 2:
-            #~ if attrs:
-                #~ print "oh boy, attrs!", attrs
-                #~ raise
+            if attrs:
+                print "oh boy, attrs!", attrs
+                raise
             if tag in strong:
                 if self.substate == S_EXPECT_WORD:
                     self.substate = S_READING_WORD

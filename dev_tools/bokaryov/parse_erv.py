@@ -3,7 +3,7 @@
 import json, glob,codecs, re
 from xml.etree.ElementTree import ElementTree
 import array
-	
+    
 x_script = {    
     u"ĝ":u"gx",
     u"ĉ":u"cx",
@@ -40,12 +40,14 @@ class Machine:
     def end_key(cls, x):
         cls.entry = cls.entry.split("@")[0]
         cls.word = cls.entry[cls.kstart:]
+        cls.word = cls.word.replace("*","")
         if "~" in cls.word:
-			cls.word = cls.word.replace("\\~", cls.wordBase[1:])
-			cls.word = cls.word.replace("~", cls.wordBase)
+            a = cls.word
+            cls.word = cls.word.replace(r"\~", cls.wordBase[1:])
+            cls.word = cls.word.replace("~", cls.wordBase)
         elif cls.wordBase == "":
-			cls.wordBase = cls.word.split("|")[0]
-        cls.word = cls.word.replace("|","").replace("*","")
+            cls.wordBase = cls.word.split("|")[0]
+        cls.word = cls.word.replace("|","")
         cls.word = cls.word.replace(", ","</k>, <k>")
         cls.entry = cls.entry[0:cls.kstart]+cls.word
         cls.skipping = False
@@ -66,6 +68,10 @@ class Machine:
 
     @classmethod
     def process_line(cls, line):
+        if not line.startswith(" "):
+            if cls.in_def:
+                cls.entry+="</def>"
+            cls.in_def = False
         if line=="":
             cls.word = ""
             print >>sink, "<ar>"+cls.entry+"</ar>"
@@ -81,9 +87,6 @@ class Machine:
             #~ print cls.skipping, cls.entry.encode("cp1251","replace")
             if c!="=":
                 cls.in_arrow = False
-		if cls.in_def:
-			cls.entry+="</def>"
-		cls.in_def = False
             
     @classmethod
     def start_def(cls, line):
@@ -112,7 +115,7 @@ char2action = {
     "]": Machine.end_key,
     "_": Machine.toggle_comment,
     "/": lambda x:"",
-    "{": lambda x:"<ex>",
+    "{": lambda x:"<ex>", # todo: in_ex
     "}": lambda x:"</ex>",
     "<": lambda x:"<kref>",
     ">": Machine.endref,
