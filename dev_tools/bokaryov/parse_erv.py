@@ -23,6 +23,7 @@ class Machine:
     kstart = 0
     headless = False
     in_def = False
+    in_ex = False
     in_arrow = False
     skipping = False
     
@@ -30,6 +31,16 @@ class Machine:
     def toggle_comment(cls, x):
         cls.in_comment = not cls.in_comment
         return "<co>" if cls.in_comment else "</co>"
+
+    @classmethod
+    def begin_ex(cls, x):
+        cls.in_ex = True
+        return "<ex>"
+
+    @classmethod
+    def end_ex(cls, x):
+        cls.in_ex = False
+        return "</ex>"
 
     @classmethod
     def begin_key(cls, x):
@@ -69,14 +80,18 @@ class Machine:
     @classmethod
     def process_line(cls, line):
         if not line.startswith(" "):
-            if cls.in_def:
+            if (not cls.in_ex) and cls.in_def:
                 cls.entry+="</def>"
-            cls.in_def = False
+                cls.in_def = False
         if line=="":
             cls.word = ""
             print >>sink, "<ar>"+cls.entry+"</ar>"
             cls.entry =""
             cls.wordBase =""
+        else:
+            pass
+            if cls.entry:
+                cls.entry += " "
         for c in line:
             if (not cls.skipping) or c=="]":
                 if c in char2action:
@@ -115,8 +130,8 @@ char2action = {
     "]": Machine.end_key,
     "_": Machine.toggle_comment,
     "/": lambda x:"",
-    "{": lambda x:"<ex>", # todo: in_ex
-    "}": lambda x:"</ex>",
+    "{": Machine.begin_ex,
+    "}": Machine.end_ex,
     "<": lambda x:"<kref>",
     ">": Machine.endref,
     #~ "\\": Machine.subst_is_headless,

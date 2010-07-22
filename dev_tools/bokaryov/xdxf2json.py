@@ -3,7 +3,8 @@
 import json, glob,codecs, re
 import xml.etree.ElementTree as ElementTree
     
-source = open("out.xml","rt")
+#~ source = open("out.xml","rt")
+source = open("../dyer/out.xml","rt")
 
 root = ElementTree.parse(source)
 
@@ -36,4 +37,5 @@ for ar in root.findall("ar"):
         
 dictionary = {"articles": articles, "index":index}
 
-json.dump(dictionary, codecs.open("../../esper2ido/dicts/bokaryov.json", "wt", "utf-8"), indent=None, sort_keys=True, ensure_ascii=False)
+#~ json.dump(dictionary, codecs.open("../../esper2ido/dicts/bokaryov.json", "wt", "utf-8"), indent=None, sort_keys=True, ensure_ascii=False)
+json.dump(dictionary, codecs.open("../../esper2ido/dicts/dyer.json", "wt", "utf-8"), indent=None, sort_keys=True, ensure_ascii=False)

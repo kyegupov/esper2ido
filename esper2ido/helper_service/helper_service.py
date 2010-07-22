@@ -47,9 +47,10 @@ class GetWordTrans:
             return ""
         for word in word_versions:
             try:
-                article_ids = word_dict["index"][word.lower()]
+                article_ids = word_dict["index"][word.lower()] # TODO: prioritize master article
+                print article_ids
                 res = [word_dict["articles"][ai] for ai in article_ids]
-                return "<br>".join(res);
+                return "<hr>".join(res);
             except KeyError:
                 pass
         return ""
