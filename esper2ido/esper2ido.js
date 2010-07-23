@@ -4,7 +4,7 @@ dyer = null;
 bokaryov = null;
 
 re_conso = /[bcdfghjklmnpqrstvwxyz]/i;
-re_pureword = /[a-zĝĉĵŝĥŭ-]+/i;
+re_pureword = /[a-zĝĉĵŝĥŭ][a-zĝĉĵŝĥŭ-]*/i;
 re_transword = /{?[a-zĝĉĵŝĥŭ\\-]+[}~]?/i;
 
 function main() {
@@ -126,7 +126,7 @@ function set_case(word0, wordcase) {
 function reconstruct_ido_word(translation, new_form, wordcase) {
     var word = translation.x;
     var fuzzy = translation.fuz;
-    if (word.length>2) {
+    if (word.length>2 && new_form!=="") {
         var ends = ["o","i","a","e","as"];
         for (var i=0; i<ends.length; i++) {
             var end = ends[i];
@@ -185,6 +185,11 @@ function translate_using_dictionary(wordObj) {
         if (res===undefined) continue;
         if (typeof(res[0])==="undefined") res = [res];
         if (i>1) res = $.each(res,function(x){return x.fuz=true});
+        
+        if ((i==0) && (pureWord.toLowerCase()!=base+fallbacks[1])) {
+            // if inflexible word...
+            wordObj.form = "";
+        }
         return res;
     }
     return null;
@@ -192,7 +197,7 @@ function translate_using_dictionary(wordObj) {
 
 function translate_word(wordObj, words, i) {
     var translations = translate_using_dictionary(wordObj);
-    if (wordObj.base=="kaj" || wordObj.base=="au") {
+    if (wordObj.base=="kaj" || wordObj.base=="aŭ") {
         var pw = get_next_pure_word(words, i+1);
         if (is_consonant(pw.charAt(0))) {
             translations = $.grep(translations, function(x){return x.x.length==1});
@@ -375,6 +380,7 @@ function xdxf2html(s) {
 }
 
 function show_word_translation(lang, el, raw, canonicalizer) {
+    if (raw===null) return;
     var words = canonicalizer(raw);
     if (words[0]!=raw) {
         words.unshift(raw);
