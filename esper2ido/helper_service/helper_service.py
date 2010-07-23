@@ -47,9 +47,16 @@ class GetWordTrans:
             return ""
         for word in word_versions:
             try:
-                article_ids = word_dict["index"][word.lower()] # TODO: prioritize master article
-                print article_ids
+                article_ids = word_dict["index"][word.lower()]
                 res = [word_dict["articles"][ai] for ai in article_ids]
+                res.sort()
+                #prioritize master article
+                for i,a in enumerate(res):
+                    if a.strip().startswith("<k>"+word) and i!=0:
+                        swp = res[0]
+                        res[0] = a
+                        res[i] = swp
+                        break
                 return "<hr>".join(res);
             except KeyError:
                 pass
