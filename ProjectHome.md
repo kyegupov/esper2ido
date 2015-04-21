@@ -1,0 +1,1 @@
+Esperanto-to-Ido semi-automated translator in JavaScript
